@@ -4,78 +4,134 @@
     <meta charset="utf-8">
     <title>Petr Stepanov's research and development resume.</title>
     <meta name="description" content="PhD in Photochemical Sciences. Over five years in frontend web development and web design. Somwhere between geek and normal. ">
-    <meta name="viewport" content="width=device-width, initial-scale=1">    
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/bootstrap-overrides.css">
 </head> 
 <body>
 
-<div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col col-md-3 col-lg-2 d-none d-md-block ">
+                    <img src="img/petr-stepanov-userpic.jpg" class="rounded-circle w-100" alt="Petr Stepanov profile picture"/>
+                </div>
+                <div class="col col-md-9 col-lg-10">
+                    <h1 class="display-4 mb-3">Petr Stepanov</h1>
+                    <p class="lead mb-1">PhD candidate in Photochemical Sciences. Web designer. Frontend and desktop developer.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="container">
-        <div class="row align-items-center">
-            <div class="col col-md-3 col-lg-2 d-none d-md-block ">
-                <img src="img/petr-stepanov.jpg" class="rounded-circle w-100" alt="Petr Stepanov profile picture"/>
-            </div>
-            <div class="col col-md-9 col-lg-10">
-                <h1 class="display-4 mb-3">Petr Stepanov</h1>
-                <p class="lead mb-1">PhD candidate in Photochemical Sciences. Web designer. Frontend and desktop developer.</p>
+        <div class="row">
+            <div class="col-sm">               
+                <address>
+                    1407 Napoleon Rd<br>
+                    Bowling Green, OH, 43402<br>
+                    United States<br>
+                    <br>
+                    <dl class="row">
+                        <dt class="col-2 col-md-1">Phone:</dt>
+                        <dd class="col-10 col-md-11"><a href="tel:+14194968602">+1 (419) 496-8602</a></dd>
+                        <dt class="col-2 col-md-1">Email:</dt>
+                        <dd class="col-10 col-md-11"><a href="mailto:stepanovps@gmail.com">stepanovps@gmail.com</a></dd>
+                    </dl>
+                </address> 
+                
+                <h2 class="my-5">Education</h2>
+                <ul class="list-unstyled">
+                    <li class="mt-3 mb-5">
+                        <div class="row mb-3">
+                            <div class="col-12 col-sm-8"><h3 class="h5"><img class="d-none d-lg-inline logo-bgsu mr-3" src="img/logo-bgsu.svg" alt="BGSU logo"/> Bowling Green State University <span class="badge badge-dark">Ph.D.</span></h3></div>
+                            <div class="col-12 col-sm-4 text-sm-right text-muted"><time datetime="2014-09">Aug 2014</time> → <time datetime="2019-12">now</time></div>
+                        </div>
+                        <p>Material research and defect studies in solids. Gamma spectroscopy. Setting up, maintaining and upgrading positron annihilation spectrometers (lifetime and Doppler). Assembling radioactive positron sources. Developing different desktop software for fitting and interpretation of variety of experimental spectra (C++). Developing websites for research group and international conferences.</p>
+                        <p><strong>Major:</strong> photochemical sciences.</p>
+                        <p><strong>Dissertation topic:</strong> Development of positron annihilation spectroscopy: from experimental setups to advanced processing software.</p>
+                    </li>
+                    <li class="mt-3 mb-5">
+                        <div class="row mb-3">
+                            <div class="col-12 col-sm-7 col-md-8"><h3 class="h5"><img class="d-none d-lg-inline logo-mephi mr-3" src="img/logo-mephi.svg" alt="MEPhI logo"/> National Research Nuclear University <span class="badge badge-dark">B.S.</span> <span class="badge badge-dark">M.S.</span></h3></div>
+                            <div class="col-12 col-sm-5 col-md-4 text-sm-right text-muted"><time datetime="2004-10">Sept 2004</time> → <time datetime="2011-02">Feb 2011</time></div>
+                        </div>
+                        <p>Solid state physics. Monte-Carlo particle simulations with Fortran 95. Maintaining software for CAMECA tomographic atom probe (MSVC). Application of CERN ROOT libraries for fitting and analysis of experimental data.</p>
+                        <p><strong>Major:</strong> condensed matter physics.</p>
+                        <p><strong>Thesis topic:</strong> Radiation defect studies of nuclear power plant vessel steels by means of positron lifetime annihilation spectroscopy.</p>
+                    </li>                
+                </ul>
+
+                <div class="jumbotron pt-5 pb-3">
+                    <p class="lead text-center">I graduate from <abbr title="Bowling Green State University (Ohio)">BGSU</abbr> this December and actively looking for jobs in following areas:</p>
+                    <ul class="nav nav-pills flex-column flex-md-row justify-content-center align-items-center" id="pills-tab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active my-2 mx-3" id="design-and-programming-tab" data-toggle="pill" href="#design-and-programming" role="tab" aria-controls="pills-home" aria-selected="true">Web Designer and Software Developer</a>
+                        </li>
+                        <li class="nav-item"><span class="text-black-50 mx-3">or</span></li> 
+                        <li class="nav-item my-2 mx-3">
+                            <a class="nav-link" id="physics-research-tab" data-toggle="pill" href="#physics-research" role="tab" aria-controls="pills-profile" aria-selected="false">Physics Research Scientist</a>
+                        </li>
+                    </ul>             
+
+                    <!-- <nav class="nav nav-pills flex-column flex-md-row justify-content-center align-items-center">
+                        <a class="nav-item nav-link active text-center my-2 mx-3" href="#design-and-programming">Web Design and Software Development</a>
+                        <span class="text-black-50 mx-3">or</span>                    
+                        <a class="nav-item nav-link text-center my-2 mx-3" href="#physics-research">Physics Research Scientist</a>
+                    </nav>                 -->
+                    <hr class="my-4">
+                    <p class="text-center">Please select a field above to see my experience in correspondent area.</p>
+                </div>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="design-and-programming" role="tabpanel" aria-labelledby="design-and-programming-tab">
+                        <h2 class="my-5">Relevant Courses</h2>
+                        <ul class="list-unstyled">
+                            <li class="mt-3 mb-5">
+                                <div class="row mb-3">
+                                    <div class="col-12 col-sm-8"><h3 class="h5"><img class="d-none d-lg-inline logo-bhsad mr-3" src="img/logo-bhsad.svg" alt="BHSAD logo"/> British Higher school of Art and Design</h3></div>
+                                    <div class="col-12 col-sm-4 text-sm-right text-muted"><time datetime="2011-12">Dec 2011</time> → <time datetime="2012-02">Feb 2012</time></div>
+                                </div>
+                                <p>Introduction to the major tricks and instruments of visual communication; leaning fundamental rules of illustrations, typography, fonts and lettering. Intensives on brand identity, graphical language, and advertising campaigns.</p>
+                                <p><strong>Intensive:</strong> graphical design and visual communications.</p>
+                            </li>
+                        </ul>
+                        <h2 class="my-5">Computer skills</h2>
+                        <dl class="row">
+                            <dt class="col-12 col-md-4 col-lg-3 mb-2">🛠️ Basics.</dt> 
+                            <dd class="col-12 col-md-8 col-lg-9 mb-3">Jira, Git, SVN, SSH, HTTP, Terminal usage. MVC/MVP design patterns. Familiar with following IDEs: Eclipse, NetBeans; Atom, VS Code.</dd>
+                            <dt class="col-12 col-md-4 col-lg-3 mb-2">🎨 UI/UX design.</dt>
+                            <dd class="col-12 col-md-8 col-lg-9 mb-3">Figma, Sketch, Adobe XD, Adobe Photoshop, Adobe Illustrator, Inkscape, Blender.</dd>
+                            <dt class="col-12 col-md-4 col-lg-3 mb-2">🖥️ Desktop development.</dt>
+                            <dd class="col-12 col-md-8 col-lg-9 mb-3">Java and Swing, C/C++ and Qt, compiling from source (gcc, GNU makefiles), Fortran 95.</dd>                              
+                            <dt class="col-12 col-md-4 col-lg-3 mb-2">🖲️ Frontend.</dt>
+                            <dd class="col-12 col-md-8 col-lg-9 mb-3">HTML, CSS (LESS and SASS), Bootstrap, responsive web design, JavaScript and jQuery, npm, gulp, GWT, familiar with AngularJS, React.js and Backbone.js. WordPress themes development.</dd>
+                            <dt class="col-12 col-md-4 col-lg-3 mb-2">🕳️ Backend.</dt>
+                            <dd class="col-12 col-md-8 col-lg-9 mb-3">EJS, PHP, Java, Node.js.</dd>
+                            <dt class="col-12 col-md-4 col-lg-3 mb-2">📱 iOS development.</dt>
+                            <dd class="col-12 col-md-8 col-lg-9 mb-3">Some swift skills, developing the UI (reusable views and constraints)</dd>
+                        </dl>                                                
+                        <h2 class="my-5">Publications</h2>
+                        <ul class="list-unstyled">
+                            <li class="mt-3 mb-5">
+                                <div class="row mb-3">
+                                    <div class="col-12 col-sm-8"><h3 class="h5"><img class="d-none d-lg-inline logo-bhsad mr-3" src="img/logo-bhsad.svg" alt="BHSAD logo"/> British Higher school of Art and Design</h3></div>
+                                    <div class="col-12 col-sm-4 text-sm-right text-muted"><time datetime="2011-12">Dec 2011</time> → <time datetime="2012-02">Feb 2012</time></div>
+                                </div>
+                                <p>Introduction to the major tricks and instruments of visual communication; leaning fundamental rules of illustrations, typography, fonts and lettering. Intensives on brand identity, graphical language, and advertising campaigns.</p>
+                                <p><strong>Intensive:</strong> graphical design and visual communications.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="physics-research" role="tabpanel" aria-labelledby="physics-research-tab">
+                        <h2 class="my-5">Publications</h2>
+                        <h2 class="my-5">Conferences</h2>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
-
-<div class="container">
-    <div class="row">
-        <div class="col-sm">               
-            <address>
-                1407 Napoleon Rd<br>
-                Bowling Green, OH, 43402<br>
-                United States<br>
-                <br>
-                <dl class="row">
-                    <dt class="col-2 col-md-1">Phone:</dt>
-                    <dd class="col-10 col-md-11"><a href="tel:+14194968602">+1 (419) 496-8602</a></dd>
-                    <dt class="col-2 col-md-1">Email:</dt>
-                    <dd class="col-10 col-md-11"><a href="mailto:stepanovps@gmail.com">stepanovps@gmail.com</a></dd>
-                </dl>
-            </address> 
-            
-            <h2 class="my-5">Education</h2>
-            <ul class="list-unstyled">
-                <li class="mt-3 mb-5">
-                    <div class="row mb-3">
-                        <div class="col-12 col-sm-8"><h3 class="h5"><img class="d-none d-lg-inline logo-bgsu mr-3" src="img/logo-bgsu.svg" alt="BGSU logo"/> Bowling Green State University <span class="badge badge-dark">Ph.D.</span></h3></div>
-                        <div class="col-12 col-sm-4 text-sm-right text-muted"><time datetime="2014-09">Aug 2014</time> → <time datetime="2019-12">now</time></div>
-                    </div>
-                    <p>Material research and defect studies in solids. Gamma spectroscopy. Setting up, maintaining and upgrading positron annihilation spectrometers (lifetime and Doppler). Assembling radioactive positron sources. Developing different desktop software for fitting and interpretation of variety of experimental spectra (C++). Developing websites for research group and international conferences.</p>
-                    <p><strong>Major:</strong> photochemical sciences.</p>
-                    <p><strong>Dissertation topic:</strong> Development of positron annihilation spectroscopy: from experimental setups to advanced processing software.</p>
-                </li>
-                <li class="mt-3 mb-5">
-                    <div class="row mb-3">
-                        <div class="col-12 col-sm-7 col-md-8"><h3 class="h5"><img class="d-none d-lg-inline logo-mephi mr-3" src="img/logo-mephi.svg" alt="MEPhI logo"/> National Research Nuclear University <span class="badge badge-dark">B.S.</span> <span class="badge badge-dark">M.S.</span></h3></div>
-                        <div class="col-12 col-sm-5 col-md-4 text-sm-right text-muted"><time datetime="2004-10">Sept 2004</time> → <time datetime="2011-02">Feb 2011</time></div>
-                    </div>
-                    <p>Solid state physics. Monte-Carlo particle simulations with Fortran 95. Maintaining software for CAMECA tomographic atom probe (MSVC). Application of CERN ROOT libraries for fitting and analyzis of experimental data.</p>
-                    <p><strong>Major:</strong> condensed matter physics.</p>
-                    <p><strong>Thesis topic:</strong> Radiation defect studies of nuclear power plant vessel steels by means of positron lifetime annihilation spectroscopy.</p>
-                </li>                
-            </ul>
-
-            <div class="jumbotron pt-5 pb-3">
-                <p class="lead text-center">I graduate from BGSU this December and actively looking for jobs in following areas:</p>
-                <nav class="nav nav-pills flex-column flex-md-row justify-content-center align-items-center">
-                    <a class="nav-item nav-link active text-center my-2 mx-3" href="#">Web Design and Development</a>
-                    <span class="text-black-50 mx-3">or</span>                    
-                    <a class="nav-item nav-link text-center my-2 mx-3" href="#">Physics Research Scientist</a>
-                </nav>                
-                <hr class="my-4">
-                <p class="text-center">Please click correspondent field to see my detailed experience in selected area.</p>
-              </div>            
-        </div>
-    </div>
-</div>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
-<script src="js/bootstrap.min.js"></script> 
 </html>
