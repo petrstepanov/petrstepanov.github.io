@@ -38,12 +38,16 @@
     font-size: 1.4em;
 }
 
+.icon-font-huge {
+    font-size: 2em;
+}
+
 .icon-faded {
     opacity: 0.32;
 }
 
-.no-underline {
-    text-decoration: none !important
+a:hover {
+    text-decoration: none;
 }
 
 .no-wrap {
@@ -54,4 +58,24 @@
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-size: 0.75em;
+}
+
+body {
+    counter-reset: section-counter;
+}
+
+h2:before {
+    content: "0" counter(section-counter) ".";
+    counter-increment: section-counter;
+    /* font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
+    /* font-size: 0.6em; */
+    font-weight: normal;
+    color: rgba(0,0,0,0.3);
+    padding-right: 0.3em;
+}
+
+.tab {
+    width: 2.4em;
+    display: inline-block;
+    text-align: center;
 }
