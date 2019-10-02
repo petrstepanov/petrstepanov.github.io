@@ -22,3 +22,36 @@
     margin-top: -0.4rem;  
     margin-bottom: -0.4rem;
 }
+
+.icon {
+    width: 1.2em;
+    height: 1.2em;
+    margin-top: -0.2em;
+}
+
+.icon-font {
+    vertical-align: middle;
+    padding-bottom: 0.2em;
+}
+
+.icon-font-large {
+    font-size: 1.4em;
+}
+
+.icon-faded {
+    opacity: 0.32;
+}
+
+.no-underline {
+    text-decoration: none !important
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+.h6 {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.75em;
+}
