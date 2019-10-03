@@ -39,6 +39,10 @@
 
 /* Headings styling */
 
+h1, h2, h3 {
+    font-family: 'Zilla Slab', serif;
+}
+
 body {
     counter-reset: section-counter;
 }
@@ -112,6 +116,14 @@ a:hover {
     }
 }
 
+.nav-link {
+    text-align: center;
+}
+
+.nav-pills .nav-link {
+    background-color: rgba(0,0,0,0.05);
+}
+
 /* Helper classes */
 
 .no-wrap {
@@ -122,4 +134,8 @@ a:hover {
     width: 2.4em;
     display: inline-block;
     text-align: center;
+}
+
+.lh-2 {
+    line-height: 2;
 }
