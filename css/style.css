@@ -124,6 +124,17 @@ a:hover {
     background-color: rgba(0,0,0,0.05);
 }
 
+/* .btn img {
+    height: 1.4em;
+    margin-top: -0.25em;
+    margin-bottom: -0.15em;
+    margin-right: 0.5em;
+} */
+
+.btn-danger {
+    background-color: #ea4c89;
+}
+
 /* Helper classes */
 
 .no-wrap {
