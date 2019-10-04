@@ -39,6 +39,10 @@
 
 /* Headings styling */
 
+h1 {
+    line-height: 0.8;
+}
+
 h1, h2, h3 {
     font-family: 'Zilla Slab', serif;
 }
@@ -149,6 +153,10 @@ a:hover {
     text-align: center;
 }
 
-.lh-2 {
-    line-height: 2;
+.lh-dense {
+    line-height: 0.8;
+}
+
+.lh-spacy {
+    line-height: 2.4;
 }
