@@ -39,6 +39,10 @@
 
 /* Headings styling */
 
+h1 {
+    line-height: 0.8;
+}
+
 h1, h2, h3 {
     font-family: 'Zilla Slab', serif;
 }
@@ -47,14 +51,16 @@ body {
     counter-reset: section-counter;
 }
 
-h2:before {
-    content: "0" counter(section-counter) ".";
-    counter-increment: section-counter;
-    /* font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
-    /* font-size: 0.6em; */
-    font-weight: normal;
-    color: rgba(0,0,0,0.3);
-    padding-right: 0.3em;
+@media (min-width: 576px) {
+    h2:before {
+        content: "0" counter(section-counter) ".";
+        counter-increment: section-counter;
+        /* font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
+        /* font-size: 0.6em; */
+        font-weight: normal;
+        color: rgba(0,0,0,0.3);
+        padding-right: 0.3em;
+    }    
 }
 
 .h6 {
@@ -70,9 +76,9 @@ a:hover {
     text-decoration: none;
 }
 
-.badge {
+/* .badge {
     vertical-align: bottom;
-}
+} */
 
 .card {
     /* background: rgba(233, 236, 239, 0.5); */
@@ -124,6 +130,17 @@ a:hover {
     background-color: rgba(0,0,0,0.05);
 }
 
+/* .btn img {
+    height: 1.4em;
+    margin-top: -0.25em;
+    margin-bottom: -0.15em;
+    margin-right: 0.5em;
+} */
+
+.btn-danger {
+    background-color: #ea4c89;
+}
+
 /* Helper classes */
 
 .no-wrap {
@@ -136,6 +153,10 @@ a:hover {
     text-align: center;
 }
 
-.lh-2 {
-    line-height: 2;
+.lh-dense {
+    line-height: 0.8;
+}
+
+.lh-spacy {
+    line-height: 2.4;
 }
