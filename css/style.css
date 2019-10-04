@@ -147,10 +147,16 @@ a:hover {
     white-space: nowrap;
 }
 
-.tab {
-    width: 2.4em;
+.tab-icon {
+    width: 2em;
+    margin-right: 0.75em;
     display: inline-block;
     text-align: center;
+}
+
+.tab-emoji {
+    width: 1.2em;
+    margin-right: 0.5em;
 }
 
 .lh-dense {
