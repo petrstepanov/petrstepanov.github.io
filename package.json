@@ -22,9 +22,18 @@
   },
   "homepage": "https://github.com/petrstepanov/petrstepanov.github.io#readme",
   "dependencies": {
-    "bootstrap": "^4.3.1"
+    "bootstrap": "^4.3.1",
+    "ionicons": "^4.6.3",
+    "typeface-zilla-slab": "0.0.72"
   },
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2"
   }
 }

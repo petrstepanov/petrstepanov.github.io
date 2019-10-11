@@ -1,0 +1,114 @@
+// General
+body {
+  // -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-font-smoothing: antialiased;
+}
+
+// Font faces
+@font-face {
+    font-family: 'zilla-slab';
+    src: url('./../fonts/zilla-slab-latin-700.woff2') format('woff2'),
+         url('./../fonts/zilla-slab-latin-700.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$font-display: "zilla-slab", Helvetica, sans-serif;
+
+a {
+  transition: color .15s ease-in-out;
+
+  svg, svg * {
+    transition: fill .15s ease-in-out;
+    fill: $link-color;
+  }
+
+  &:hover {
+    text-decoration: none;
+
+    svg, svg * {
+      fill: $link-hover-color;
+    }
+  }
+}
+
+// .btn-link:hover, .btn-link:focus, .btn-link.focus {
+//   text-decoration: none;
+// }
+
+// Font Sizes
+$font-size-9: 0.5625em;
+$font-size-12: 0.75em;
+$font-size-16: 1em;
+$font-size-21: 1.3125em;
+$font-size-28: 1.75em;
+$font-size-37: 2.3125em;
+$font-size-50: 3.125em;
+$font-size-67: 4.1875em;
+$font-size-89: 5.5625em;
+
+.font-size-9 {
+    font-size: $font-size-9;
+}
+.font-size-12 {
+    font-size: $font-size-12;
+}
+.font-size-16 {
+    font-size: $font-size-16;
+}
+.font-size-21 {
+    font-size: $font-size-21;
+}
+.font-size-28 {
+    font-size: $font-size-28;
+}
+.font-size-37 {
+    font-size: $font-size-37;
+}
+.font-size-50 {
+    font-size: $font-size-50;
+}
+.font-size-67 {
+    font-size: $font-size-67;
+}
+.font-size-89 {
+    font-size: $font-size-89;
+}
+
+
+/* Headings styling */
+
+h1 {
+    line-height: 0.8;
+}
+
+h1, h2, h3 {
+    font-family: $font-display;
+}
+
+body {
+    counter-reset: section-counter;
+}
+
+@include media-breakpoint-up(sm){
+    h2:before {
+        content: "0" counter(section-counter) ".";
+        counter-increment: section-counter;
+        /* font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
+        /* font-size: 0.6em; */
+        font-weight: normal;
+        color: rgba(0,0,0,0.3);
+        padding-right: 0.3em;
+    }   
+
+    h2:nth-of-type(n+10):before {
+        content: counter(section-counter) ".";
+    }
+}
+
+.h6 {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.75em;
+    font-weight: bold;
+}
