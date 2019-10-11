@@ -1,5 +1,7 @@
-// Bootstrap
+// Animate.CSS
+@import "../../node_modules/animate.css/animate";
 
+// Bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import "overrides-bootstrap";
 
@@ -12,3 +14,6 @@
 @import "typography";
 @import "main";
 @import "utilities";
+
+// Modules
+@import "modules/splash-screen";
