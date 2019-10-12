@@ -8,8 +8,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 
     img {
         width: 7em;
+    }
+
+    p {
+        margin-top: 2.5em;
+        letter-spacing: 0.4em;
+        color: #ccc;
+        text-transform: uppercase;
     }
 }

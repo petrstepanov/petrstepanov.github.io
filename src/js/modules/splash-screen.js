@@ -2,40 +2,48 @@
 
 var SplashScreen = (function () {
 	var DOM = {};
-	var options = {};
 	var template = [
-		'<div id="splash-screen" class="fast">',
-			'<img src="./img/ps-monogram-crop.svg" class="animated pulse delay-1s faster" />',
+		'<div id="splash-screen">',
+			'<img id="splash-logo" src="./img/ps-monogram-crop.svg" class="delay-1s faster" />',
+			'<p id="splash-text" class="delay-1s faster"><small>loading</small></p>',
 		'</div>'
 	].join("\n");
-
-	function _cacheDom() {
-		DOM.$html = $('html');
-	}
-
-	function _bindEvents(element) {
-		// When the page is fully loaded including graphics
-		$(window).on("load", _hideSplash);
-	}
-
-	function _hideSplash() {
-		setTimeout(
-			function () {
-				var el = DOM.$html.find('#splash-screen').get(0);
-				UIHelper.animateCSS(el, 'fadeOut', function () {
-					DOM.$html.find('#splash-screen').remove();
-				});
-			}, 1800);
-	}
-
-	function _render() {
-		DOM.$html.append(template);
-	}
-
+	
 	function init() {
-		_cacheDom();
-		_render();
-		_bindEvents();
+		DOM.$html = $('html');		
+		DOM.$html.append(template);
+		DOM.$splash = DOM.$html.find("#splash-screen");
+		DOM.$logo = DOM.$splash.find("#splash-logo");
+		DOM.$text = DOM.$splash.find("#splash-text");
+
+		UIHelper.animateCSS(DOM.$text.get(0), 'fadeInUp');
+
+		var promiseWindowLoad = new Promise((resolve, reject) => {
+			$(window).on("load", resolve("Stuff loaded!"));
+		});
+
+		var promiseLogoAnimate = new Promise((resolve, reject) => {
+			UIHelper.animateCSS(DOM.$logo.get(0), 'bounceIn', function () {
+				resolve("Logo animated!");
+			});
+		});
+
+		var that = this;
+		Promise.all([promiseWindowLoad, promiseLogoAnimate]).then((values) => {
+			UIHelper.animateCSS(DOM.$logo.get(0), 'bounceOut', function () {
+				DOM.$logo.css('visibility', 'hidden');
+				DOM.$text.removeClass('delay-1s');
+				UIHelper.animateCSS(DOM.$text.get(0), 'fadeOutDown', function(){
+					DOM.$text.remove();
+				});
+
+				setTimeout(() => {
+					DOM.$splash.fadeOut(500, ()=>{
+						DOM.$splash.remove();
+					});
+				}, 500);
+			});
+		});
 	}
 
 	return {
