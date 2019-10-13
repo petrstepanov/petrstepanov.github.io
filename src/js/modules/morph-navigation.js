@@ -8,8 +8,6 @@ var MorphNavigation = (function(){
         DOM.$el = $(element);
         DOM.$morphButton = DOM.$el.find('.morph-button');
         DOM.$icon = DOM.$el.find('.js--icon');
-        DOM.$html = $('html');
-        DOM.$body = $('body');
     }
 
     function _bindEvents(element) {
@@ -20,6 +18,7 @@ var MorphNavigation = (function(){
                     DOM.$icon.addClass('ion-ios-close');
                     UIHelper.animateCSS(DOM.$icon.get(0), "fadeIn");
                 });
+                ScrollFreezer.freeze();
             }
             else {
                 UIHelper.animateCSS(DOM.$icon.get(0), "fadeOut", function(){
@@ -27,10 +26,9 @@ var MorphNavigation = (function(){
                     DOM.$icon.addClass('ion-ios-menu');
                     UIHelper.animateCSS(DOM.$icon.get(0), "fadeIn");
                 });
+                ScrollFreezer.release();
             }
-            DOM.$el.toggleClass('is-open');
-            DOM.$html.toggleClass('no-scroll');
-            DOM.$body.toggleClass('no-scroll');               
+            DOM.$el.toggleClass('is-open');             
         });
     }
 

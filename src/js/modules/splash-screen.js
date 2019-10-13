@@ -11,6 +11,10 @@ var SplashScreen = (function () {
 
 	function init() {
 		DOM.$html = $('html');
+		DOM.$body = $('body');
+		ScrollFreezer.freeze();
+
+
 		DOM.$html.append(template);
 		DOM.$splash = DOM.$html.find("#splash-screen");
 		DOM.$logo = DOM.$splash.find("#splash-logo");
@@ -40,6 +44,7 @@ var SplashScreen = (function () {
 				setTimeout(function () {
 					DOM.$splash.fadeOut(500, function () {
 						DOM.$splash.remove();
+						ScrollFreezer.release();						
 					});
 				}, 500);
 			});
