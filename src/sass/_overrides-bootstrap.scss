@@ -27,6 +27,11 @@
     }
 }
 
+@include media-breakpoint-up(lg){
+    .card-columns {
+        column-count: 4;
+    }
+}
 
 /* Navs */
 
