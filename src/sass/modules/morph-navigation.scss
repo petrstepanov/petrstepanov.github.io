@@ -9,6 +9,10 @@ $button-size: 3.5em;
 	height: $button-margin*2 + $button-size;
 	width: $button-margin*2 + $button-size;
 
+	@include media-breakpoint-up(md){
+		display: none;
+	}
+
 	.morph-button {
 		position: absolute;
 		bottom: $button-margin;
@@ -34,6 +38,41 @@ $button-size: 3.5em;
 		}
 	}
 
+	.morph-items {
+		list-style: none;;
+		display: flex;
+		overflow: hidden;
+		left: 0;
+		right: 0;
+		flex-direction: column;
+		justify-content: space-evenly;
+		position: absolute;
+		top: 0;
+		bottom: 100%;
+		opacity: 0;
+		transition: opacity 0.3s ease-in 0.5s;
+
+		a {
+			font-family: $font-display;
+			font-size: $font-size-21;
+			color: white;
+			// padding-left: 0;
+			// transition: padding-left 0.25s ease-in;
+			display: block;
+			line-height: 2;
+
+			&:hover {
+				// padding-left: 0.25em;
+				text-decoration: underline;
+			}
+
+			&:hover, :focus {
+				color: white;
+				outline: none;
+			}
+		}
+	}
+
 	&.is-open {
 		height: 100vh;
 		width: 100vw;
@@ -41,6 +80,12 @@ $button-size: 3.5em;
 		.morph-button {
 			border-radius: 0;
 			box-shadow: 0 0 0 100vmax $button-color;
+		}
+
+		.morph-items {
+			opacity: 1;
+			top: 5%;
+			bottom: 5%;
 		}
 	}
 }
