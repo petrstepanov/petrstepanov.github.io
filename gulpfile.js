@@ -17,7 +17,7 @@ var paths = {
 		src: ['./node_modules/jquery/dist/jquery.js',
 			  './node_modules/body-scroll-lock/lib/bodyScrollLock.js',
 			  './src/js/ui-helper.js',
-			//   './src/js/modules/scroll-freezer.js',			  
+			  './src/js/modules/scroll-freezer.js',			  
 			  './src/js/modules/splash-screen.js',
 			  './src/js/modules/morph-navigation.js',
 			  './src/js/app.js'],

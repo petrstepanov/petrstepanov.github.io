@@ -1,7 +1,11 @@
 /* Background */
 
-html {
-    background-color: $jumbotron-bg;
+body {
+    background-color: $jumbotron-bg; // red; //rgb(233, 236, 239);
+}
+
+.container-white {
+    background-color: white;
 }
 
 /* Logos */

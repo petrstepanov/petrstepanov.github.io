@@ -14,7 +14,7 @@ $button-size: 3.5em;
 	}
 
 	.morph-button {
-		position: absolute;
+		position: fixed;
 		bottom: $button-margin;
 		right: $button-margin;
 		height: $button-size;
@@ -74,8 +74,10 @@ $button-size: 3.5em;
 	}
 
 	&.is-open {
-		height: 100vh;
-		width: 100vw;
+		height: auto;
+		width: auto;
+		left: 0;
+		top: 0;
 
 		.morph-button {
 			border-radius: 0;
@@ -85,7 +87,7 @@ $button-size: 3.5em;
 		.morph-items {
 			opacity: 1;
 			top: 5%;
-			bottom: 5%;
+			bottom: 15%;
 		}
 	}
 }

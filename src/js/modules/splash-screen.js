@@ -44,7 +44,7 @@ var SplashScreen = (function () {
 				setTimeout(function () {
 					DOM.$splash.fadeOut(500, function () {
 						DOM.$splash.remove();
-						// ScrollFreezer.release();	
+						// ScrollFreezer.unfreeze();	
 						bodyScrollLock.enableBodyScroll(DOM.$splash.get(0));					
 					});
 				}, 500);

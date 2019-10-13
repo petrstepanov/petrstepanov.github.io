@@ -27,8 +27,8 @@ var MorphNavigation = (function(){
                 DOM.$icon.addClass('ion-ios-close');
                 UIHelper.animateCSS(DOM.$icon.get(0), "fadeIn");
             });
-            // ScrollFreezer.freeze();
             bodyScrollLock.disableBodyScroll(DOM.$el.get(0));
+            // ScrollFreezer.freeze();
         }
         else {
             UIHelper.animateCSS(DOM.$icon.get(0), "fadeOut", function(){
@@ -36,8 +36,8 @@ var MorphNavigation = (function(){
                 DOM.$icon.addClass('ion-ios-menu');
                 UIHelper.animateCSS(DOM.$icon.get(0), "fadeIn");
             });
-            bodyScrollLock.enableBodyScroll(DOM.$el.get(0));                
-            // ScrollFreezer.release();
+            bodyScrollLock.enableBodyScroll(DOM.$el.get(0));  
+            // ScrollFreezer.unfreeze();
         }
         DOM.$el.toggleClass('is-open');
     }
