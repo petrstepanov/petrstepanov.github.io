@@ -55,14 +55,9 @@ $button-size: 3.5em;
 		a {
 			font-family: $font-display;
 			font-size: $font-size-21;
-			color: white;
-			// padding-left: 0;
-			// transition: padding-left 0.25s ease-in;
-			display: block;
-			line-height: 2;
+			color: white;		
 
 			&:hover {
-				// padding-left: 0.25em;
 				text-decoration: underline;
 			}
 
@@ -87,7 +82,7 @@ $button-size: 3.5em;
 		.morph-items {
 			opacity: 1;
 			top: 5%;
-			bottom: 15%;
+			bottom: 5%;
 		}
 	}
 }
