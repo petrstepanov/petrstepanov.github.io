@@ -9,6 +9,7 @@ var MorphNavigation = (function(){
         DOM.$morphButton = DOM.$el.find('.morph-button');
         DOM.$icon = DOM.$el.find('.js--icon');
         DOM.$html = $('html');
+        DOM.$body = $('body');
     }
 
     function _bindEvents(element) {
@@ -28,7 +29,8 @@ var MorphNavigation = (function(){
                 });
             }
             DOM.$el.toggleClass('is-open');
-            DOM.$html.toggleClass('no-scroll');            
+            DOM.$html.toggleClass('no-scroll');
+            DOM.$body.toggleClass('no-scroll');               
         });
     }
 

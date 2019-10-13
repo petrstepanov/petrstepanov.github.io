@@ -3,8 +3,9 @@ $button-margin: 1em; // 15px
 $button-size: 3.5em;
 
 .no-scroll {
+	margin: 0; 
+	height: 100%; 
 	overflow: hidden;
-	height: 100vh;
 }
 
 .morph-navigation {
