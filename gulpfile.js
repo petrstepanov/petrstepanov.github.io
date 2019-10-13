@@ -17,6 +17,7 @@ var paths = {
 		src: ['./node_modules/jquery/dist/jquery.js',
 			  './src/js/ui-helper.js',
 			  './src/js/modules/splash-screen.js',
+			  './src/js/modules/morph-navigation.js',
 			  './src/js/app.js'],
 		srcWatch: './src/js/**/*.js',
 		dest: './js'
@@ -93,8 +94,8 @@ function watch() {
 
 // Build
 
-var buildDev = gulp.series(clean, copy, gulp.parallel(stylesDev, scriptsDev));
-var build = gulp.series(clean, copy, gulp.parallel(styles, scripts));
+var development = gulp.series(clean, copy, gulp.parallel(stylesDev, scriptsDev), watch);
+var production = gulp.series(clean, copy, gulp.parallel(styles, scripts));
 
 
 // Exports
@@ -105,7 +106,7 @@ exports.styles = styles;
 exports.scriptsDev = scriptsDev;
 exports.scripts = scripts;
 exports.watch = watch;
-exports.buildDev = buildDev;
-exports.build = build;
+exports.development = development;
+exports.production = production;
 
-exports.default = build;
+exports.default = production;

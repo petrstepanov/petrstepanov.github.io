@@ -1,0 +1,45 @@
+$button-color: #007bff;
+$button-margin: 1em; // 15px
+$button-size: 3.5em;
+
+.morph-navigation {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	height: $button-margin*2 + $button-size;
+	width: $button-margin*2 + $button-size;
+
+	.morph-button {
+		position: absolute;
+		bottom: $button-margin;
+		right: $button-margin;
+		height: $button-size;
+		width: $button-size;
+		border-radius: 50%;
+		background-color: $button-color;
+		display: block;
+		box-shadow: 0 0.625em 1.25em rgba($button-color, 0.2), 0 0.375em 0.75em rgba($button-color, 0.2);
+		transition: box-shadow 0.30s cubic-bezier(.25,.8,.25,1);
+		color: white;
+		text-align: center;
+		line-height: $button-size;
+
+		&:hover, &:focus {
+			outline: none;
+		}
+
+		.js--icon {
+			animation-duration: 0.25s;
+		}
+	}
+
+	&.is-open {
+		height: 100vh;
+		width: 100vw;
+
+		.morph-button {
+			// border-radius: 0;
+			box-shadow: 0 0 0 102vmax $button-color;
+		}
+	}
+}
