@@ -2,6 +2,11 @@ $button-color: #007bff;
 $button-margin: 1em; // 15px
 $button-size: 3.5em;
 
+.no-scroll {
+	overflow: hidden;
+	height: 100vh;
+}
+
 .morph-navigation {
 	position: fixed;
 	bottom: 0;
@@ -40,7 +45,7 @@ $button-size: 3.5em;
 
 		.morph-button {
 			// border-radius: 0;
-			box-shadow: 0 0 0 102vmax $button-color;
+			box-shadow: 0 0 0 104vmax $button-color;
 		}
 	}
 }
