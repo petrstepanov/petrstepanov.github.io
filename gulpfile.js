@@ -1,11 +1,17 @@
+var browserify = require('browserify');
 var gulp = require('gulp');
+var source = require('vinyl-source-stream');
+var buffer = require('vinyl-buffer');
 var uglify = require('gulp-uglify');
+var sourcemaps = require('gulp-sourcemaps');
+
 var sass = require('gulp-sass');
 var concat = require('gulp-concat');
 var plumber = require('gulp-plumber');
-var sourcemaps = require('gulp-sourcemaps');
 var autoprefixer = require('gulp-autoprefixer');
 var del = require('del');
+
+var log = require('gulplog');
 
 var paths = {
 	styles: {
@@ -14,13 +20,7 @@ var paths = {
 		dest: './css'
 	},
 	scripts: {
-		src: ['./node_modules/jquery/dist/jquery.js',
-			  './node_modules/body-scroll-lock/lib/bodyScrollLock.js',
-			  './src/js/ui-helper.js',
-			  './src/js/modules/scroll-freezer.js',			  
-			  './src/js/modules/splash-screen.js',
-			  './src/js/modules/morph-navigation.js',
-			  './src/js/app.js'],
+		entries: ['./src/js/app.js'],  // Only entry point for browserify
 		srcWatch: './src/js/**/*.js',
 		dest: './js'
 	},
@@ -67,21 +67,35 @@ function styles() {
 // Scripts Task
 
 function scriptsDev() {
-	return gulp
-		.src(paths.scripts.src)
-		.pipe(sourcemaps.init())
-		.pipe(concat('app.js'))
-		.pipe(sourcemaps.write())
+	// set up the browserify instance on a task basis
+	var b = browserify({
+		entries: paths.scripts.entries,
+		debug: true
+	});
+
+	return b.bundle()
+		.pipe(source('app.js'))
+		.pipe(buffer())
+		.pipe(sourcemaps.init({loadMaps: true}))
+		// Add transformation tasks to the pipeline here.
+		.pipe(uglify())
+		.on('error', log.error)
+		.pipe(sourcemaps.write('./'))
 		.pipe(gulp.dest(paths.scripts.dest));
 }
 
 function scripts() {
-	return gulp
-		.src(paths.scripts.src)
-		.pipe(concat('app.js'))
-		.pipe(uglify()).on('error', function (err) {
-			console.log(err.toString());
-		})
+	// set up the browserify instance on a task basis
+	var b = browserify({
+		entries: paths.scripts.entries,
+		debug: false
+	});
+
+	return b.bundle()
+		.pipe(source('app.js'))
+		.pipe(buffer())
+		.pipe(uglify())
+		.on('error', log.error)
 		.pipe(gulp.dest(paths.scripts.dest));
 }
 
