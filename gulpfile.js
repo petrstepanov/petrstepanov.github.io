@@ -26,7 +26,7 @@ var paths = {
 	},
 	fonts: {
 		src: ['./node_modules/typeface-zilla-slab/files/zilla-slab-latin-700.*',
-			'./node_modules/ionicons/dist/fonts/ionicons.w*',],
+			'./node_modules/ionicons/dist/fonts/ionicons.w*'],
 		dest: './fonts'
 	}
 };
@@ -103,8 +103,8 @@ function scripts() {
 // Watch
 
 function watch() {
-	gulp.watch(paths.scripts.srcWatch, scriptsDev);
-	gulp.watch(paths.styles.srcWatch, stylesDev);
+	gulp.watch(paths.scripts.srcWatch, ['scriptsDev']);
+	gulp.watch(paths.styles.srcWatch, ['stylesDev']);
 }
 
 
