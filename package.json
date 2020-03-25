@@ -23,8 +23,8 @@
   "homepage": "https://github.com/petrstepanov/petrstepanov.github.io#readme",
   "dependencies": {
     "animate.css": "^3.7.2",
-    "body-scroll-lock": "^2.6.4",
-    "bootstrap": "^4.3.1",
+    "body-scroll-lock": "^2.7.1",
+    "bootstrap": "^4.4.1",
     "ionicons": "^4.6.3",
     "jquery": "^3.4.1",
     "typeface-zilla-slab": "0.0.72"
