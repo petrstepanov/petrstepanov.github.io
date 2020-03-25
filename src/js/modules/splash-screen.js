@@ -44,14 +44,6 @@ var SplashScreen = function(){
 		});
 	}
 
-	function _waitMilliseconds(milliseconds) {
-		return new Promise(function(resolve, reject) {
-			setTimeout(function(){
-				resolve();
-			}, milliseconds);
-		});
-	}
-
 	function _hideSplash(){
 		return new Promise(function(resolve, reject) {
 
