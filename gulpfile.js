@@ -1,4 +1,4 @@
-var browserify = require('browserify');
+var browserify = require('gulp-browserify');
 var gulp = require('gulp');
 var source = require('vinyl-source-stream');
 var buffer = require('vinyl-buffer');
@@ -20,8 +20,8 @@ var paths = {
 		dest: './css'
 	},
 	scripts: {
-		entries: ['./src/js/app.js'],  // Only entry point for browserify
-		srcWatch: './src/js/**/*.js',
+		src: ['./src/js/splash.js', './src/js/app.js'],  // Only entry point for browserify
+		srcWatch: './src/js/**/*.js,',
 		dest: './js'
 	},
 	fonts: {
@@ -67,35 +67,22 @@ function styles() {
 // Scripts Task
 
 function scriptsDev() {
-	// set up the browserify instance on a task basis
-	var b = browserify({
-		entries: paths.scripts.entries,
-		debug: true
-	});
-
-	return b.bundle()
-		.pipe(source('app.js'))
-		.pipe(buffer())
+	return gulp.src(paths.scripts.src)
 		.pipe(sourcemaps.init({loadMaps: true}))
-		// Add transformation tasks to the pipeline here.
-		.pipe(uglify())
-		.on('error', log.error)
-		.pipe(sourcemaps.write('./'))
+		.pipe(browserify({
+			insertGlobals : true,
+			debug: true // source maps support
+	  	}))
 		.pipe(gulp.dest(paths.scripts.dest));
 }
 
 function scripts() {
-	// set up the browserify instance on a task basis
-	var b = browserify({
-		entries: paths.scripts.entries,
-		debug: false
-	});
-
-	return b.bundle()
-		.pipe(source('app.js'))
-		.pipe(buffer())
-		.pipe(uglify())
-		.on('error', log.error)
+	return gulp.src(paths.scripts.src)
+		.pipe(sourcemaps.init({loadMaps: true}))
+		.pipe(browserify({
+			insertGlobals : true,
+			debug: false
+	  	}))
 		.pipe(gulp.dest(paths.scripts.dest));
 }
 

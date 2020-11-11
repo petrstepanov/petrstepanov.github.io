@@ -25,12 +25,12 @@
     "animate.css": "^3.7.2",
     "body-scroll-lock": "^2.7.1",
     "bootstrap": "^4.4.1",
+    "gulp-browserify": "^0.5.1",
     "ionicons": "^4.6.3",
     "jquery": "^3.4.1",
     "typeface-zilla-slab": "0.0.72"
   },
   "devDependencies": {
-    "browserify": "^16.5.0",
     "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
