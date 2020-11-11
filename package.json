@@ -27,7 +27,7 @@
     "bootstrap": "^4.4.1",
     "gulp-browserify": "^0.5.1",
     "ionicons": "^4.6.3",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "typeface-zilla-slab": "0.0.72"
   },
   "devDependencies": {
