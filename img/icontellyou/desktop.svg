@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="24px" viewBox="0 0 30 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>desktop</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 32 32 32 32 0 0 0"></polygon>
+    </defs>
+    <g id="4-Filled-Line" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="desktop" transform="translate(-1.000000, -4.000000)">
+            <g id="4-Filled-Line/SEO/desktop">
+                <rect id="Rectangle" fill="#FFFFFF" x="2" y="19" width="28" height="4"></rect>
+                <g id="Page-1" stroke-width="1">
+                    <polygon id="Fill-1" points="0 32 32 32 32 0 0 0"></polygon>
+                    <g id="Group-8">
+                        <path d="M19.9702,26.7573 L18.9702,22.7573 C18.8592,22.3123 18.4592,22.0003 18.0002,22.0003 L14.0002,22.0003 C13.5412,22.0003 13.1412,22.3123 13.0302,22.7573 L12.0302,26.7573 C11.8722,27.3873 12.3502,28.0003 13.0002,28.0003 L19.0002,28.0003 C19.6502,28.0003 20.1282,27.3873 19.9702,26.7573" id="Fill-2" fill="#1BB5EC"></path>
+                        <path d="M29,4 L3,4 C1.896,4 1,4.896 1,6 L1,20 L31,20 L31,6 C31,4.896 30.104,4 29,4" id="Fill-4" fill="#1BB5EC"></path>
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-7"></g>
+                        <path d="M3,22 L29.001,22 L29.001,20 L3,20 L3,22 Z M17.719,26 L14.281,26 L14.781,24 L17.219,24 L17.719,26 Z M29,6 L29.001,18 L3,18 L3,6 L29,6 Z M29,4 L3,4 C1.897,4 1,4.897 1,6 L1,22 C1,23.103 1.897,24 3,24 L12.719,24 L12.219,26 L12,26 C11.448,26 11,26.448 11,27 C11,27.552 11.448,28 12,28 L20,28 C20.552,28 21,27.552 21,27 C21,26.448 20.552,26 20,26 L19.781,26 L19.281,24 L29,24 C30.103,24 31,23.103 31,22 L31,6 C31,4.897 30.103,4 29,4 L29,4 Z" id="Fill-6" fill="#364F6B" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
