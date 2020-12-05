@@ -56,10 +56,12 @@ $button-size: 3.5em;
 			font-family: $font-display;
 			font-size: $font-size-21;
 			color: white;		
+			// transition: transform 200ms ease-out;
 
-			&:hover {
-				text-decoration: underline;
-			}
+
+			// &:hover {
+			// 	transform: translateX(0.5em);
+			// }
 
 			&:hover, :focus {
 				color: white;
