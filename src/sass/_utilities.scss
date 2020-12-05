@@ -17,10 +17,14 @@
 }
 
 .icon-xs {
-    width: 1.5em;
+    width: 1.2em;
     height: auto;
     margin-right: 0.75em;
-    transform: translateY(-1px);    
+    transform: translateY(-2px);
+
+    svg * {
+        fill: white
+    }
 }
 
 .lh-dense {
