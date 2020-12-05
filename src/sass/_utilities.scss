@@ -22,8 +22,8 @@
     margin-right: 0.75em;
     transform: translateY(-2px);
 
-    svg * {
-        fill: white
+    img {
+        filter: invert(1) brightness(10);
     }
 }
 
