@@ -4,10 +4,10 @@
     <title>education</title>
     <desc>Created with Sketch.</desc>
     <g id="education" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M5,13 L5,23 C7.66666667,25 11.3333333,26 16,26 C20.6666667,26 24.3333333,25 27,23 L27,13" id="Path-4" stroke="#364F6B" stroke-width="2"></path>
-        <polygon id="Path" stroke="#364F6B" stroke-width="2" points="0 11 16 5 32 11 16 17"></polygon>
-        <circle id="Oval" fill="#364F6B" cx="16" cy="11" r="1"></circle>
-        <polyline id="Path-2" stroke="#364F6B" stroke-width="2" points="16 11 9 14 9 26"></polyline>
-        <polygon id="Path-3" fill="#364F6B" points="6 29 12 29 9 25"></polygon>
+        <path d="M5,13 L5,23 C7.66666667,25 11.3333333,26 16,26 C20.6666667,26 24.3333333,25 27,23 L27,13" id="Path-4" stroke="#FFFFFF" stroke-width="2"></path>
+        <polygon id="Path" stroke="#FFFFFF" stroke-width="2" points="0 11 16 5 32 11 16 17"></polygon>
+        <circle id="Oval" fill="#FFFFFF" cx="16" cy="11" r="1"></circle>
+        <polyline id="Path-2" stroke="#FFFFFF" stroke-width="2" points="16 11 9 14 9 26"></polyline>
+        <polygon id="Path-3" fill="#FFFFFF" points="6 29 12 29 9 25"></polygon>
     </g>
 </svg>

@@ -11,25 +11,25 @@
             <g id="Page-1">
                 <polygon id="Fill-1" points="0 32 32 32 32 0 0 0"></polygon>
                 <g id="Group-19">
-                    <path d="M3,9 L3,23 L29.001,23 L29,9 L3,9 Z M29,25 L3,25 C1.897,25 1,24.103 1,23 L1,9 C1,7.897 1.897,7 3,7 L29,7 C30.103,7 31,7.897 31,9 L31,23 C31,24.103 30.103,25 29,25 L29,25 Z" id="Fill-2" fill="#364F6B"></path>
+                    <path d="M3,9 L3,23 L29.001,23 L29,9 L3,9 Z M29,25 L3,25 C1.897,25 1,24.103 1,23 L1,9 C1,7.897 1.897,7 3,7 L29,7 C30.103,7 31,7.897 31,9 L31,23 C31,24.103 30.103,25 29,25 L29,25 Z" id="Fill-2" fill="#FFFFFF"></path>
                     <mask id="mask-2" fill="white">
                         <use xlink:href="#path-1"></use>
                     </mask>
                     <g id="Clip-5"></g>
-                    <polygon id="Fill-4" fill="#364F6B" mask="url(#mask-2)" points="5 21 9 21 9 19 5 19"></polygon>
-                    <polygon id="Fill-6" fill="#364F6B" mask="url(#mask-2)" points="5 13 9 13 9 11 5 11"></polygon>
-                    <polygon id="Fill-7" fill="#364F6B" mask="url(#mask-2)" points="23 13 27 13 27 11 23 11"></polygon>
-                    <polygon id="Fill-8" fill="#364F6B" mask="url(#mask-2)" points="23 21 27 21 27 19 23 19"></polygon>
-                    <polygon id="Fill-9" fill="#364F6B" mask="url(#mask-2)" points="5 17 7 17 7 15 5 15"></polygon>
-                    <polygon id="Fill-10" fill="#364F6B" mask="url(#mask-2)" points="9 17 11 17 11 15 9 15"></polygon>
-                    <polygon id="Fill-11" fill="#364F6B" mask="url(#mask-2)" points="13 17 15 17 15 15 13 15"></polygon>
-                    <polygon id="Fill-12" fill="#364F6B" mask="url(#mask-2)" points="11 13 13 13 13 11 11 11"></polygon>
-                    <polygon id="Fill-13" fill="#364F6B" mask="url(#mask-2)" points="15 13 17 13 17 11 15 11"></polygon>
-                    <polygon id="Fill-14" fill="#364F6B" mask="url(#mask-2)" points="19 13 21 13 21 11 19 11"></polygon>
-                    <polygon id="Fill-15" fill="#364F6B" mask="url(#mask-2)" points="17 17 19 17 19 15 17 15"></polygon>
-                    <polygon id="Fill-16" fill="#364F6B" mask="url(#mask-2)" points="21 17 23 17 23 15 21 15"></polygon>
-                    <polygon id="Fill-17" fill="#364F6B" mask="url(#mask-2)" points="25 17 27 17 27 15 25 15"></polygon>
-                    <polygon id="Fill-18" fill="#364F6B" mask="url(#mask-2)" points="11 21 21 21 21 19 11 19"></polygon>
+                    <polygon id="Fill-4" fill="#FFFFFF" mask="url(#mask-2)" points="5 21 9 21 9 19 5 19"></polygon>
+                    <polygon id="Fill-6" fill="#FFFFFF" mask="url(#mask-2)" points="5 13 9 13 9 11 5 11"></polygon>
+                    <polygon id="Fill-7" fill="#FFFFFF" mask="url(#mask-2)" points="23 13 27 13 27 11 23 11"></polygon>
+                    <polygon id="Fill-8" fill="#FFFFFF" mask="url(#mask-2)" points="23 21 27 21 27 19 23 19"></polygon>
+                    <polygon id="Fill-9" fill="#FFFFFF" mask="url(#mask-2)" points="5 17 7 17 7 15 5 15"></polygon>
+                    <polygon id="Fill-10" fill="#FFFFFF" mask="url(#mask-2)" points="9 17 11 17 11 15 9 15"></polygon>
+                    <polygon id="Fill-11" fill="#FFFFFF" mask="url(#mask-2)" points="13 17 15 17 15 15 13 15"></polygon>
+                    <polygon id="Fill-12" fill="#FFFFFF" mask="url(#mask-2)" points="11 13 13 13 13 11 11 11"></polygon>
+                    <polygon id="Fill-13" fill="#FFFFFF" mask="url(#mask-2)" points="15 13 17 13 17 11 15 11"></polygon>
+                    <polygon id="Fill-14" fill="#FFFFFF" mask="url(#mask-2)" points="19 13 21 13 21 11 19 11"></polygon>
+                    <polygon id="Fill-15" fill="#FFFFFF" mask="url(#mask-2)" points="17 17 19 17 19 15 17 15"></polygon>
+                    <polygon id="Fill-16" fill="#FFFFFF" mask="url(#mask-2)" points="21 17 23 17 23 15 21 15"></polygon>
+                    <polygon id="Fill-17" fill="#FFFFFF" mask="url(#mask-2)" points="25 17 27 17 27 15 25 15"></polygon>
+                    <polygon id="Fill-18" fill="#FFFFFF" mask="url(#mask-2)" points="11 21 21 21 21 19 11 19"></polygon>
                 </g>
             </g>
         </g>
