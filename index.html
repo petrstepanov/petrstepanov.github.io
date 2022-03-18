@@ -396,6 +396,67 @@
                         </div>
                     </div>
 
+                    <h2 class="my-5 pt-4" id="scientific-software">Scientific software</h2>
+                    <p class="mb-4">As a post-doctorate researcher I was responsible to carry out simulations of high energy particle simulations. The computer toolkit I am using is <a href="https://geant4.web.cern.ch/">Geant4</a>. Mostly I was working with modelling of the scintillation-based detector systems. Below please find examples of the shower profile in the scintillation crystal as well as some graphs corresponding to the particles leaving the simulation.</p>
+
+                    <div class="row mb-5 justify-content-center">
+                        <div class="col-12 col-md-10">
+                            <img src="static/screenshot-geant4-escape-locations-2.png" class="w-100 h-auto" alt="Geant4 simulation of the particle escape locations" />
+                        </div>
+
+                        <div class="col-11 col-md-7 order-md-2">
+                            <img src="static/screenshot-geant4-energy-deposition.png" class="w-100 h-auto" style="border-radius: 0.5em" alt="Geant4 visualization of the energy deposition" />
+                        </div>
+                        <div class="col-12 col-md-5 order-md-1">
+                            <h5 class="mt-4 mb-3">Glass Prototype Simulation</h5>
+                            <p>A Geant4-based simulation that studies performance of a novel scintillation material "SciGlass". Simulation reconstrucs detector response from interaction of the scintillation crysals with high energy ionizing particles.</p>
+                            <p>Contributions of the scintillation and Cherenkov produced light are individually detected. Two types of the visible light detectors are supported: Photo-Multiplier tubes (PMT) and Multi-Pixel Photon Counters (MPPC/SiPM). Energy deposition studies in the sensitive part of the detector are carried out.</p>
+                            <p><code class="text-black-50">C++, CMake, Geant4, CERN ROOT framework</code></p>
+                            <p><a href="https://github.com/petrstepanov/geant4-glass" class="btn btn-primary" rel="nofollow" target="_blank">View on GitHub</a></p>
+                        </div>
+                    </div>
+
+                    <p class="mb-4">During my PhD carreer I've developed a number of desktop software for data analysis and spectra interpretation. Scientific library of my choice is <a href="https://root.cern.ch/" title="CERN ROOT framework">CERN ROOT framework</a>. It offers numerous packages for histogram manipulation, fitting and plotting as well as data storage and graphical user interface classes.</p>
+                    
+                    <div class="row mb-5">
+                        <div class="col-12 col-md-7">
+                            <img src="static/screenshot-tlist-processor.png" class="w-100 h-auto" alt="TLIST Processor" />
+                        </div>
+                        <div class="col-12 col-md-5">
+                            <h5 class="mt-4 mb-3">TLIST Processor</h5>
+                            <p>Software is designed to process two-dimensional energy spectra and output one-dimensional coincidence broadened Doppler spectrum.</p>
+                            <p>A background fitting and subtraction technique is developed and implemented.</p>
+                            <p><code class="text-black-50">C++, CERN ROOT framework, GNU Automake</code></p>
+                            <p><a href="https://github.com/petrstepanov/tlist-processor" class="btn btn-primary" rel="nofollow" target="_blank">View on GitHub</a></p>
+                        </div>
+                    </div>
+
+                    <div class="row mb-5">
+                        <div class="col-md-7 order-md-2">
+                            <img src="static/screenshot-sw-calculator.png" class="w-100 h-auto" alt="SW Calculator" />
+                        </div>
+                        <div class="col-md-5 order-md-1">
+                            <h5 class="mt-4 mb-3">SW Calculator</h5>
+                            <p>Program calculates S and W parameters of the 511 keV peak of the annihilation radiation. Software estimates values of the binding electron energies by fitting the CDB spectrum with contributions from e+ annihilation on electrons with different wave functions.</p>
+                            <p>Electrons from conduction band contribute into the spectrum as an inverted parabola. Upon the shape of the parabola we calculate Fermi energy.</p>
+                            <p><code class="text-black-50">C++, CERN ROOT framework, GNU Automake</code></p>
+                            <p><a href="https://github.com/petrstepanov/sw-calculator" class="btn btn-primary" rel="nofollow" target="_blank">View on GitHub</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="row mb-5">
+                        <div class="col-md-7">
+                            <img src="static/screenshot-roopositron.png" class="w-100 h-auto" alt="SW Calculator" />
+                        </div>
+                        <div class="col-md-5">
+                            <h5 class="mt-4 mb-3">RooPositron</h5>
+                            <p>A flexible terminal-based positron lifetime fitting software. Graphical user interface is in progress.</p>
+                            <p>Software supports deconvolution of lifetime spectra into conventional multiexponential model as well as trapping model. Supports integration of models with custom fitting parameters.</p>
+                            <p><code class="text-black-50">C++, CERN ROOT framework, GNU Automake</code></p>
+                            <p><a href="https://github.com/petrstepanov/sw-calculator" class="btn btn-primary" rel="nofollow" target="_blank">View on GitHub</a></p>
+                        </div>
+                    </div>
+
                     <h2 class="my-5 pt-4" id="publications">Recent publications</h2>
                     <!-- Zotero Bib, American Chemical Society -->
                     <ul class="list-unstyled">
@@ -454,66 +515,6 @@
                         </li>
                     </ul>
                     <p><a href="https://scholar.petrstepanov.com" class="btn btn-primary btn-lg" target="_blank">View more publications</a></p>
-                    <h2 class="my-5 pt-4" id="scientific-software">Scientific software</h2>
-                    <p class="mb-4">As a post-doctorate researcher I was responsible to carry out simulations of high energy particle simulations. The computer toolkit I am using is <a href="https://geant4.web.cern.ch/">Geant4</a>. Mostly I was working with modelling of the scintillation-based detector systems. Below please find examples of the shower profile in the scintillation crystal as well as some graphs corresponding to the particles leaving the simulation.</p>
-
-                    <div class="row mb-5 justify-content-center">
-                        <div class="col-12 col-md-10">
-                            <img src="static/screenshot-geant4-escape-locations-2.png" class="w-100 h-auto" alt="Geant4 simulation of the particle escape locations" />
-                        </div>
-
-                        <div class="col-11 col-md-7 order-md-2">
-                            <img src="static/screenshot-geant4-energy-deposition.png" class="w-100 h-auto" style="border-radius: 0.5em" alt="Geant4 visualization of the energy deposition" />
-                        </div>
-                        <div class="col-12 col-md-5 order-md-1">
-                            <h5 class="mt-4 mb-3">Glass Prototype Simulation</h5>
-                            <p>A Geant4-based simulation that studies performance of a novel scintillation material "SciGlass". Simulation reconstrucs detector response from interaction of the scintillation crysals with high energy ionizing particles.</p>
-                            <p>Contributions of the scintillation and Cherenkov produced light are individually detected. Two types of the visible light detectors are supported: Photo-Multiplier tubes (PMT) and Multi-Pixel Photon Counters (MPPC/SiPM). Energy deposition studies in the sensitive part of the detector are carried out.</p>
-                            <p><code class="text-black-50">C++, CMake, Geant4, CERN ROOT framework</code></p>
-                            <p><a href="https://github.com/petrstepanov/HallC_NPS" class="btn btn-primary" rel="nofollow" target="_blank">View on GitHub</a></p>
-                        </div>
-                    </div>
-
-                    <p class="mb-4">During my PhD carreer I've developed a number of desktop software for data analysis and spectra interpretation. Scientific library of my choice is <a href="https://root.cern.ch/" title="CERN ROOT framework">CERN ROOT framework</a>. It offers numerous packages for histogram manipulation, fitting and plotting as well as data storage and graphical user interface classes.</p>
-                    
-                    <div class="row mb-5">
-                        <div class="col-12 col-md-7">
-                            <img src="static/screenshot-tlist-processor.png" class="w-100 h-auto" alt="TLIST Processor" />
-                        </div>
-                        <div class="col-12 col-md-5">
-                            <h5 class="mt-4 mb-3">TLIST Processor</h5>
-                            <p>Software is designed to process two-dimensional energy spectra and output one-dimensional coincidence broadened Doppler spectrum.</p>
-                            <p>A background fitting and subtraction technique is developed and implemented.</p>
-                            <p><code class="text-black-50">C++, CERN ROOT framework, GNU Automake</code></p>
-                            <p><a href="https://github.com/petrstepanov/tlist-processor" class="btn btn-primary" rel="nofollow" target="_blank">View on GitHub</a></p>
-                        </div>
-                    </div>
-
-                    <div class="row mb-5">
-                        <div class="col-md-7 order-md-2">
-                            <img src="static/screenshot-sw-calculator.png" class="w-100 h-auto" alt="SW Calculator" />
-                        </div>
-                        <div class="col-md-5 order-md-1">
-                            <h5 class="mt-4 mb-3">SW Calculator</h5>
-                            <p>Program calculates S and W parameters of the 511 keV peak of the annihilation radiation. Software estimates values of the binding electron energies by fitting the CDB spectrum with contributions from e+ annihilation on electrons with different wave functions.</p>
-                            <p>Electrons from conduction band contribute into the spectrum as an inverted parabola. Upon the shape of the parabola we calculate Fermi energy.</p>
-                            <p><code class="text-black-50">C++, CERN ROOT framework, GNU Automake</code></p>
-                            <p><a href="https://github.com/petrstepanov/sw-calculator" class="btn btn-primary" rel="nofollow" target="_blank">View on GitHub</a></p>
-                        </div>
-                    </div>
-                    
-                    <div class="row mb-5">
-                        <div class="col-md-7">
-                            <img src="static/screenshot-roopositron.png" class="w-100 h-auto" alt="SW Calculator" />
-                        </div>
-                        <div class="col-md-5">
-                            <h5 class="mt-4 mb-3">RooPositron</h5>
-                            <p>A flexible terminal-based positron lifetime fitting software. Graphical user interface is in progress.</p>
-                            <p>Software supports deconvolution of lifetime spectra into conventional multiexponential model as well as trapping model. Supports integration of models with custom fitting parameters.</p>
-                            <p><code class="text-black-50">C++, CERN ROOT framework, GNU Automake</code></p>
-                            <p><a href="https://github.com/petrstepanov/sw-calculator" class="btn btn-primary" rel="nofollow" target="_blank">View on GitHub</a></p>
-                        </div>
-                    </div>                 
 
                     <h2 class="my-5 pt-4" id="conferences">Conferences</h2>
                     <ul class="list-unstyled">
@@ -659,14 +660,14 @@
                 <!-- <span class="tab-emoji">🌐</span> -->
                 <img src="img/icontellyou/subdomain.svg" width="32" height="32" class="icon-xs h-auto">
                 Web Projects</a></li>
-            <li><a href="#publications">
-                <!-- <span class="tab-emoji">📝</span> -->
-                <img src="img/icontellyou/book.svg" width="32" height="32" class="icon-xs h-auto">
-                Publications</a></li>
             <li><a href="#scientific-software">
                 <!-- <span class="tab-emoji">📊</span> -->
                 <img src="img/icontellyou/business-performance.svg" width="32" height="32" class="icon-xs h-auto">
                 Scientific software</a></li>
+            <li><a href="#publications">
+                <!-- <span class="tab-emoji">📝</span> -->
+                <img src="img/icontellyou/book.svg" width="32" height="32" class="icon-xs h-auto">
+                Publications</a></li>
             <li><a href="#conferences">
                 <!-- <span class="tab-emoji">🎤</span> -->
                 <img src="img/icontellyou/conversation.svg" width="32" height="32" class="icon-xs h-auto">
