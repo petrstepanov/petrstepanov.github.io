@@ -5,7 +5,8 @@ var buffer = require('vinyl-buffer');
 var uglify = require('gulp-uglify');
 var sourcemaps = require('gulp-sourcemaps');
 
-var sass = require('gulp-sass');
+
+const sass = require('gulp-sass')(require('sass'));
 var concat = require('gulp-concat');
 var plumber = require('gulp-plumber');
 var autoprefixer = require('gulp-autoprefixer');
