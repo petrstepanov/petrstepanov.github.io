@@ -1,0 +1,24 @@
+email:
+  icon: ✉️
+  text: stepanovps@gmail.com
+  link: mailto:stepanovps@gmail.com
+phone:
+  icon: 📞
+  text: (419) 496-86-02
+  link: tel:+14194968602
+website:
+  icon: 🏠
+  text: petrstepanov.com
+  link: https://petrstepanov.com/
+github:
+  icon: 💻
+  text: github.com
+  link: https://github.com/petrstepanov
+dribbble:
+  icon: 🏀
+  text: dribbble.com
+  link: https://dribbble.com/petrstepanov
+scholar:
+  icon: 🎓
+  text: scholar.google.com
+  link: https://scholar.petrstepanov.com

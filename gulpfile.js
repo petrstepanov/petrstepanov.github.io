@@ -5,14 +5,19 @@ var buffer = require('vinyl-buffer');
 var uglify = require('gulp-uglify');
 var sourcemaps = require('gulp-sourcemaps');
 
-
 const sass = require('gulp-sass')(require('sass'));
 var concat = require('gulp-concat');
 var plumber = require('gulp-plumber');
 var autoprefixer = require('gulp-autoprefixer');
+var rename = require('gulp-rename');
 var del = require('del');
 
 var log = require('gulplog');
+
+var yaml = require('js-yaml');
+var fs = require('fs');
+var ejs = require('gulp-ejs');
+
 
 var paths = {
 	styles: {
@@ -27,7 +32,7 @@ var paths = {
 	},
 	fonts: {
 		src: ['./node_modules/typeface-zilla-slab/files/zilla-slab-latin-700.*',
-			'./node_modules/ionicons/dist/fonts/ionicons.w*'],
+		      './node_modules/ionicons/dist/fonts/ionicons.w*'],
 		dest: './fonts'
 	}
 };
@@ -46,6 +51,29 @@ function copy() {
 	return gulp.src(paths.fonts.src)
 		.pipe(gulp.dest(paths.fonts.dest));
 }
+
+// Test generate
+
+function yamlToJSON() {
+	gulp.src('./src/templates/data/*.yml')
+	.pipe(yaml({ space: 2 }))
+	.pipe(gulp.dest('./src/templates/data/'))
+}
+
+function renderEJS() {
+	return gulp.src('./src/templates/main.ejs')
+		.pipe(ejs({
+			position: 'cs',
+			topLinks: yaml.load(fs.readFileSync('./src/templates/data/top-links.yml', 'utf-8'))
+		}))
+		.pipe(rename({ basename: 'petr-stepanov-' + 'cs', extname: '.md' }))
+		.pipe(gulp.dest('static/'));
+
+	// return gulp.src('./src/templates/main.ejs')
+	// 	.pipe(ejs({position: 'it'}))
+	// 	.pipe(gulp.dest('static/'));
+}
+
 
 // Styles Task
 
@@ -98,13 +126,16 @@ function watch() {
 
 // Build
 
-var development = gulp.series(clean, copy, gulp.parallel(stylesDev, scriptsDev), watch);
-var production = gulp.series(clean, copy, gulp.parallel(styles, scripts));
+// var myRender = gulp.series(yamlToJSON, renderEJS);
+
+var development = gulp.series(clean, copy, renderEJS, gulp.parallel(stylesDev, scriptsDev), watch);
+var production = gulp.series(clean, copy, renderEJS, gulp.parallel(styles, scripts));
 
 
 // Exports
 
 exports.clean = clean;
+exports.renderEJS = renderEJS;
 exports.stylesDev = stylesDev;
 exports.styles = styles;
 exports.scriptsDev = scriptsDev;
