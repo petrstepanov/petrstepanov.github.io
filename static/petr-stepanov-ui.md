@@ -1,16 +1,14 @@
 Petr Stepanov
 =============
 
-
-
     UI/UX designer. Frontend and desktop developer.
 
+ ✉️ [stepanovps@gmail.com](mailto:stepanovps@gmail.com)
+ 📞 [(419) 496-86-02](tel:+14194968602)
+ 🏠 [petrstepanov.com](https://petrstepanov.com/)
+ 💻 [github.com](https://github.com/petrstepanov)
+ 🏀 [dribbble.com](https://dribbble.com/petrstepanov)
 
-
-
-
-
- ✉️ [stepanovps@gmail.com](mailto:stepanovps@gmail.com) &nbsp;&nbsp;&nbsp;&nbsp; 📞 [(419) 496-86-02](tel:+14194968602) &nbsp;&nbsp;&nbsp;&nbsp; 🏠 [petrstepanov.com](https://petrstepanov.com/) &nbsp;&nbsp;&nbsp;&nbsp; 💻 [github.com](https://github.com/petrstepanov) &nbsp;&nbsp;&nbsp;&nbsp; 🏀 [dribbble.com](https://dribbble.com/petrstepanov) &nbsp;&nbsp;&nbsp;&nbsp;  []() &nbsp;&nbsp;&nbsp;&nbsp;
 
 Summary
 -------
@@ -37,11 +35,13 @@ Computer Skills
 Work Experience
 ---------------
 
+| C++ Software Developer | Jul 2020 - Current |
+| ---- | ---- |
+| sd | asdsd |
 
-### C++ Software Developer
-
-
-### Software Developer (Postdoctoral Researcher)
+| Software Developer (Postdoctoral Researcher) | Jul 2020 - Current |
+| ---- | ---- |
+| sd | asdsd |
 
 
 ui

@@ -1,16 +1,13 @@
 /* Import Zilla Slab and Noto */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Zilla+Slab:wght@700&display=swap');
-
-/* Import Emoji */
-/* @import url('https://fonts.googleapis.com/css2?family=Noto+Colr+Emoji+Glyf');*/
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Zilla+Slab:wght@700&display=swap');
 html {
 	margin: 0.5rem 2rem 1rem 2rem;
 }
 
 body {
 	font-family: 'Noto Sans', serif;
-	font-size: 0.75rem;	
+	/* font-family: 'Noto Sans', 'Noto Color Emoji Compat', serif; */
+	font-size: 0.55rem;	
 }
 
 h1, h2 {
@@ -18,9 +15,28 @@ h1, h2 {
 	font-weight: 700;
 }
 
-/*
-.emoji {
-	font-size: var(--font-size); 
-	font-family: "Noto Colr Emoji Glyf";
+h1 {
+	font-size: 1.4rem;
+	margin-bottom: 0;
 }
-*/
+
+h2 {
+	font-size: 1.05rem;
+	margin-bottom: 0;
+}
+
+/* pre {
+	font-size: 1.1em;
+} */
+
+svg {
+	height: 1.2rem;
+	width: 1.2rem;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 1.2rem;
+}
+
+svg:first-child {
+	margin-left: 0;
+}
