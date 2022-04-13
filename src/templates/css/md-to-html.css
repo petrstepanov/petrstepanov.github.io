@@ -1,7 +1,7 @@
 /* Import Zilla Slab and Noto */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Zilla+Slab:wght@700&display=swap');
 html {
-	margin: 0.5rem 2rem 1rem 2rem;
+	margin: 2rem 2rem 1rem 2rem;
 }
 
 body {
@@ -30,13 +30,17 @@ h2 {
 } */
 
 svg {
-	height: 1.2rem;
-	width: 1.2rem;
+	height: 1.1rem;
+	width: 1.1rem;
 	display: inline-block;
 	vertical-align: middle;
-	margin-left: 1.2rem;
+	margin-left: 1rem;
 }
 
 svg:first-child {
 	margin-left: 0;
+}
+
+table {
+	font-size: inherit;
 }

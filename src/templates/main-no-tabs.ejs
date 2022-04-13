@@ -71,9 +71,14 @@ Work Experience
 ---------------
 <% for (var key in work){
 var role = (position == "ms") ? work[key].role_ms : work[key].role_cs; %>
-| <%- role %> | <%- work[key].start %> - <%- work[key].end %> |
-| ---- | ---- |
-| sd | asdsd |
+
+### <%- role %>
+
+[<%- work[key].company %>](<%- work[key].link %>) *<%- work[key].start %> - <%- work[key].end %>*
+
+<% for (const desc of work[key].description){ %>
+* <%- desc %>
+<% } %>
 <% } %>
 
 <%- position %>
