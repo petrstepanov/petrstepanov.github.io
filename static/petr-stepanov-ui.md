@@ -21,7 +21,7 @@ Ph.D. graduate in physics with 5+ year expertise in user interface (UI) and user
 Computer Skills
 ---------------
 
-**Essentials**. Git, SVN, SSH, Linux, and Terminal usage. BASH scripting. IDEs: Eclipse, Xcode, Visual Studio Code (VS Code). Project Management: JIRA, 
+**Essentials**. Git, SVN, SSH, Linux, and Terminal usage. BASH scripting. IDEs: Eclipse, Xcode, Visual Studio Code (VS Code). Project Management: JIRA, Trello.
 
 **Desktop**. C/C++ and frameworks: Qt, Fox, CERN ROOT, Geant4. Building from source: GNU make, CMake. Java and Swing. Python.
 

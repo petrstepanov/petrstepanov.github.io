@@ -21,7 +21,7 @@ Ph.D. graduate in physics with expertise in computer science. Strong desktop and
 Computer Skills
 ---------------
 
-**Essentials**. Git, SVN, SSH, Linux, and Terminal usage. BASH scripting. IDEs: Eclipse, Xcode, Visual Studio Code (VS Code). Project Management: JIRA, 
+**Essentials**. Git, SVN, SSH, Linux, and Terminal usage. BASH scripting. IDEs: Eclipse, Xcode, Visual Studio Code (VS Code). Project Management: JIRA, Trello.
 
 **Desktop**. C/C++ and frameworks: Qt, Fox, CERN ROOT, Geant4. Building from source: GNU make, CMake. Java and Swing. Python.
 

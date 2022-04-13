@@ -18,10 +18,14 @@ var yaml = require('js-yaml');
 var fs = require('fs');
 var ejs = require('gulp-ejs');
 var Markdown = require('markdown-to-html').Markdown;
+var NodeHtmlMarkdown = require('node-html-markdown').NodeHtmlMarkdown;
+var NodeHtmlMarkdownOptions = require('node-html-markdown').NodeHtmlMarkdownOptions;
+
+// import { NodeHtmlMarkdown, NodeHtmlMarkdownOptions } from 'node-html-markdown'
 
 const path = require('path');
 
-TODO: try https://www.npmjs.com/package/html5-to-pdf
+// TODO: try https://www.npmjs.com/package/html5-to-pdf
 
 var pdf = require('html-pdf');
 
@@ -114,13 +118,13 @@ function renderMD(cb) {
 	});
 }
 
-function escapeRegExp(string) {
-	return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // $& means the whole matched string
-}
+// function escapeRegExp(string) {
+// 	return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // $& means the whole matched string
+// }
 
-function replaceAll(str, find, replace) {
-	return str.replace(new RegExp(escapeRegExp(find), 'g'), replace);
-}
+// function replaceAll(str, find, replace) {
+// 	return str.replace(new RegExp(escapeRegExp(find), 'g'), replace);
+// }
 
 function getFilesWithExtension(folder, extension){
 	var files = fs.readdirSync(folder); // ["file1", "file2"]
@@ -150,7 +154,7 @@ function renderHTML(cb){
 		// var that = this;
 		const promise = new Promise((resolve, reject) => {
 			var opts = {title: 'File $BASENAME in $DIRNAME', 
-			            stylesheet: './../src/templates/css/md-to-html.css',
+			            // stylesheet: './../src/templates/css/md-to-html.css',
 						// stylesheet: './../node_modules/bootstrap/dist/css/bootstrap-reboot.css',
 						// stylesheet: './../node_modules/normalize.css/normalize.css',
 			            flavor: 'markdown'};
@@ -167,9 +171,16 @@ function renderHTML(cb){
 					process.exit();
 				}
 
-				// Replace a few tweaks
-				replaceAll(md.html, '</th>', '</td>');
-				replaceAll(md.html, '<th>', '<td>');
+				// Replace a few things
+				md.html = md.html.replace('</th>', '</td>');
+				md.html = md.html.replace('<th>', '<td>');
+
+				// Add inline stylesheet
+				var style = ''; // '<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@700&display=swap" rel="stylesheet">';
+				style += '<style>';
+				style += fs.readFileSync('./src/templates/css/md-to-html.css', 'utf8');
+				style += '</style>';
+				md.html = md.html.replace('</head>', style);
 
 				// Write HTML to file system
 				fs.writeFile(outFile, md.html, function(err) {
@@ -200,6 +211,12 @@ function renderHTML(cb){
 // }
 
 function renderPDF(cb){
+	// could not load the shared library:dso_dlfcn.c:185:filename(libproviders.so): libproviders.so: cannot open shared object file: No such file or directory
+	// Fix:
+	// > touch /tmp/openssl.cnf
+	// > export OPENSSL_CONF="/tmp/openssl.cnf"
+
+	// Get HTML files
 	files = getFilesWithExtension('./static', '.html');
 
 	var promises = [];
@@ -220,6 +237,38 @@ function renderPDF(cb){
 				console.log(res); // { filename: '/app/businesscard.pdf' }
 				resolve();
 			});
+		});
+		promises.push(promise);
+	}
+
+	Promise.all(promises).then((values) => {
+		console.log("All PDF's generated");
+		cb();
+	});
+}
+
+function renderPDF2(cb){
+	// Get HTML files
+	files = getFilesWithExtension('./static', '.html');
+
+	var promises = [];
+	// https://www.npmjs.com/package/html-pdf?activeTab=readme
+	for (file of files){
+		const promise = new Promise((resolve, reject) => {
+			var html = fs.readFileSync(file, 'utf8');
+		
+			// Single file
+			// https://www.npmjs.com/package/markdown-to-html
+			NodeHtmlMarkdown.translate(
+				html, 
+				/* options (optional) */ {}, 
+				/* customTranslators (optional) */ undefined,
+				/* customCodeBlockTranslators (optional) */ undefined
+			);	
+			// var options = { format: 'Letter', 
+			//                 phantomPath: './node_modules/phantomjs/bin/phantomjs' };
+
+			resolve();
 		});
 		promises.push(promise);
 	}
