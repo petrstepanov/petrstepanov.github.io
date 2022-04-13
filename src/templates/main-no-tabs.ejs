@@ -1,0 +1,73 @@
+Petr Stepanov
+=============
+
+<% // SLOGAN %>
+<% if(position == "cs"){ %>
+    Frontend and desktop developer. Web designer.
+<% } else if(position == "ms"){ %>
+    Materials science. Gamma spectroscopy. Data analysis and computer simulations.
+<% } else if(position == "ui"){ %>
+    UI/UX designer. Frontend and desktop developer.
+<% } %>
+
+<% // TOP LINKS %>
+<% if(position != "ms"){ %>
+<% topLinks["scholar"] = 0; %>
+<% } %>
+<% for (var key in topLinks){ %> <%- topLinks[key].icon %> [<%- topLinks[key].text %>](<%- topLinks[key].link %>) &nbsp;&nbsp;&nbsp;&nbsp;<% } %>
+
+Summary
+-------
+<% if(position == "cs"){ %>
+Ph.D. graduate in physics with expertise in computer science. Strong desktop and web application software development skills. More than five years in user interface (UI) and user experience (UX) design. Seeking to apply for a software development position in the industry. Authorized to work in the US on [Optional Practical Training](https://en.wikipedia.org/wiki/Optional_Practical_Training) (OPT expires February 2023). Will consider visa sponsorship offers.
+<% } else if(position == "ms"){ %>
+Ph.D. graduate with expertise in gamma spectroscopy, positron annihilation spectroscopy, microscopy, and nuclear physics. Strong background in computational techniques: data anayysis, particle simulations, software development (desktop and web applications).
+
+Graduated from [BGSU](https://www.bgsu.edu/) in May 2020. Seeking to become an effective member of a research group in the industry. Authorized to work in the US on [Optional Practical Training](https://en.wikipedia.org/wiki/Optional_Practical_Training) (OPT) in physics, chemistry, and computer science. OPT expires in February 2023. Will consider visa sponsorship offers.
+<% } else if(position == "ui"){ %>
+Ph.D. graduate in physics with 5+ year expertise in user interface (UI) and user experience (UX) design. Strong web application and desktop software development skills. Seeking to apply for a position in the industry. Authorized to work in the US on [Optional Practical Training](https://en.wikipedia.org/wiki/Optional_Practical_Training) (OPT expires February 2023). Will consider visa sponsorship offers.
+<% } %>
+
+Computer Skills
+---------------
+<% if (position == "cs" || position == "ui"){ %>
+**Essentials**. Git, SVN, SSH, Linux, and Terminal usage. BASH scripting. IDEs: Eclipse, Xcode, Visual Studio Code (VS Code). Project Management: JIRA, 
+
+**Desktop**. C/C++ and frameworks: Qt, Fox, CERN ROOT, Geant4. Building from source: GNU make, CMake. Java and Swing. Python.
+
+**Frontend**. HTML and CSS (LESS, SASS), Bootstrap, responsive web design, JavaScript and jQuery, npm, gulp, Google Web Toolkit (GWT), AngularJS, React.js, and Backbone.js.
+
+**Backend**. Java, Node.js, EJS.
+
+**UI/UX design**. Figma, Sketch, InVision Studio, Adobe XD, Adobe Photoshop, Adobe Illustrator, Inkscape, Blasamiq, Blender.
+
+**Apple iOS**. Fundamental Swift skills. User interface development with UIkit and storyboards.
+<% } else if(position == "ms"){ %>
+**Simulation and data analysis**: Geant4, CERN ROOT, Wolfram Mathematica, Maple.
+
+**Academic writing**: LaTeX, MS Office Suite, Zotero.
+
+**Data plotting**: OriginLab, Gnuplot, QtiPlot, SciDaVis, Grapher.
+
+**Desktop applications development**: C/C++ and Qt, GNU Automake, CMake, Java and Swing, Python, Fortran.
+
+**UI/UX design**: Figma, Sketch, Adobe Photoshop, Adobe Illustrator, Inkscape, Blender.
+
+**Frontend**: HTML, CSS (LESS and SASS), Bootstrap, responsive web design, JavaScript and jQuery, npm, gulp, AngularJS, React.js. Google Web Toolkit. PHP and WordPress themes development.
+
+Material Research Skills
+------------------------
+
+**Characterization facilities**. Positron Lifetime and Doppler Broadening Annihilation Spectroscopy (PALS, DBAR). Atom Probe Tomography (ATP). Scanning Electron Microscopy (SEM). Transmission electron microscopy (TEM). Atomic Force Microscopy (AFM). UV-VIS Spectroscopy. Fourier Transform Infrared Spectroscopy (FTIR).
+
+**Material processing**. High-temperature annealing. Wet chemical etching. Electrical Contact Fabrication. Sample polishing.
+<% } %>
+
+Work Experience
+---------------
+<% for (var key in work){ %>
+<% var role = (position == "ms") ? work[key].role_ms : work[key].role_cs; %>
+### <%- role %>
+<% } %>
+
+<%- position %>

@@ -1,0 +1,47 @@
+Petr Stepanov
+=============
+
+
+
+    Frontend and desktop developer. Web designer.
+
+
+
+
+
+
+ ✉️ [stepanovps@gmail.com](mailto:stepanovps@gmail.com) &nbsp;&nbsp;&nbsp;&nbsp; 📞 [(419) 496-86-02](tel:+14194968602) &nbsp;&nbsp;&nbsp;&nbsp; 🏠 [petrstepanov.com](https://petrstepanov.com/) &nbsp;&nbsp;&nbsp;&nbsp; 💻 [github.com](https://github.com/petrstepanov) &nbsp;&nbsp;&nbsp;&nbsp; 🏀 [dribbble.com](https://dribbble.com/petrstepanov) &nbsp;&nbsp;&nbsp;&nbsp;  []() &nbsp;&nbsp;&nbsp;&nbsp;
+
+Summary
+-------
+
+Ph.D. graduate in physics with expertise in computer science. Strong desktop and web application software development skills. More than five years in user interface (UI) and user experience (UX) design. Seeking to apply for a software development position in the industry. Authorized to work in the US on [Optional Practical Training](https://en.wikipedia.org/wiki/Optional_Practical_Training) (OPT expires February 2023). Will consider visa sponsorship offers.
+
+
+Computer Skills
+---------------
+
+**Essentials**. Git, SVN, SSH, Linux, and Terminal usage. BASH scripting. IDEs: Eclipse, Xcode, Visual Studio Code (VS Code). Project Management: JIRA, 
+
+**Desktop**. C/C++ and frameworks: Qt, Fox, CERN ROOT, Geant4. Building from source: GNU make, CMake. Java and Swing. Python.
+
+**Frontend**. HTML and CSS (LESS, SASS), Bootstrap, responsive web design, JavaScript and jQuery, npm, gulp, Google Web Toolkit (GWT), AngularJS, React.js, and Backbone.js.
+
+**Backend**. Java, Node.js, EJS.
+
+**UI/UX design**. Figma, Sketch, InVision Studio, Adobe XD, Adobe Photoshop, Adobe Illustrator, Inkscape, Blasamiq, Blender.
+
+**Apple iOS**. Fundamental Swift skills. User interface development with UIkit and storyboards.
+
+
+Work Experience
+---------------
+
+
+### C++ Software Developer
+
+
+### Software Developer (Postdoctoral Researcher)
+
+
+cs
