@@ -1,20 +1,24 @@
 Petr Stepanov
 =============
 
-<% // SLOGAN %>
-<% if(position == "cs"){ %>
-    Frontend and desktop developer. Web designer.
-<% } else if(position == "ms"){ %>
-    Materials science. Gamma spectroscopy. Data analysis and computer simulations.
-<% } else if(position == "ui"){ %>
-    UI/UX designer. Frontend and desktop developer.
+<% 
+	// SLOGAN 
+	if(position == "cs"){
+%>    Frontend and desktop developer. Web designer.<%
+	} else if(position == "ms"){
+%>    Materials science. Gamma spectroscopy. Data analysis and computer simulations.<%
+	} else if(position == "ui"){
+%>    UI/UX designer. Frontend and desktop developer.<%
+	} %>
+	
+<%
+	// TOP LINKS
+	if(position != "ms"){
+		delete topLinks.scholar;
+	}
+	for (var key in topLinks){
+%> <%- topLinks[key].icon %> [<%- topLinks[key].text %>](<%- topLinks[key].link %>)
 <% } %>
-
-<% // TOP LINKS %>
-<% if(position != "ms"){ %>
-	<% topLinks["scholar"] = 0; %>
-<% } %>
-<% for (var key in topLinks){ %> <%- topLinks[key].icon %> [<%- topLinks[key].text %>](<%- topLinks[key].link %>) &nbsp;&nbsp;&nbsp;&nbsp;<% } %>
 
 Summary
 -------
@@ -65,9 +69,16 @@ Computer Skills
 
 Work Experience
 ---------------
-<% for (var key in work){ %>
-	<% var role = (position == "ms") ? work[key].role_ms : work[key].role_cs; %>
+<% for (var key in work){
+	var role = (position == "ms") ? work[key].role_ms : work[key].role_cs; %>
+	
 	### <%- role %>
+
+	[<%- work[key].company %>](<%- work[key].link %>) *<%- work[key].start %> - <%- work[key].end %>*
+
+	<% for (const desc of work[key].description){ %>
+		* <%- desc %>
+	<% } %>
 <% } %>
 
 <%- position %>
