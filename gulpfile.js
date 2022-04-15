@@ -163,7 +163,6 @@ function renderHTML(cb){
 			// var outFile = file.replace('.md', '.html');
 
 			var renderString = fs.readFileSync(file, 'utf8');
-			console.log(renderString);
 			md = new MarkdownIt();
 			var result = md.render(renderString);
 

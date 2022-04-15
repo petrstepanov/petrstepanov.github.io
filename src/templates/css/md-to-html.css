@@ -1,16 +1,27 @@
 /* Import Zilla Slab and Noto */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Zilla+Slab:wght@700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Zilla+Slab:wght@700&display=swap'); */
+
+/* Import Roboto Serif Bold, Roboto (Regular, Bold, Italic )and Roboto Mono Regular */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto+Serif:wght@700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
 
 html {
 	margin: 0;
 }
 
 body {
-	font-family: 'Noto Sans', serif;
+	font-family: 'Roboto', serif;
+}
+
+b,
+strong {
+	font-family: 'Roboto', serif;
+	font-weight: 700;
 }
 
 h1, h2 {
-	font-family: 'Zilla Slab', serif;
+	/* font-family: 'Zilla Slab', serif; */
+	font-family: 'Roboto Serif', serif;
+	font-style: normal;
 	font-weight: 700;
 }
 
@@ -25,6 +36,7 @@ h2 {
 }
 
 pre {
+	font-family: 'Roboto Mono', monospace;
 	/* font-size: 1.1em; */
 }
 
