@@ -274,7 +274,7 @@ async function renderPDFpuppeteer(cb){
 		var html = fs.readFileSync(file, 'utf8');
 	
 		await page.setContent(html, {
-			waitUntil: 'load'
+			waitUntil: 'networkidle0'
 		});
 
 		var pdfFilePath = file.replace('.html', '.pdf');
