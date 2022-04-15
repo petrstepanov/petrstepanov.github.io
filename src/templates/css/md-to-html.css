@@ -10,7 +10,7 @@ html {
 
 body {
 	font-family: 'Roboto', serif;
-	font-size: 0.85rem;
+	font-size: 0.75rem;
 }
 
 b,
@@ -33,13 +33,41 @@ h1 {
 
 h2 {
 	/* font-size: 1.05rem; */
-	margin-bottom: 0;
+	margin-TOP: 1.2rem;
+	margin-bottom: 0.7rem;
 }
+
+h3 {
+	font-size: 0.75rem;
+	margin-top: 1rem;
+	margin-bottom: 0.3rem;
+}
+
+li+h2{
+	margin-bottom: 1.2rem;
+}
+
 
 pre {
 	font-family: 'Roboto Mono', monospace;
 	/* font-size: 1.1em; */
 }
+
+ul {
+	padding-left: 1rem;
+}
+
+p, li {
+	margin: 0.3rem 0;
+}
+
+/* li:first-child {
+	margin-top: 0;
+} */
+
+/* li:last-child {
+	margin-bottom: 0;
+} */
 
 svg {
 	height: 1.1rem;
@@ -55,4 +83,9 @@ svg:first-child {
 
 table {
 	/* font-size: inherit; */
+}
+
+.right {
+	float: right;
+	margin-top: -1.2rem;
 }

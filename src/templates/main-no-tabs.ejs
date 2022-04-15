@@ -70,15 +70,35 @@ Material Research Skills
 Work Experience
 ---------------
 <% for (var key in work){
-var role = (position == "ms") ? work[key].role_ms : work[key].role_cs; %>
-
+var role = "";
+switch(position) {
+case "ms":
+role = work[key].role_ms;
+break;
+case "cs":
+role = work[key].role_cs;
+break;
+default:
+role = work[key].role_ui;
+break;
+} 
+// Print role %>
 ### <%- role %>
-
-[<%- work[key].company %>](<%- work[key].link %>) *<%- work[key].start %> - <%- work[key].end %>*
-
-<% for (const desc of work[key].description){ %>
-* <%- desc %>
+<% if (work[key].location.length > 0){ %>
+[<%- work[key].company %>](<%- work[key].link %>), <%- work[key].location %>.
 <% } %>
-<% } %>
+📅 <%- work[key].start %> - <%- work[key].end %>
 
+<% for (const desc of work[key].description){
+if (Array.isArray(desc)){
+for (const d of desc){
+// Nested bullet
+%>    * <%- d %>
+<% }
+} else {
+// Bullet
+%>* <%- desc %>
+<% }
+}
+} %>
 <%- position %>

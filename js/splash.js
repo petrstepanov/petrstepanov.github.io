@@ -12293,7 +12293,7 @@ console.log("std::cout << \"Shoot me an email at stepanovps@gmail.com\" << std::
 
 var splashScreen = new SplashScreen();
 splashScreen.init();
-}).call(this,require("rH1JPG"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/fake_b284e3b7.js","/")
+}).call(this,require("rH1JPG"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/fake_f5ea4a82.js","/")
 },{"./modules/splash-screen":8,"buffer":3,"rH1JPG":6}],8:[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 // Shows loading animation splash screen
