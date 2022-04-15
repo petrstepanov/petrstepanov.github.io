@@ -17,18 +17,16 @@ var log = require('gulplog');
 var yaml = require('js-yaml');
 var fs = require('fs');
 var ejs = require('gulp-ejs');
-var Markdown = require('markdown-to-html').Markdown;
+// var Markdown = require('markdown-to-html').Markdown;
 var MarkdownIt = require('markdown-it');
-var NodeHtmlMarkdown = require('node-html-markdown').NodeHtmlMarkdown;
-var NodeHtmlMarkdownOptions = require('node-html-markdown').NodeHtmlMarkdownOptions;
+// var NodeHtmlMarkdown = require('node-html-markdown').NodeHtmlMarkdown;
+// var NodeHtmlMarkdownOptions = require('node-html-markdown').NodeHtmlMarkdownOptions;
 
 // import { NodeHtmlMarkdown, NodeHtmlMarkdownOptions } from 'node-html-markdown'
 
 const path = require('path');
 
 // TODO: try https://www.npmjs.com/package/html5-to-pdf
-
-var pdf = require('html-pdf');
 
 var paths = {
 	styles: {
@@ -218,6 +216,9 @@ function renderHTML(cb){
 // 		.pipe(gulp.dest('./'))
 // }
 
+// var pdf = require('html-pdf');
+
+/*
 function renderPDF(cb){
 	// could not load the shared library:dso_dlfcn.c:185:filename(libproviders.so): libproviders.so: cannot open shared object file: No such file or directory
 	// Fix:
@@ -254,28 +255,43 @@ function renderPDF(cb){
 		cb();
 	});
 }
+*/
 
-function renderPDF2(cb){
+const puppeteer = require('puppeteer-core');
+
+async function renderPDFpuppeteer(cb){
 	// Get HTML files
 	files = getFilesWithExtension('./static', '.html');
+
+	// launch a new chrome instance
+	const browser = await puppeteer.launch({headless: true, executablePath: '/usr/bin/chromium-browser'});
+
+	// create a new page
+	const page = await browser.newPage();
 
 	var promises = [];
 	// https://www.npmjs.com/package/html-pdf?activeTab=readme
 	for (file of files){
-		const promise = new Promise((resolve, reject) => {
-			var html = fs.readFileSync(file, 'utf8');
-		
-			// Single file
-			// https://www.npmjs.com/package/markdown-to-html
-			NodeHtmlMarkdown.translate(
-				html, 
-				/* options (optional) */ {}, 
-				/* customTranslators (optional) */ undefined,
-				/* customCodeBlockTranslators (optional) */ undefined
-			);	
-			// var options = { format: 'Letter', 
-			//                 phantomPath: './node_modules/phantomjs/bin/phantomjs' };
+		var html = fs.readFileSync(file, 'utf8');
+	
+		await page.setContent(html, {
+			waitUntil: 'load'
+		});
 
+		var pdfFilePath = file.replace('.html', '.pdf');
+
+		await page.pdf({
+			format: 'Letter',
+			margin: {
+				top: '0.5in',
+				bottom: '0.5in',
+				left: '0.5in',
+				right: '0.5in'
+			},
+			path: pdfFilePath
+		});
+
+		const promise = new Promise((resolve, reject) => {
 			resolve();
 		});
 		promises.push(promise);
@@ -283,7 +299,10 @@ function renderPDF2(cb){
 
 	Promise.all(promises).then((values) => {
 		console.log("All PDF's generated");
-		cb();
+
+		browser.close(()=>{
+			cb();
+		});
 	});
 }
 
@@ -339,7 +358,7 @@ function watch() {
 // Build
 
 // var myRender = gulp.series(yamlToJSON, renderEJS);
-var render = gulp.series(renderMD, renderHTML, renderPDF);
+var render = gulp.series(renderMD, renderHTML, renderPDFpuppeteer);
 var development = gulp.series(clean, copy, render, gulp.parallel(stylesDev, scriptsDev), watch);
 var production = gulp.series(clean, copy, render, gulp.parallel(styles, scripts));
 
