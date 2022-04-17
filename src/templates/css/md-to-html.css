@@ -6,11 +6,11 @@
 
 html {
 	margin: 0;
+	font-size: 0.85rem;
 }
 
 body {
 	font-family: 'Roboto', serif;
-	font-size: 0.75rem;
 }
 
 b,
@@ -27,18 +27,18 @@ h1, h2 {
 }
 
 h1 {
-	/* font-size: 1.4rem; */
+	font-size: 1.77rem;
 	margin-bottom: 0;
 }
 
 h2 {
 	/* font-size: 1.05rem; */
-	margin-TOP: 1.2rem;
+	margin-top: 1.5rem;
 	margin-bottom: 0.7rem;
 }
 
 h3 {
-	font-size: 0.75rem;
+	font-size: 1rem;
 	margin-top: 1rem;
 	margin-bottom: 0.3rem;
 }
@@ -54,20 +54,12 @@ pre {
 }
 
 ul {
-	padding-left: 1rem;
+	padding-left: 1.2rem;
 }
 
 p, li {
 	margin: 0.3rem 0;
 }
-
-/* li:first-child {
-	margin-top: 0;
-} */
-
-/* li:last-child {
-	margin-bottom: 0;
-} */
 
 svg {
 	height: 1.1rem;
@@ -81,11 +73,9 @@ svg:first-child {
 	margin-left: 0;
 }
 
-table {
-	/* font-size: inherit; */
-}
-
 .right {
 	float: right;
-	margin-top: -1.2rem;
+	margin-top: -1.5rem;
+	/* font-style: italic; */
+	font-weight: 700;
 }

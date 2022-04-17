@@ -3,18 +3,32 @@ Petr Stepanov
 
 <% 
 // SLOGAN 
-if(position == "cs"){
-%>    Frontend and desktop developer. Web designer.<%
-} else if(position == "ms"){
-%>    Materials science. Gamma spectroscopy. Data analysis and computer simulations.<%
-} else if(position == "ui"){
-%>    UI/UX designer. Frontend and desktop developer.<%
-} %>
+switch(position) {
+case "ms":
+%>    Materials science. Software development. Data analysis and computer simulations.
+<% break;
+case "cs":
+%>    Software developer. UI designer.
+<% break;
+case "ui":
+%>    UI/UX designer. Frontend and desktop developer.
+<% break;
+default:
+%>    Materials science. Data analysis. Desktop and web applications development. UI/UX design.
+<% break;
+}
 
-<%
 // TOP LINKS
-if(position != "ms"){
+switch(position) {
+case "ms":
+delete topLinks.dribbble;
+break;
+case "cs":
 delete topLinks.scholar;
+break;
+case "ui":
+delete topLinks.scholar;
+break;
 }
 for (var key in topLinks){
 %> <%- topLinks[key].icon %> [<%- topLinks[key].text %>](<%- topLinks[key].link %>)
@@ -22,65 +36,80 @@ for (var key in topLinks){
 
 Summary
 -------
-<% if(position == "cs"){ %>
-Ph.D. graduate in physics with expertise in computer science. Strong desktop and web application software development skills. More than five years in user interface (UI) and user experience (UX) design. Seeking to apply for a software development position in the industry. Authorized to work in the US on [Optional Practical Training](https://en.wikipedia.org/wiki/Optional_Practical_Training) (OPT expires February 2023). Will consider visa sponsorship offers.
-<% } else if(position == "ms"){ %>
-Ph.D. graduate with expertise in gamma spectroscopy, positron annihilation spectroscopy, microscopy, and nuclear physics. Strong background in computational techniques: data anayysis, particle simulations, software development (desktop and web applications).
+
+<%
+switch(position) {
+case "ms":
+%> Ph.D. graduate with expertise in gamma spectroscopy, positron annihilation spectroscopy, microscopy, and nuclear physics. Strong background in computational techniques: data anayysis, particle simulations, software development (desktop and web applications).
 
 Graduated from [BGSU](https://www.bgsu.edu/) in May 2020. Seeking to become an effective member of a research group in the industry. Authorized to work in the US on [Optional Practical Training](https://en.wikipedia.org/wiki/Optional_Practical_Training) (OPT) in physics, chemistry, and computer science. OPT expires in February 2023. Will consider visa sponsorship offers.
-<% } else if(position == "ui"){ %>
-Ph.D. graduate in physics with 5+ year expertise in user interface (UI) and user experience (UX) design. Strong web application and desktop software development skills. Seeking to apply for a position in the industry. Authorized to work in the US on [Optional Practical Training](https://en.wikipedia.org/wiki/Optional_Practical_Training) (OPT expires February 2023). Will consider visa sponsorship offers.
+<% break;
+case "cs":
+%> Ph.D. graduate in physics with expertise in computer science. Strong desktop and web application software development skills. More than five years in user interface (UI) and user experience (UX) design. Seeking to apply for a software development position in the industry. Authorized to work in the US on [Optional Practical Training](https://en.wikipedia.org/wiki/Optional_Practical_Training) (OPT expires February 2023). Will consider visa sponsorship offers.
+<% break;
+case "ui":
+%> Ph.D. graduate in physics with 5+ year expertise in user interface (UI) and user experience (UX) design. Strong web application and desktop software development skills. Authorized to work in the US on [Optional Practical Training](https://en.wikipedia.org/wiki/Optional_Practical_Training) (OPT expires February 2023). Will consider visa sponsorship offers.
+<% break;
+default:
+%>Ph.D. graduate with expertise in gamma spectroscopy, positron annihilation spectroscopy, microscopy, and nuclear physics. Strong background in computational techniques: data anayysis, particle simulations, software development (desktop and web applications). More than 5 years in UI and UX design.
+
+Graduated from [BGSU](https://www.bgsu.edu/) in May 2020. Seeking to become an effective member of a research group in the industry. Authorized to work in the US on [Optional Practical Training](https://en.wikipedia.org/wiki/Optional_Practical_Training) (OPT) in physics, chemistry, and computer science. OPT expires in February 2023. Will consider visa sponsorship offers.
+<% break;
+}
+%>
+
+Computer Science Skills
+---------------
+
+* **Essentials**. Git, SVN, SSH, Linux, and Terminal usage. BASH scripting. IDEs: Eclipse, Xcode, Visual Studio Code (VS Code). Project management: JIRA, Trello.
+
+<% if (position == "ms" || position == "all"){ %>
+* **Simulation and data analysis**: Geant4, CERN ROOT, MATLAB, Wolfram Mathematica, Maple.
+
+* **Academic writing**: LaTeX, MS Office Suite, Zotero.
+
+* **Data plotting**: Gnuplot, OriginLab, QtiPlot, SciDaVis, Grapher.
 <% } %>
 
-Computer Skills
----------------
+* **Desktop app development**. C/C++, GNU make, CMake. Frameworks: Qt, CERN ROOT, Geant4. Java and Swing. Python.
+
+* **Frontend**: HTML, CSS (LESS and SASS), Bootstrap, responsive web design, JavaScript and jQuery, npm, gulp, AngularJS, React.js. Google Web Toolkit. PHP and WordPress themes development.
+
 <% if (position == "cs" || position == "ui"){ %>
-**Essentials**. Git, SVN, SSH, Linux, and Terminal usage. BASH scripting. IDEs: Eclipse, Xcode, Visual Studio Code (VS Code). Project Management: JIRA, Trello.
+* **Backend**. Node.js, EJS, Java.
 
-**Desktop**. C/C++ and frameworks: Qt, Fox, CERN ROOT, Geant4. Building from source: GNU make, CMake. Java and Swing. Python.
+* **UI/UX design**. Figma, Sketch, InVision Studio, Adobe XD, Adobe Photoshop, Adobe Illustrator, Inkscape, Blasamiq, Blender.
 
-**Frontend**. HTML and CSS (LESS, SASS), Bootstrap, responsive web design, JavaScript and jQuery, npm, gulp, Google Web Toolkit (GWT), AngularJS, React.js, and Backbone.js.
+* **Apple iOS**. Fundamental Swift skills. User interface development with UIkit and storyboards.
+<% } %>
 
-**Backend**. Java, Node.js, EJS.
-
-**UI/UX design**. Figma, Sketch, InVision Studio, Adobe XD, Adobe Photoshop, Adobe Illustrator, Inkscape, Blasamiq, Blender.
-
-**Apple iOS**. Fundamental Swift skills. User interface development with UIkit and storyboards.
-<% } else if(position == "ms"){ %>
-**Simulation and data analysis**: Geant4, CERN ROOT, Wolfram Mathematica, Maple.
-
-**Academic writing**: LaTeX, MS Office Suite, Zotero.
-
-**Data plotting**: OriginLab, Gnuplot, QtiPlot, SciDaVis, Grapher.
-
-**Desktop applications development**: C/C++ and Qt, GNU Automake, CMake, Java and Swing, Python, Fortran.
-
-**UI/UX design**: Figma, Sketch, Adobe Photoshop, Adobe Illustrator, Inkscape, Blender.
-
-**Frontend**: HTML, CSS (LESS and SASS), Bootstrap, responsive web design, JavaScript and jQuery, npm, gulp, AngularJS, React.js. Google Web Toolkit. PHP and WordPress themes development.
-
+<% if(position == "ms"){ %>
 Material Research Skills
 ------------------------
 
-**Characterization facilities**. Positron Lifetime and Doppler Broadening Annihilation Spectroscopy (PALS, DBAR). Atom Probe Tomography (ATP). Scanning Electron Microscopy (SEM). Transmission electron microscopy (TEM). Atomic Force Microscopy (AFM). UV-VIS Spectroscopy. Fourier Transform Infrared Spectroscopy (FTIR).
+* **Characterization facilities**. Positron Lifetime and Doppler Broadening Annihilation Spectroscopy (PALS, DBAR). Atom Probe Tomography (ATP). Scanning Electron Microscopy (SEM). Transmission electron microscopy (TEM). Atomic Force Microscopy (AFM). UV-VIS Spectroscopy. Fourier Transform Infrared Spectroscopy (FTIR).
 
-**Material processing**. High-temperature annealing. Wet chemical etching. Electrical Contact Fabrication. Sample polishing.
+* **Material processing**. High-temperature annealing. Wet chemical etching. Electrical Contact Fabrication. Sample polishing.
 <% } %>
 
 Work Experience
 ---------------
 <% for (var key in work){
+// Hide Russian Gridnine for computer science
+if(position == "cs"){
+delete work.gridnine;
+}
+
 var role = "";
 switch(position) {
-case "ms":
-role = work[key].role_ms;
-break;
 case "cs":
-role = work[key].role_cs;
+role = work[key].role_cs ? work[key].role_cs : work[key].role;
+break;
+case "ui":
+role = work[key].role_ui ? work[key].role_ui : work[key].role;
 break;
 default:
-role = work[key].role_ui;
-break;
+role = work[key].role_ms ? work[key].role_ms : work[key].role;
 } 
 // Print role %>
 ### <%- role %>
@@ -89,7 +118,9 @@ break;
 <% } %>
 📅 <%- work[key].start %> - <%- work[key].end %>
 
-<% for (const desc of work[key].description){
+<% 
+if (Array.isArray(work[key].description)){
+for (const desc of work[key].description){
 if (Array.isArray(desc)){
 for (const d of desc){
 // Nested bullet
@@ -100,5 +131,61 @@ for (const d of desc){
 %>* <%- desc %>
 <% }
 }
+} else {
+// Simple text
+%>* <%- work[key].description %>
+<% }
 } %>
+
+Education
+---------
+
+<% for (var key in education){
+switch(position) {
+case "cs":
+// delete education.bhsad;
+break;
+case "ui":
+delete education.mephi;
+delete education.osc;
+break;
+default:
+delete education.bhsad;
+break;
+}
+// Print school %>
+### <%- education[key].school %> • <%- education[key].location %>
+
+📅 <%- education[key].start %> - <%- education[key].end %>
+
+<%- education[key].degree %> in <%- education[key].major %>. <%- education[key].info %>
+
+<% if(position == "ms" && education[key].description){
+for (const desc of education[key].description){
+%>* <%- desc %>
+<% }
+}
+} %>
+
+Recent publications
+-------------------
+
+<%
+
+for (const publication of publications){
+let json = await citejs.inputAsync(publication.doi);
+let citation = json[0];
+%>* <%
+for (var i=0; i < citation.author.length; i++){
+const author = citation.author[i];
+%><%- author.given %>. <%- author.family %><%- i < citation.author.length-1 ? ', ' : '. ' %><%
+}
+// Print 
+%><%- json[0].title %>
+<%
+}
+
+%>
+
+
 <%- position %>

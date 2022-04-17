@@ -2,7 +2,7 @@ jlab:
   company: Thomas Jefferson National Laboratory (JLab)
   link: https://www.jlab.org/
   location: Newport News, VA, USA
-  start: July 2020
+  start: Jul 2020
   end: Current
   role_ms: Research Collaborator (On-Site)
   role_cs: C++ Software Developer
@@ -12,16 +12,16 @@ jlab:
     - Utilized SLURM environment on [JLab supercomputer environment](https://scicomp.jlab.org/scicomp/index.html) to run resourceful particle simulations on multiple computing nodes at the same time. This decreased the wall computation time by more than 10 times.
     - Proposed and implemented RAMDisk functionality on the development environment. This lead to an over 60% increase in source code indexing time.
     - Set up data acquisition system that performs triggered waveform acquisition from Tektronix oscilloscope to a local Network Attached Storage (NAS) device. RedHat, Ethernet, SAMBA, Python, National Instruments VISA library.
-    - Active collaborator of the [Pion LT project](https://redmine.jlab.org/projects/hall-c/wiki/). Committed more than 50 shifts performing Target Operator and Shift Leader duties in the experimental Hall C counting room.
+    - Committed 50+ shifts at the particle accelerator performing Target Operator and Shift Leader duties ([Pion LT project](https://redmine.jlab.org/projects/hall-c/wiki/), experimental Hall C).
 cua:
   company: Catholic University of America (CUA)
   link: https://www.catholic.edu/index.html
   location: Washington, DC, USA
-  start: July 2020
+  start: Jul 2020
   end: Current
   role_ms: Postdoctoral Researcher (Remote)
-  role_cs: Software Developer (Postdoc)
-  role_ui: Software Developer (Postdoc)
+  role_cs: Software Developer • Postdoctoral Researcher
+  role_ui: Software Developer • Postdoctoral Researcher
   description:
     - Applied Machine Learning (ML) TMVA framework to perform binary classification of thousands of signals from a data acquisition (DAQ) setup. [Link to GitHub](https://github.com/petrstepanov/dual-readout-tmva).
     - Developed a computer simulation based on the Geant4 framework (C++, CMake, Eclipse IDE, gdb) to study optical properties of a novel scintillation material to be used in the EIC detector system. [Link to GitHub](https://github.com/petrstepanov/geant4-glass).
@@ -31,11 +31,11 @@ bgsu:
   company: Bowling Green State University (BGSU)
   link: https://www.bgsu.edu/
   location: Bowling Green, OH, USA
-  start: August 2014
+  start: Aug 2014
   end: May 2020
   role_ms: Research Assistant
-  role_cs: Software Developer (Research Assistant)
-  role_ui: Software Developer (Research Assistant)
+  role_cs: Software Developer • Research Assistant
+  role_ui: Software Developer • Research Assistant
   description:
     - "Applied ROOT C++ libraries to write three GUI open-source software for scientific data interpretation."
     - - "GitHub repositories contain over 10k lines of code in total: [TLIST Processor](https://github.com/petrstepanov/tlist-processor), [SW Calculator](https://github.com/petrstepanov/sw-calculator), [RooPositron](https://github.com/petrstepanov/roopositron)."
@@ -49,11 +49,11 @@ freelance:
   company: ""
   link: ""
   location: ""
-  start: September 2012
+  start: Sep 2012
   end: Current
-  role_ms: Frontend Developer, UI/UX Designer (Frelance)
-  role_cs: Frontend Developer, UI/UX Designer (Frelance)
-  role_ui: UI/UX Designer, Frontend Developer (Frelance)
+  role_ms: Frontend Developer, UI/UX Designer • Freelance
+  role_cs: Frontend Developer, UI/UX Designer • Freelance
+  role_ui: UI/UX Designer, Frontend Developer • Freelance
   description:
     - "Designed and built online e-commerce store [Sticker Store LLC](https://bimmersticker.store/) with static website generator (Figma, Hexo, Snipcart, Bootstrap, SASS, EJS, Node.js)."
     - - "Improved the Google PageSpeed Insights metrics (CLS, LCP) up to 97%."
@@ -69,11 +69,11 @@ freelance:
       - "Converted numerous design assets and mockups into responsive HTML and CSS."
       - "Mocked up and integrated dozens of cross-browser responsive email templates."
 gridnine:
-  company: "Gridnine Systems"
-  link: "https://gridnine.com/"
-  location: "Moscow, Russia"
-  start: April 2011
-  end: August 2014
+  company: Gridnine Systems
+  link: https://gridnine.com/
+  location: Moscow, Russia
+  start: Apr 2011
+  end: Aug 2014
   role_ms: Full Stack Web Developer, Web Designer
   role_cs: Full Stack Web Developer, Web Designer
   role_ui: Web Designer, Full Stack Web Developer
@@ -82,3 +82,19 @@ gridnine:
     - "Responsible for the front-end development of the [ATH American Express](https://www.ath.ru/english/) – the largest travel management company in Russia (JavaScript, Backbone.js, and RequireJS). Increased the front-end load time by over 30%."
     - "Implemented image processing servlets on the backend to generate banners for five different social networks (PHP, ImageMagic)."
     - "Wireframed and sliced to web pages numerous UI/UX mockups for web applications (Balsamiq, Photoshop, HTML and CSS)."
+mipt:
+  company: Phys-Tech College at MIPT
+  link: https://mipt.ru/english/
+  location: Moscow, Russia
+  start: Oct 2009
+  end: May 2011
+  role: Computer Science Teacher
+  description: "Provided instructions and guidance to high school students on following computer courses: C/C++ programming, HTML, Adobe Photoshop and 3D Studio Max."
+itep:
+  company: Institute for Theoretical and Experimental Physics (ITEP)
+  link: https://en.wikipedia.org/wiki/ITEP
+  location: Moscow, Russia
+  start: Sep 2008
+  end: Apr 2011
+  role: Research Scientist
+  description: "Application of positron lifetime spectroscopy for studying the radioactive-induced defects in steels. Monte-Carlo particle simulations with Fortran 95. Maintaining software for CAMECA tomographic atom probe (MSVC). Application of CERN ROOT libraries for fitting and analysis of experimental spectra."

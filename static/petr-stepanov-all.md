@@ -1,18 +1,19 @@
 Petr Stepanov
 =============
 
-    Materials science. Software development. Data analysis and computer simulations.
+    Materials science. Data analysis. Desktop and web applications development. UI/UX design.
  ✉️ [stepanovps@gmail.com](mailto:stepanovps@gmail.com)
  📞 [(419) 496-86-02](tel:+14194968602)
  🏠 [petrstepanov.com](https://petrstepanov.com/)
  💻 [GitHub](https://github.com/petrstepanov)
+ 🏀 [Dribbble](https://dribbble.com/petrstepanov)
  🎓 [Google Scholar](https://scholar.petrstepanov.com)
 
 
 Summary
 -------
 
- Ph.D. graduate with expertise in gamma spectroscopy, positron annihilation spectroscopy, microscopy, and nuclear physics. Strong background in computational techniques: data anayysis, particle simulations, software development (desktop and web applications).
+Ph.D. graduate with expertise in gamma spectroscopy, positron annihilation spectroscopy, microscopy, and nuclear physics. Strong background in computational techniques: data anayysis, particle simulations, software development (desktop and web applications). More than 5 years in UI and UX design.
 
 Graduated from [BGSU](https://www.bgsu.edu/) in May 2020. Seeking to become an effective member of a research group in the industry. Authorized to work in the US on [Optional Practical Training](https://en.wikipedia.org/wiki/Optional_Practical_Training) (OPT) in physics, chemistry, and computer science. OPT expires in February 2023. Will consider visa sponsorship offers.
 
@@ -36,13 +37,6 @@ Computer Science Skills
 
 
 
-
-Material Research Skills
-------------------------
-
-* **Characterization facilities**. Positron Lifetime and Doppler Broadening Annihilation Spectroscopy (PALS, DBAR). Atom Probe Tomography (ATP). Scanning Electron Microscopy (SEM). Transmission electron microscopy (TEM). Atomic Force Microscopy (AFM). UV-VIS Spectroscopy. Fourier Transform Infrared Spectroscopy (FTIR).
-
-* **Material processing**. High-temperature annealing. Wet chemical etching. Electrical Contact Fabrication. Sample polishing.
 
 
 Work Experience
@@ -142,10 +136,6 @@ Education
 
 Ph.D. in Photochemical Sciences • GPA 3.423. Novel developments in positron annihilation spectroscopy techniques—from experimental setups to advanced processing software. [View manuscript](https://petrstepanov.com/static/petr-stepanov-dissertation-latest.pdf).
 
-* Assembled and utilized two spectrometers: positron lifetime and Doppler. Spectrometers are built from ORTEC and Canberra (Mirion) fast electronic units and utilize High-Purity Germanium Detectors (HPGe) and scintillation-based detector systems.
-* Developed open-source software (C++, CERN ROOT) for novel interpretation of the experimental spectra.
-* Defined and resolved kinetic equations of reactions of positron and positronium atoms (Ps) in solids and liquids and nano-powders (Wolfram Mathemetica). Equation parameters are implemented in the fitting model of experimental spectra (RooFit).
-* Above research allowed for estimation of defect concentrations and sizes in solids, classification of defect types (vacancies, dislocations) and more...
 
 ### Ohio Supercomputer Workshop • Ohio, USA
 
@@ -153,9 +143,6 @@ Ph.D. in Photochemical Sciences • GPA 3.423. Novel developments in positron an
 
 Hands-on sessions in Supercomputer Essentials. Introduction to the key developments in the supercomputer field.
 
-* RedHat and CentOS operating systems: environment, networking and SSH.
-* Supercomputer job control with BASH and SLURM scripts.
-* CMake compiling platform, use of parallel nodes, A.I. fundamentals and more..."
 
 ### National Research Nuclear University (MEPhI) • Moscow, Russia
 
@@ -173,4 +160,4 @@ Recent publications
 
 
 
-ms
+all
