@@ -27,7 +27,7 @@ h1, h2 {
 }
 
 h1 {
-	font-size: 1.77rem;
+	font-size: 2rem;
 	margin-bottom: 0;
 }
 
@@ -78,4 +78,11 @@ svg:first-child {
 	margin-top: -1.5rem;
 	/* font-style: italic; */
 	font-weight: 700;
+}
+
+blockquote {
+	border-left: 2px solid black;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 1em;
 }

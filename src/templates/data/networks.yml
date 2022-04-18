@@ -1,0 +1,15 @@
+linkedin:
+  text: Discover my professional contacts [on LinkedIn](https://www.linkedin.com/in/petrstepanov/en/) (200+ connections).
+  role: ms cs ui
+researchgate:
+  text: Get familiar with my scientific career [on ResearchGate](https://www.researchgate.net/profile/Petr_Stepanov2).
+  role: ms
+scholar:
+  text: Skim through the list of my publications [on Google Scholar](https://scholar.google.com/citations?hl=en&user=S5etjqoAAAAJ&view_op=list_works&sortby=pubdate) (200+ citations).
+  role: ms
+github:
+  text: Find examples of my code [on GitHub](https://github.com/petrstepanov/) (50+ repositories).
+  role: ms cs ui
+dribbble:
+  text: Check out my UI design portfolio [on Dribbble](https://dribbble.com/petrstepanov) (50+ shots).
+  role: cs ui

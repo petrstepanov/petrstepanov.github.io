@@ -1,51 +1,47 @@
 Petr Stepanov
 =============
 
+
+<% if (role == "ms" || role == "all") { %>
+	> Ph.D. graduate in physics with expertise **materials science**, **gamma spectroscopy**, **defect studies**, microscopy, and nuclear physics. 5+ years of experience in **data analysis** and **particle simulations** and software development.
+<% } %>
+
 <% 
 	// SLOGAN 
-	switch(position) {
-		case "ms":
-			%>    Materials science. Software development. Data analysis and computer simulations.
-			<% break;
+	switch(role) {
+//		case "ms":
+//			Materials science. Defect studies. Particle simulations and data analysis.
+//			break;
 		case "cs":
 			%>    Software developer. UI designer.
 			<% break;
 		case "ui":
 			%>    UI/UX designer. Frontend and desktop developer.
 			<% break;
-		default:
+		case "all":
 			%>    Materials science. Data analysis. Desktop and web applications development. UI/UX design.
 			<% break;			
 	}
 
 	// TOP LINKS
-	switch(position) {
-	case "ms":
-		delete topLinks.dribbble;
-		break;
-	case "cs":
-		delete topLinks.scholar;
-		break;
-	case "ui":
-		delete topLinks.scholar;
-		break;
-	}
 	for (var key in topLinks){
 %> <%- topLinks[key].icon %> [<%- topLinks[key].text %>](<%- topLinks[key].link %>)
 <% } %>
 
-Summary
--------
+Summary of Qualifications
+-------------------------
 
 <%
-	switch(position) {
+	switch(role) {
 		case "ms":
-			%> Ph.D. graduate with expertise in gamma spectroscopy, positron annihilation spectroscopy, microscopy, and nuclear physics. Strong background in computational techniques: data anayysis, particle simulations, software development (desktop and web applications).
-	
-			Graduated from [BGSU](https://www.bgsu.edu/) in May 2020. Seeking to become an effective member of a research group in the industry. Authorized to work in the US on [Optional Practical Training](https://en.wikipedia.org/wiki/Optional_Practical_Training) (OPT) in physics, chemistry, and computer science. OPT expires in February 2023. Will consider visa sponsorship offers.
+			%>
+			* Two years of experience with GEANT4 particle simulation software. Developed a program for photonics research (classification of scintillation materials) for the EIC project. 
+			* Applied positron lifetime and Doppler spectroscopy techniques for defect characterization in bulk materials with crystal structure, nano-powders and liquids. 
+			* Strong hardware skills with data acquisition setups (DAQ) and numerous fast electronic components (ORTEC, Canberra, Tektronix).
+			* More than 5 years of experience in GUI desktop software development for experimental spectra fitting and interpretation (C++, ROOT, Qt, Java, Python).
 			<% break;
 		case "cs":
-			%> Ph.D. graduate in physics with expertise in computer science. Strong desktop and web application software development skills. More than five years in user interface (UI) and user experience (UX) design. Seeking to apply for a software development position in the industry. Authorized to work in the US on [Optional Practical Training](https://en.wikipedia.org/wiki/Optional_Practical_Training) (OPT expires February 2023). Will consider visa sponsorship offers.
+			%> Ph.D. graduate in physics with expertise in computer science. Strong desktop and web application software development skills. More than five years in user interface (UI) and user experience (UX) design. Seeking to apply for a software development role in the industry. Authorized to work in the US on [Optional Practical Training](https://en.wikipedia.org/wiki/Optional_Practical_Training) (OPT expires February 2023). Will consider visa sponsorship offers.
 			<% break;
 		case "ui":
 			%> Ph.D. graduate in physics with 5+ year expertise in user interface (UI) and user experience (UX) design. Strong web application and desktop software development skills. Authorized to work in the US on [Optional Practical Training](https://en.wikipedia.org/wiki/Optional_Practical_Training) (OPT expires February 2023). Will consider visa sponsorship offers.
@@ -58,90 +54,82 @@ Summary
 	}
 %>
 
-Computer Science Skills
----------------
-
-* **Essentials**. Git, SVN, SSH, Linux, and Terminal usage. BASH scripting. IDEs: Eclipse, Xcode, Visual Studio Code (VS Code). Project management: JIRA, Trello.
-
-<% if (position == "ms" || position == "all"){ %>
-	* **Simulation and data analysis**: Geant4, CERN ROOT, MATLAB, Wolfram Mathematica, Maple.
-
-	* **Academic writing**: LaTeX, MS Office Suite, Zotero.
-
-	* **Data plotting**: Gnuplot, OriginLab, QtiPlot, SciDaVis, Grapher.
-<% } %>
-
-* **Desktop app development**. C/C++, GNU make, CMake. Frameworks: Qt, CERN ROOT, Geant4. Java and Swing. Python.
-
-* **Frontend**: HTML, CSS (LESS and SASS), Bootstrap, responsive web design, JavaScript and jQuery, npm, gulp, AngularJS, React.js. Google Web Toolkit. PHP and WordPress themes development.
-
-<% if (position == "cs" || position == "ui"){ %>
-	* **Backend**. Node.js, EJS, Java.
-
-	* **UI/UX design**. Figma, Sketch, InVision Studio, Adobe XD, Adobe Photoshop, Adobe Illustrator, Inkscape, Blasamiq, Blender.
-
-	* **Apple iOS**. Fundamental Swift skills. User interface development with UIkit and storyboards.
-<% } %>
-
-<% if(position == "ms"){ %>
-	Material Research Skills
-	------------------------
-
-	* **Characterization facilities**. Positron Lifetime and Doppler Broadening Annihilation Spectroscopy (PALS, DBAR). Atom Probe Tomography (ATP). Scanning Electron Microscopy (SEM). Transmission electron microscopy (TEM). Atomic Force Microscopy (AFM). UV-VIS Spectroscopy. Fourier Transform Infrared Spectroscopy (FTIR).
-
-	* **Material processing**. High-temperature annealing. Wet chemical etching. Electrical Contact Fabrication. Sample polishing.
-<% } %>
-
 Work Experience
 ---------------
 <% for (var key in work){
 	// Hide Russian Gridnine for computer science
-	if(position == "cs"){
+	if (role == "ms"){
+		delete work.freelance;
 		delete work.gridnine;
+		delete work.mipt;
+		delete work.itep;
+	} else if (role == "cs"){
+		delete work.mipt;
+		delete work.itep;
 	}
 
-	var role = "";
-	switch(position) {
+	var position = "";
+	switch(role) {
 		case "cs":
-			role = work[key].role_cs ? work[key].role_cs : work[key].role;
+			position = work[key].role_cs ? work[key].role_cs : work[key].role;
 			break;
 		case "ui":
-			role = work[key].role_ui ? work[key].role_ui : work[key].role;
+			position = work[key].role_ui ? work[key].role_ui : work[key].role;
 			break;
 		default:
-			role = work[key].role_ms ? work[key].role_ms : work[key].role;
+			position = work[key].role_ms ? work[key].role_ms : work[key].role;
 	} 
-	// Print role %>
-	### <%- role %>
+	// Print position %>
+	### <%- position %>
 	<% if (work[key].location.length > 0){ %>
 		[<%- work[key].company %>](<%- work[key].link %>), <%- work[key].location %>.
 	<% } %>
 	📅 <%- work[key].start %> - <%- work[key].end %>
 
 	<% 
+
+	function appliesToRole(role, string){
+		const regex = /<(.*)>/g;
+		const array = regex.exec(string)
+
+		if (!array) return true;
+		return array[1].includes(role)
+	}
+
+	function trimDesc(string){
+		return string.replace(/(<.*> )/g, '');
+	}
+	
 	if (Array.isArray(work[key].description)){
 		for (const desc of work[key].description){
 			if (Array.isArray(desc)){
-				for (const d of desc){
+				for (var d of desc){
 					// Nested bullet
-					%>    * <%- d %>
-				<% }
+					if(appliesToRole(role, d)){
+						%>    * <%- trimDesc(d) %>
+					<% }
+				}
 			} else {
 				// Bullet
-				%>* <%- desc %>
-			<% }
+				if(appliesToRole(role, desc)){
+					%>* <%- trimDesc(desc) %>
+				<% }
+			}
 		}		
 	} else {
 		// Simple text
-		%>* <%- work[key].description %>
-	<% }
+		var desc = work[key].description
+		if(appliesToRole(role, desc)){
+			%>* <%- trimDesc(desc) %>
+		<% }
+	}
 } %>
 
 Education
 ---------
 
 <% for (var key in education){
-	switch(position) {
+	switch(role) {
 		case "cs":
 			// delete education.bhsad;
 			break;
@@ -160,32 +148,132 @@ Education
 
 	<%- education[key].degree %> in <%- education[key].major %>. <%- education[key].info %>
 	
-	<% if(position == "ms" && education[key].description){
+	<% if(role == "all" && education[key].description){
 		for (const desc of education[key].description){
 			%>* <%- desc %>
 		<% }
 	}
-} %>
+} %><% if (role == "ms" || role == "all") { %>
 
-Recent publications
--------------------
+Featured Publications
+---------------------
 
-<%
-
-for (const publication of publications){
+<% for (const publication of publications){
 	let json = await citejs.inputAsync(publication.doi);
 	let citation = json[0];
+	// console.log(citation);
 	%>* <%
+
+	// Print Authors
+	var etalMaxNumber = 2;
+	var etal = citation.author.length > etalMaxNumber;
+	if (etal){
+		citation.author.length = etalMaxNumber;
+	}
 	for (var i=0; i < citation.author.length; i++){
 		const author = citation.author[i];
-		%><%- author.given %>. <%- author.family %><%- i < citation.author.length-1 ? ', ' : '. ' %><%
+		%><%- author.given %> <%- author.family %><%- i < citation.author.length-1 ? ', ' : etal ? ' et. al. ' : '. ' %><%
 	}
-	// Print 
-	%><%- json[0].title %>
+
+	// Print Title
+	citation.title = citation.title.replaceAll('<sub>3</sub>','₃');
+	citation.title = citation.title.replaceAll('<sup>+</sup>','⁺');
+	citation.title = citation.title.replaceAll('Al2O3','Al₂O₃');
+	citation['container-title'] = citation['container-title'].replaceAll('INTERNATIONAL CONFERENCE ON SCIENCE AND APPLIED SCIENCE (ICSAS) 2019','AIP Conference Proceedings 2182');
+	
+	%><%- citation.title %>. <%
+
+	// Print Journal
+	%>*<%- citation['container-title'] %>*<%
+
+	// Print year
+	%> **<%- citation.published['date-parts'][0][0] %>**<%
+
+	// Print volume
+	if (citation.volume){
+		%>, <%- citation.volume %><%
+	}
+
+	// Print issue
+	if (citation.issue){
+		%> (<%- citation.issue %>)<%
+	}
+
+	// Print page
+	if (citation.page){
+		%>, <%- citation.page %><%
+	}
+
+	// Print DOI
+	%>. [<%- citation.DOI %>](<%- citation.URL %>).
 	<%
 }
-
 %>
 
+Full list of Petr Stepanov's publication can be found on [Google Scholar page](https://scholar.google.com/citations?hl=en&user=S5etjqoAAAAJ&view_op=list_works&sortby=pubdate).
 
-<%- position %>
+<% 
+// End if role == ms or all
+} %>
+
+Computer Science Skills
+-----------------------
+
+* **Essentials**. Git, SVN, SSH, Linux, and Terminal usage. BASH scripting. IDEs: Eclipse, Xcode, Visual Studio Code (VS Code). Project management: JIRA, Trello.
+
+<% if (role == "ms" || role == "all"){ %>
+	* **Simulation and data analysis**: Geant4, CERN ROOT, MATLAB, Wolfram Mathematica, Maple.
+
+	* **Academic writing**: LaTeX, MS Office Suite, Zotero.
+
+	* **Data plotting**: Gnuplot, OriginLab, QtiPlot, SciDaVis, Grapher.
+<% } %>
+
+* **Desktop app development**. C/C++, GNU make, CMake. Frameworks: Qt, CERN ROOT, Geant4. Java and Swing. Python.
+
+* **Frontend**: HTML, CSS (LESS and SASS), Bootstrap, responsive web design, JavaScript and jQuery, npm, gulp, AngularJS, React.js. Google Web Toolkit. PHP and WordPress themes development.
+
+<% if (role == "cs" || role == "ui" || role == "all"){ %>
+	* **Backend**. Node.js, EJS, Java.
+
+	* **UI/UX design**. Figma, Sketch, InVision Studio, Adobe XD, Adobe Photoshop, Adobe Illustrator, Inkscape, Blasamiq, Blender.
+
+	* **Apple iOS**. Fundamental Swift skills. User interface development with UIkit and storyboards.
+<% } %>
+
+<% if(role == "ms" || role == "all"){ %>
+	Material Research Skills
+	------------------------
+
+	* **Characterization facilities**. Positron Lifetime and Doppler Broadening Annihilation Spectroscopy (PALS, DBAR). Atom Probe Tomography (ATP). Scanning Electron Microscopy (SEM). Transmission electron microscopy (TEM). Atomic Force Microscopy (AFM). UV-VIS Spectroscopy. Fourier Transform Infrared Spectroscopy (FTIR).
+
+	* **Material processing**. High-temperature annealing. Wet chemical etching. Electrical Contact Fabrication. Sample polishing.
+<% } %>
+
+<% if (role == "all") { %>
+
+Conferences
+-----------
+
+<% for (const conference of conferences){ %>
+	### <%- conference.name %>
+
+	📅 <%- conference.date %>
+
+	<%- conference.location %>
+
+	<%- conference.info %>
+<% } %>
+<% 
+// End if role == ms or all
+} %>
+
+Professional Networks
+---------------------
+
+<% for (const key in networks){
+	const roles = networks[key].role;
+	if (roles.includes(role)){
+		%>* <%- networks[key].text %>
+	<% }
+} %>

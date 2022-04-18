@@ -1,39 +1,19 @@
 Petr Stepanov
 =============
 
+
+
+
     UI/UX designer. Frontend and desktop developer.
  ✉️ [stepanovps@gmail.com](mailto:stepanovps@gmail.com)
  📞 [(419) 496-86-02](tel:+14194968602)
  🏠 [petrstepanov.com](https://petrstepanov.com/)
- 💻 [GitHub](https://github.com/petrstepanov)
- 🏀 [Dribbble](https://dribbble.com/petrstepanov)
 
 
-Summary
--------
+Summary of Qualifications
+-------------------------
 
  Ph.D. graduate in physics with 5+ year expertise in user interface (UI) and user experience (UX) design. Strong web application and desktop software development skills. Authorized to work in the US on [Optional Practical Training](https://en.wikipedia.org/wiki/Optional_Practical_Training) (OPT expires February 2023). Will consider visa sponsorship offers.
-
-
-Computer Science Skills
----------------
-
-* **Essentials**. Git, SVN, SSH, Linux, and Terminal usage. BASH scripting. IDEs: Eclipse, Xcode, Visual Studio Code (VS Code). Project management: JIRA, Trello.
-
-
-
-* **Desktop app development**. C/C++, GNU make, CMake. Frameworks: Qt, CERN ROOT, Geant4. Java and Swing. Python.
-
-* **Frontend**: HTML, CSS (LESS and SASS), Bootstrap, responsive web design, JavaScript and jQuery, npm, gulp, AngularJS, React.js. Google Web Toolkit. PHP and WordPress themes development.
-
-
-* **Backend**. Node.js, EJS, Java.
-
-* **UI/UX design**. Figma, Sketch, InVision Studio, Adobe XD, Adobe Photoshop, Adobe Illustrator, Inkscape, Blasamiq, Blender.
-
-* **Apple iOS**. Fundamental Swift skills. User interface development with UIkit and storyboards.
-
-
 
 
 Work Experience
@@ -45,11 +25,6 @@ Work Experience
 
 📅 Jul 2020 - Current
 
-* Applied CERN ROOT framework (C++) to perform statistical analysis of a significant amount (over 100 GB) of the raw experimental data of the [Kaon LT](https://redmine.jlab.org/projects/kltexp/wiki) experiment at JLab. [Link to GitHub](https://github.com/petrstepanov/kaonlt-fit).
-* Utilized SLURM environment on [JLab supercomputer environment](https://scicomp.jlab.org/scicomp/index.html) to run resourceful particle simulations on multiple computing nodes at the same time. This decreased the wall computation time by more than 10 times.
-* Proposed and implemented RAMDisk functionality on the development environment. This lead to an over 60% increase in source code indexing time.
-* Set up data acquisition system that performs triggered waveform acquisition from Tektronix oscilloscope to a local Network Attached Storage (NAS) device. RedHat, Ethernet, SAMBA, Python, National Instruments VISA library.
-* Committed 50+ shifts at the particle accelerator performing Target Operator and Shift Leader duties ([Pion LT project](https://redmine.jlab.org/projects/hall-c/wiki/), experimental Hall C).
 
 ### Software Developer • Postdoctoral Researcher
 
@@ -57,10 +32,6 @@ Work Experience
 
 📅 Jul 2020 - Current
 
-* Applied Machine Learning (ML) TMVA framework to perform binary classification of thousands of signals from a data acquisition (DAQ) setup. [Link to GitHub](https://github.com/petrstepanov/dual-readout-tmva).
-* Developed a computer simulation based on the Geant4 framework (C++, CMake, Eclipse IDE, gdb) to study optical properties of a novel scintillation material to be used in the EIC detector system. [Link to GitHub](https://github.com/petrstepanov/geant4-glass).
-* Teaching experience: mentoring students within a 3-month Research Experiences for Undergraduates (REU) program at the Physics Department at CUA. Giving talks and presentations about [Linux Terminal](https://petrstepanov.com/static/presentations/presentation-2021-06-03-linux-terminal.pdf), and [supercomputer environment](https://petrstepanov.com/static/presentations/presentation-2021-06-17-jlab-geant-root.pdf).
-* Enhanced debugging of the core library source code lead to opening more than [10 bug reports](https://root-forum.cern.ch/u/petrstepanov/activity/topics) on the ROOT (C++) forum.
 
 ### Software Developer • Research Assistant
 
@@ -68,14 +39,10 @@ Work Experience
 
 📅 Aug 2014 - May 2020
 
-* Applied ROOT C++ libraries to write three GUI open-source software for scientific data interpretation.
+* Wrote three desktop GUI programs for spectra fitting and interpretation (C++, CMake, ROOT, Qt, Java)
     * GitHub repositories contain over 10k lines of code in total: [TLIST Processor](https://github.com/petrstepanov/tlist-processor), [SW Calculator](https://github.com/petrstepanov/sw-calculator), [RooPositron](https://github.com/petrstepanov/roopositron).
     * Technologies used: CMake, C++, ROOT, Fox GUI and RooFit libraries.
     * Extended default ROOT GUI library (Qt-based) to support the MVP design pattern.
-* Wrote a GUI application [LuminApp](https://github.com/petrstepanov/luminapp) (Java, Swing) to parse and merge time-stamped data from optical spectrometer and thermometer. This increased data processing time by two orders of magnitude.
-* Developed static website (Hexo, Gulp, Bootstrap) and visual identity for the [SelimLab](http://physics.bgsu.edu/selimlab/) research group. Website has a 99% Google performance rank and features 700 ms time to interactive metrics.
-* Maintained local Apache HTTP server [physics.bgsu.edu](https://physics.bgsu.edu/) hosting over 10 websites at the BGSU.
-* Created website for the [ICPA-18](https://physics.bgsu.edu/icpa18/) international conference with registration (over 150 users) and payment system workflow (WordPress, PHP, Recurly.js), and [landing pages](https://physics.bgsu.edu/IWZnO_2020/index.html) for events.
 
 ### UI/UX Designer, Frontend Developer • Freelance
 
@@ -142,12 +109,32 @@ Three-month intensive in Graphical Design and Visual Communications. Lectures an
 
 
 
-Recent publications
--------------------
+Computer Science Skills
+-----------------------
 
-* J. Arrington, C Ayerbe. Gayoso, P C. Barry, V. Berdnikov, D. Binosi, L. Chang, M. Diefenthaler, M. Ding, R. Ent, T. Frederico, Y. Furletova, T J. Hobbs, T. Horn, G M. Huber, S J D. Kay, C. Keppel, H-W. Lin, C. Mezrag, R. Montgomery, I L. Pegg, K. Raya, P. Reimer, D G. Richards, C D. Roberts, J. Rodríguez-Quintero, D. Romanov, G. Salmè, N. Sato, J. Segovia, P. Stepanov, A S. Tadepalli, R L. Trotta. Revealing the structure of light pseudoscalar mesons at the electron–ion collider
-* P. S.. Stepanov, F. A.. Selim, S. V.. Stepanov, A. V.. Bokov, O. V.. Ilyukhina, G.. Duplâtre, V. M.. Byakov. Interaction of positronium with dissolved oxygen in liquids
-
+* **Essentials**. Git, SVN, SSH, Linux, and Terminal usage. BASH scripting. IDEs: Eclipse, Xcode, Visual Studio Code (VS Code). Project management: JIRA, Trello.
 
 
-ui
+
+* **Desktop app development**. C/C++, GNU make, CMake. Frameworks: Qt, CERN ROOT, Geant4. Java and Swing. Python.
+
+* **Frontend**: HTML, CSS (LESS and SASS), Bootstrap, responsive web design, JavaScript and jQuery, npm, gulp, AngularJS, React.js. Google Web Toolkit. PHP and WordPress themes development.
+
+
+* **Backend**. Node.js, EJS, Java.
+
+* **UI/UX design**. Figma, Sketch, InVision Studio, Adobe XD, Adobe Photoshop, Adobe Illustrator, Inkscape, Blasamiq, Blender.
+
+* **Apple iOS**. Fundamental Swift skills. User interface development with UIkit and storyboards.
+
+
+
+
+
+
+Professional Networks
+---------------------
+
+* Discover my professional contacts [on LinkedIn](https://www.linkedin.com/in/petrstepanov/en/) (200+ connections).
+* Find examples of my code [on GitHub](https://github.com/petrstepanov/) (50+ repositories).
+* Check out my UI design portfolio [on Dribbble](https://dribbble.com/petrstepanov) (50+ shots).

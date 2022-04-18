@@ -1,0 +1,47 @@
+- name: 18th International Conference on Positron Annihilation (ICPA-18)
+  date: Aug 2018
+  location: Orlando, FL, USA
+  info: Oral talk "Positions and Ps in Al₂O₃ Nanopowders
+  featured: true
+
+- name: International Workshop on Physics with Positrons (JPos17)
+  date: Sept 2017
+  location: JLab, Newport News, VA, USA
+  info: Poster "A routine of background subtraction from two-dimensional Doppler broadened spectra"
+  featured: true
+
+- name: 12th International Workshop on Positron and Positronium Chemistry (PPC12)
+  date: Sept 2017
+  location: Maria Curie-Sklodowska University, Lublin, Poland
+  info: Poster "Developing new routine for processing two-dimensional coincidence Doppler energy spectra"
+  featured: false
+
+- name: Ohio Photochemical Society Meeting (Oops)
+  date: May 2017
+  location: Maumee Bay Lodge & Conference Center, Maumee, OH, USA
+  info: Poster "Developing new routine for background subtraction in two-dimensional coincidence Doppler broadening spectroscopy"
+  featured: false
+
+- name: 58th Electronic Materials Conference (EMC)
+  date: Jun 2016
+  location: University of Delaware, Newark, DE, USA
+  info: Oral talk "High-Sensitivity Measurements of Defects in ZnO by Means of Digital Coincidence Doppler Broadening of Positron Annihilation Spectroscopy"
+  featured: false
+
+- name: Annual Spring Meeting of the APS Ohio-Region
+  date: Apr 2016
+  location: University of Dayton, Dayton, OH, USA
+  info: Oral talk "Identification of chemical environment of defects in ZnO by means of digital coincidence Doppler broadening of positron annihilation radiation"
+  featured: false
+
+- name: Ohio Inorganic Weekend
+  date: Nov 2015
+  location: Bowling Green State University, OH, USA
+  info: Poster "Approaching Structural Defect Characterization and their Chemical Identification by Means of Coincidence Doppler Broadening of Annihilation Radiation"
+  featured: false
+
+- name: 41st Polish Seminar on Positron Annihilation (PSPA-13)
+  date: Sep 2013
+  location: Maria Curie-Sklodowska University, Lublin, Poland
+  info: Oral talk "Application of positron spectroscopy for detection of nanostructures in alcohol―aqueous mixtures"
+  featured: false

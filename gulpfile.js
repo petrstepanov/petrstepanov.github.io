@@ -73,11 +73,11 @@ function copy() {
 // See original GULP docs for (cb)
 function renderMD(cb) {
 	console.log(process.argv);
-	const positions = ["cs", "ms", "ui", "all"];
+	const roles = ["cs", "ms", "ui", "all"];
 	// Generate Markdown resumes
 	var promises = [];
-	for (pos of positions){
-		const thatPos = pos;
+	for (role of roles){
+		const thatRole = role;
 		// console.log("renderMD: starting " + pos)
 		const promise = new Promise((resolve, reject) => {
 			// Replace tabs in file (trick to easier read)
@@ -95,17 +95,19 @@ function renderMD(cb) {
 					// https://stackoverflow.com/questions/28096836/how-to-pipe-yaml-into-ejs-in-a-gulp-stream
 					gulp.src('./src/templates/main-no-tabs.ejs')
 					.pipe(ejs({
-						position:     thatPos,
+						role:     thatRole,
 						topLinks:     yaml.load(fs.readFileSync('./src/templates/data/top-links.yml', 'utf-8')),
 						work:         yaml.load(fs.readFileSync('./src/templates/data/work.yml', 'utf-8')),
 						education:    yaml.load(fs.readFileSync('./src/templates/data/education.yml', 'utf-8')),
-						publications: yaml.load(fs.readFileSync('./src/templates/data/publications.yml', 'utf-8')),						
+						publications: yaml.load(fs.readFileSync('./src/templates/data/publications.yml', 'utf-8')),
+						conferences:  yaml.load(fs.readFileSync('./src/templates/data/conferences.yml', 'utf-8')),
+						networks:     yaml.load(fs.readFileSync('./src/templates/data/networks.yml', 'utf-8')),
 						citejs: Cite
 					}, { async: true }))
-					.pipe(rename({ basename: 'petr-stepanov-' + thatPos, extname: '.md' }))
+					.pipe(rename({ basename: 'petr-stepanov-' + thatRole, extname: '.md' }))
 					.pipe(gulp.dest('static/'))
 					.on('end', function() {
-						// console.log("renderMD: " + thatPos + " done");
+						// console.log("renderMD: " + thatRole + " done");
 						// Delete temp file
 						// fs.unlink('./src/templates/main-no-tabs.ejs');
 						resolve();
