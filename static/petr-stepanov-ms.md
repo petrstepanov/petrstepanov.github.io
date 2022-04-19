@@ -1,24 +1,37 @@
 Petr Stepanov
 =============
 
-
-
-> Ph.D. graduate in physics with expertise **materials science**, **gamma spectroscopy**, **defect studies**, microscopy, and nuclear physics. 5+ years of experience in **data analysis** and **particle simulations** and software development.
-
+    Materials science. Particle simulations and data analysis. Software development.
 
  ✉️ [stepanovps@gmail.com](mailto:stepanovps@gmail.com)
  📞 [(419) 496-86-02](tel:+14194968602)
  🏠 [petrstepanov.com](https://petrstepanov.com/)
 
+> Ph.D. graduate in physics with expertise **materials science**, **gamma-ray spectroscopy**, **defect studies**, and nuclear physics. 7+ years of experience in **data analysis**, **simulations** in elementary **particle physics** and software development.
+
 
 Summary of Qualifications
 -------------------------
 
+* More than 7 years of experience in GUI desktop software development for experimental spectra fitting and interpretation (C++, ROOT, Qt, Java, Python).
+* Strong materials science skills: defect characterization and porosity studies in bulk materials (with crystal structure and nano-powders).
+* Over 5 years of hands-on experience with data acquisition setups and numerous fast electronic modules (ORTEC, Canberra, Tektronix).
+* Expertise with particle simulation software. Developed a number of simulation programs for applications in high-energy physics and photonics research.
 
-* Two years of experience with GEANT4 particle simulation software. Developed a program for photonics research (classification of scintillation materials) for the EIC project. 
-* Applied positron lifetime and Doppler spectroscopy techniques for defect characterization in bulk materials with crystal structure, nano-powders and liquids. 
-* Strong hardware skills with data acquisition setups (DAQ) and numerous fast electronic components (ORTEC, Canberra, Tektronix).
-* More than 5 years of experience in GUI desktop software development for experimental spectra fitting and interpretation (C++, ROOT, Qt, Java, Python).
+Computer Science Skills
+-----------------------
+
+* **Essentials**. Git, SVN, SSH, Linux, and Terminal usage. BASH scripting. IDEs: Eclipse, Xcode, Visual Studio Code (VS Code). Project management: JIRA, Trello.
+
+* **Simulation and data analysis**: Geant4, CERN ROOT, MATLAB, Wolfram Mathematica, Maple.
+
+* **Academic writing**: LaTeX, MS Office Suite, Zotero.
+
+* **Data plotting**: Gnuplot, OriginLab, QtiPlot, SciDaVis, Grapher.
+
+* **Desktop app development**. C/C++, GNU make, CMake. Frameworks: Qt, CERN ROOT, Geant4. Java and Swing. Python.
+
+* **Frontend**: HTML, CSS (LESS and SASS), Bootstrap, responsive web design, JavaScript and jQuery, npm, gulp, AngularJS, React.js. Google Web Toolkit. PHP and WordPress themes development.
 
 
 Work Experience
@@ -56,11 +69,11 @@ Work Experience
 
 📅 Aug 2014 - May 2020
 
-* Assembled positron lifetime and Doppler from ORTEC and Canberra (Mirion) fast electronic units. Utilized High-Purity Germanium Detectors (HPGe) and scintillation-based detector systems for single-photon detection.
+* Assembled positron lifetime and Doppler spectrometers from ORTEC and Canberra (Mirion) fast electronic units. Utilized High-Purity Germanium Detectors (HPGe) and scintillation-based detector systems for single-photon counting.
 * Developed three open-source programs (C++, CERN ROOT) for novel interpretation of the positron lifetime and Doppler experimental spectra.
-    * Outlined and resolved kinetic equations of reactions of positron and positronium atoms (Ps) for 3 types of materials: solids, liquids and nano-powders (Wolfram Mathemetica).
-    * Incorporated physical parameters (grain size, defect concentrations, rate constants) into complex fitting models with convolution for interpretation of the experimental spectra (RooFit).
-* Above research allowed for estimation of defect concentrations and sizes in solids, classification of defect types (vacancies, dislocations) and characterization of the chemical environment of the defect spots.
+    * Derived and solved kinetic equations describing formation and chemical of reactions of e+ and Ps atoms in solids, liquids and nano-powders (Wolfram Mathemetica).
+    * Incorporated physical parameters (grain size, defect concentrations, rate constants) into custom models (PDFs with convolution) for fitting of the experimental spectra (RooFit).
+* Above research allowed for estimation of defect concentrations and sizes in solids, classification of defect types (vacancies, dislocations) and characterization of the chemical decoration of defects.
 * Wrote a GUI application [LuminApp](https://github.com/petrstepanov/luminapp) (Java, Swing) to parse and merge time-stamped data from optical spectrometer and thermometer. This increased data processing time by two orders of magnitude.
 * Developed static website (Hexo, Gulp, Bootstrap) and visual identity for the [SelimLab](http://physics.bgsu.edu/selimlab/) research group. Website has a 99% Google performance rank and features 700 ms time to interactive metrics.
 
@@ -68,13 +81,11 @@ Work Experience
 Education
 ---------
 
-
 ### Bowling Green State University (BGSU) • Ohio, USA
 
 📅 Aug 2014 - May 2020
 
 Ph.D. in Photochemical Sciences • GPA 3.423. Novel developments in positron annihilation spectroscopy techniques—from experimental setups to advanced processing software. [View manuscript](https://petrstepanov.com/static/petr-stepanov-dissertation-latest.pdf).
-
 
 ### Ohio Supercomputer Workshop • Ohio, USA
 
@@ -83,55 +94,13 @@ Ph.D. in Photochemical Sciences • GPA 3.423. Novel developments in positron an
 Hands-on sessions in Supercomputer Essentials. Introduction to the key developments in the supercomputer field.
 
 
-### National Research Nuclear University (MEPhI) • Moscow, Russia
-
-📅 Aug 2014 - May 2020
-
-B.S. and M.S. in Solid State Physics. Defect studies of neutron-irradiated nuclear power plant vessel steels by means of positron annihilation spectroscopy.
-
-
-
 Featured Publications
 ---------------------
-
-* J. Ji, A. M. Colosimo et. al. ZnO Luminescence and scintillation studied via photoexcitation, X-ray excitation and gamma-induced positron spectroscopy. *Scientific Reports* **2016**, 6 (1). [10.1038/srep31238](http://dx.doi.org/10.1038/srep31238).
-* Le Zhang, Jiadong Wu et. al. Defects and solarization in YAG transparent ceramics. *Photonics Research* **2019**, 7 (5), 549. [10.1364/prj.7.000549](http://dx.doi.org/10.1364/PRJ.7.000549).
-* P Saadatkia, P Stepanov et. al. Photoconductivity of bulk SrTiO₃single crystals at room temperature. *Materials Research Express* **2018**, 5 (1), 016202. [10.1088/2053-1591/aaa094](http://dx.doi.org/10.1088/2053-1591/aaa094).
-* P.S. Stepanov, S.V. Stepanov et. al. Developing New Routine for Processing Two-Dimensional Coincidence Doppler Energy Spectra and Evaluation of Electron Subsystem Properties in Metals. *Acta Physica Polonica A* **2017**, 132 (5), 1628-1633. [10.12693/aphyspola.132.1628](http://dx.doi.org/10.12693/APhysPolA.132.1628).
-* P. S. Stepanov, F. A. Selim et. al. A model for joint processing of LT and CDB spectra of dielectric nano-sized powders. *AIP Conference Proceedings 2182* **2019**. [10.1063/1.5135836](http://dx.doi.org/10.1063/1.5135836).
-
-
-Full list of Petr Stepanov's publication can be found on [Google Scholar page](https://scholar.google.com/citations?hl=en&user=S5etjqoAAAAJ&view_op=list_works&sortby=pubdate).
-
-
-
-Computer Science Skills
------------------------
-
-* **Essentials**. Git, SVN, SSH, Linux, and Terminal usage. BASH scripting. IDEs: Eclipse, Xcode, Visual Studio Code (VS Code). Project management: JIRA, Trello.
-
-
-* **Simulation and data analysis**: Geant4, CERN ROOT, MATLAB, Wolfram Mathematica, Maple.
-
-* **Academic writing**: LaTeX, MS Office Suite, Zotero.
-
-* **Data plotting**: Gnuplot, OriginLab, QtiPlot, SciDaVis, Grapher.
-
-
-* **Desktop app development**. C/C++, GNU make, CMake. Frameworks: Qt, CERN ROOT, Geant4. Java and Swing. Python.
-
-* **Frontend**: HTML, CSS (LESS and SASS), Bootstrap, responsive web design, JavaScript and jQuery, npm, gulp, AngularJS, React.js. Google Web Toolkit. PHP and WordPress themes development.
-
-
-
-
-Material Research Skills
-------------------------
-
-* **Characterization facilities**. Positron Lifetime and Doppler Broadening Annihilation Spectroscopy (PALS, DBAR). Atom Probe Tomography (ATP). Scanning Electron Microscopy (SEM). Transmission electron microscopy (TEM). Atomic Force Microscopy (AFM). UV-VIS Spectroscopy. Fourier Transform Infrared Spectroscopy (FTIR).
-
-* **Material processing**. High-temperature annealing. Wet chemical etching. Electrical Contact Fabrication. Sample polishing.
-
+* P. S. Stepanov, F. A. Selim et al. Interaction of positronium with dissolved oxygen in liquids. *Physical Chemistry Chemical Physics* **2020**, 22 (9), 5123-5131. [10.1039/c9cp06105c](http://dx.doi.org/10.1039/C9CP06105C).
+* P. S. Stepanov, F. A. Selim et al. A model for joint processing of LT and CDB spectra of dielectric nano-sized powders. *AIP Conference Proceedings 2182* **2019**. [10.1063/1.5135836](http://dx.doi.org/10.1063/1.5135836).
+* P Saadatkia, P Stepanov et al. Photoconductivity of bulk SrTiO₃single crystals at room temperature. *Materials Research Express* **2018**, 5 (1), 016202. [10.1088/2053-1591/aaa094](http://dx.doi.org/10.1088/2053-1591/aaa094).
+* P.S. Stepanov, S.V. Stepanov et al. Developing New Routine for Processing Two-Dimensional Coincidence Doppler Energy Spectra and Evaluation of Electron Subsystem Properties in Metals. *Acta Physica Polonica A* **2017**, 132 (5), 1628-1633. [10.12693/aphyspola.132.1628](http://dx.doi.org/10.12693/APhysPolA.132.1628).
+* J. Ji, A. M. Colosimo et al. ZnO Luminescence and scintillation studied via photoexcitation, X-ray excitation and gamma-induced positron spectroscopy. *Scientific Reports* **2016**, 6 (1). [10.1038/srep31238](http://dx.doi.org/10.1038/srep31238).
 
 
 
@@ -140,5 +109,11 @@ Professional Networks
 
 * Discover my professional contacts [on LinkedIn](https://www.linkedin.com/in/petrstepanov/en/) (200+ connections).
 * Get familiar with my scientific career [on ResearchGate](https://www.researchgate.net/profile/Petr_Stepanov2).
-* Skim through the list of my publications [on Google Scholar](https://scholar.google.com/citations?hl=en&user=S5etjqoAAAAJ&view_op=list_works&sortby=pubdate) (200+ citations).
+* Skim through the list of my publications [on Google Scholar](https://scholar.google.com/citations?hl=en&user=S5etjqoAAAAJ&view_op=list_works&sortby=pubdate) (24 articles, 200+ citations).
 * Find examples of my code [on GitHub](https://github.com/petrstepanov/) (50+ repositories).
+
+
+Interests
+---------
+
+Linux and open-source software. Hosting an [open-source project](https://github.com/petrstepanov/gnome-macos-remap) aimed at keyboard remapping under Linux (over 250 stars on GitHub).

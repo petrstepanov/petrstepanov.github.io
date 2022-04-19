@@ -40,16 +40,15 @@ bgsu:
   role_cs: Software Developer • Research Assistant
   role_ui: Software Developer • Research Assistant
   description:
-    - "<ms> Assembled positron lifetime and Doppler from ORTEC and Canberra (Mirion) fast electronic units. Utilized High-Purity Germanium Detectors (HPGe) and scintillation-based detector systems for single-photon detection."
+    - "<ms> Assembled positron lifetime and Doppler spectrometers from ORTEC and Canberra (Mirion) fast electronic units. Utilized High-Purity Germanium Detectors (HPGe) and scintillation-based detector systems for single-photon counting."
     - "<ms> Developed three open-source programs (C++, CERN ROOT) for novel interpretation of the positron lifetime and Doppler experimental spectra."
-    - - "<ms> Outlined and resolved kinetic equations of reactions of positron and positronium atoms (Ps) for 3 types of materials: solids, liquids and nano-powders (Wolfram Mathemetica)."
-      - "<ms> Incorporated physical parameters (grain size, defect concentrations, rate constants) into complex fitting models with convolution for interpretation of the experimental spectra (RooFit)."
-    - "<ms> Above research allowed for estimation of defect concentrations and sizes in solids, classification of defect types (vacancies, dislocations) and characterization of the chemical environment of the defect spots."
+    - - "<ms> Derived and solved kinetic equations describing formation and chemical of reactions of e+ and Ps atoms in solids, liquids and nano-powders (Wolfram Mathemetica)."
+      - "<ms> Incorporated physical parameters (grain size, defect concentrations, rate constants) into custom models (PDFs with convolution) for fitting of the experimental spectra (RooFit)."
+    - "<ms> Above research allowed for estimation of defect concentrations and sizes in solids, classification of defect types (vacancies, dislocations) and characterization of the chemical decoration of defects."
     - "<cs ui> Wrote three desktop GUI programs for spectra fitting and interpretation (C++, CMake, ROOT, Qt, Java)"
     - - "<cs ui> GitHub repositories contain over 10k lines of code in total: [TLIST Processor](https://github.com/petrstepanov/tlist-processor), [SW Calculator](https://github.com/petrstepanov/sw-calculator), [RooPositron](https://github.com/petrstepanov/roopositron)."
-      - "<cs ui> Technologies used: CMake, C++, ROOT, Fox GUI and RooFit libraries."
       - "<cs ui> Extended default ROOT GUI library (Qt-based) to support the MVP design pattern."
-    - "<ms cs> Wrote a GUI application [LuminApp](https://github.com/petrstepanov/luminapp) (Java, Swing) to parse and merge time-stamped data from optical spectrometer and thermometer. This increased data processing time by two orders of magnitude."
+    - "<ms> Wrote a GUI application [LuminApp](https://github.com/petrstepanov/luminapp) (Java, Swing) to parse and merge time-stamped data from optical spectrometer and thermometer. This increased data processing time by two orders of magnitude."
     - "<ms cs> Developed static website (Hexo, Gulp, Bootstrap) and visual identity for the [SelimLab](http://physics.bgsu.edu/selimlab/) research group. Website has a 99% Google performance rank and features 700 ms time to interactive metrics."
     - "<cs> Maintained local Apache HTTP server [physics.bgsu.edu](https://physics.bgsu.edu/) hosting over 10 websites at the BGSU."
     - "<cs> Created website for the [ICPA-18](https://physics.bgsu.edu/icpa18/) international conference with registration (over 150 users) and payment system workflow (WordPress, PHP, Recurly.js), and [landing pages](https://physics.bgsu.edu/IWZnO_2020/index.html) for events."

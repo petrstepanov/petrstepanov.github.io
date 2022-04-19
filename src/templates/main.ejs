@@ -1,58 +1,74 @@
 Petr Stepanov
 =============
 
-
-<% if (role == "ms" || role == "all") { %>
-	> Ph.D. graduate in physics with expertise **materials science**, **gamma spectroscopy**, **defect studies**, microscopy, and nuclear physics. 5+ years of experience in **data analysis** and **particle simulations** and software development.
-<% } %>
-
-<% 
-	// SLOGAN 
+<%	// SLOGAN 
 	switch(role) {
-//		case "ms":
-//			Materials science. Defect studies. Particle simulations and data analysis.
-//			break;
+		case "ms":
+			%>    Materials science. Particle simulations and data analysis. Software development.
+			<% break;
 		case "cs":
-			%>    Software developer. UI designer.
+			%>    Software developer. User interface designer.
 			<% break;
 		case "ui":
 			%>    UI/UX designer. Frontend and desktop developer.
 			<% break;
 		case "all":
 			%>    Materials science. Data analysis. Desktop and web applications development. UI/UX design.
-			<% break;			
-	}
-
-	// TOP LINKS
-	for (var key in topLinks){
-%> <%- topLinks[key].icon %> [<%- topLinks[key].text %>](<%- topLinks[key].link %>)
-<% } %>
-
-Summary of Qualifications
--------------------------
-
-<%
-	switch(role) {
-		case "ms":
-			%>
-			* Two years of experience with GEANT4 particle simulation software. Developed a program for photonics research (classification of scintillation materials) for the EIC project. 
-			* Applied positron lifetime and Doppler spectroscopy techniques for defect characterization in bulk materials with crystal structure, nano-powders and liquids. 
-			* Strong hardware skills with data acquisition setups (DAQ) and numerous fast electronic components (ORTEC, Canberra, Tektronix).
-			* More than 5 years of experience in GUI desktop software development for experimental spectra fitting and interpretation (C++, ROOT, Qt, Java, Python).
-			<% break;
-		case "cs":
-			%> Ph.D. graduate in physics with expertise in computer science. Strong desktop and web application software development skills. More than five years in user interface (UI) and user experience (UX) design. Seeking to apply for a software development role in the industry. Authorized to work in the US on [Optional Practical Training](https://en.wikipedia.org/wiki/Optional_Practical_Training) (OPT expires February 2023). Will consider visa sponsorship offers.
-			<% break;
-		case "ui":
-			%> Ph.D. graduate in physics with 5+ year expertise in user interface (UI) and user experience (UX) design. Strong web application and desktop software development skills. Authorized to work in the US on [Optional Practical Training](https://en.wikipedia.org/wiki/Optional_Practical_Training) (OPT expires February 2023). Will consider visa sponsorship offers.
-			<% break;
-		default:
-			%>Ph.D. graduate with expertise in gamma spectroscopy, positron annihilation spectroscopy, microscopy, and nuclear physics. Strong background in computational techniques: data anayysis, particle simulations, software development (desktop and web applications). More than 5 years in UI and UX design.
-	
-			Graduated from [BGSU](https://www.bgsu.edu/) in May 2020. Seeking to become an effective member of a research group in the industry. Authorized to work in the US on [Optional Practical Training](https://en.wikipedia.org/wiki/Optional_Practical_Training) (OPT) in physics, chemistry, and computer science. OPT expires in February 2023. Will consider visa sponsorship offers.
 			<% break;
 	}
 %>
+<%	// TOP LINKS
+	for (var key in topLinks){
+		%> <%- topLinks[key].icon %> [<%- topLinks[key].text %>](<%- topLinks[key].link %>)
+<%	} 
+
+	// OBJECTIVE (BLOCKQUOTE)
+	if (role == "ms") { %>
+		> Ph.D. graduate in physics with expertise **materials science**, **gamma-ray spectroscopy**, **defect studies**, and nuclear physics. 7+ years of experience in **data analysis**, **simulations** in elementary **particle physics** and software development.
+<% 	} else if (role == "cs") { %>
+		> Ph.D. graduate in physics with focus in GUI **desktop software development** for scientific applications. More than 5 years in website and **web applications development**. Strong **user interface** (UI) and **user experience** (UX) design skills.
+<%	} else if (role == "ui") { %>
+		> Ph.D. graduate in physics with 5+ year expertise in user interface (UI) and user experience (UX) design. Strong web application and desktop software development skills.
+<%	} %>
+<% if (role == "ms") { %>
+Summary of Qualifications
+-------------------------
+
+* More than 7 years of experience in GUI desktop software development for experimental spectra fitting and interpretation (C++, ROOT, Qt, Java, Python).
+* Strong materials science skills: defect characterization and porosity studies in bulk materials (with crystal structure and nano-powders).
+* Over 5 years of hands-on experience with data acquisition setups and numerous fast electronic modules (ORTEC, Canberra, Tektronix).
+* Expertise with particle simulation software. Developed a number of simulation programs for applications in high-energy physics and photonics research.
+<% } %>
+Computer Science Skills
+-----------------------
+
+* **Essentials**. Git, SVN, SSH, Linux, and Terminal usage. BASH scripting. IDEs: Eclipse, Xcode, Visual Studio Code (VS Code). Project management: JIRA, Trello.
+<% if (role == "ms" || role == "all"){ %>
+	* **Simulation and data analysis**: Geant4, CERN ROOT, MATLAB, Wolfram Mathematica, Maple.
+
+	* **Academic writing**: LaTeX, MS Office Suite, Zotero.
+
+	* **Data plotting**: Gnuplot, OriginLab, QtiPlot, SciDaVis, Grapher.
+<% } %>
+* **Desktop app development**. C/C++, GNU make, CMake. Frameworks: Qt, CERN ROOT, Geant4. Java and Swing. Python.
+
+* **Frontend**: HTML, CSS (LESS and SASS), Bootstrap, responsive web design, JavaScript and jQuery, npm, gulp, AngularJS, React.js. Google Web Toolkit. PHP and WordPress themes development.
+<% if (role == "cs" || role == "ui" || role == "all"){ %>
+	* **Backend**. Node.js, EJS, Java.
+
+	* **UI/UX design**. Figma, Sketch, InVision Studio, Adobe XD, Adobe Photoshop, Adobe Illustrator, Inkscape, Blasamiq, Blender.
+
+	* **Apple iOS**. Fundamental Swift skills. User interface development with UIkit and storyboards.
+<% } 
+
+if(role == "all"){ %>
+	Material Research Skills
+	------------------------
+
+	* **Characterization facilities**. Positron Lifetime and Doppler Broadening Annihilation Spectroscopy (PALS, DBAR). Atom Probe Tomography (ATP). Scanning Electron Microscopy (SEM). Transmission electron microscopy (TEM). Atomic Force Microscopy (AFM). UV-VIS Spectroscopy. Fourier Transform Infrared Spectroscopy (FTIR).
+
+	* **Material processing**. High-temperature annealing. Wet chemical etching. Electrical Contact Fabrication. Sample polishing.
+<% } %>
 
 Work Experience
 ---------------
@@ -127,145 +143,90 @@ Work Experience
 
 Education
 ---------
-
 <% for (var key in education){
-	switch(role) {
-		case "cs":
-			// delete education.bhsad;
-			break;
-		case "ui":
-			delete education.mephi;
-			delete education.osc;
-			break;
-		default:
-			delete education.bhsad;
-			break;
-	}
-	// Print school %>
+	var roles = education[key].roles;
+	if (role != "all" && !roles.includes(role)) continue;
+
+	// Print school
+	%>
 	### <%- education[key].school %> • <%- education[key].location %>
 
 	📅 <%- education[key].start %> - <%- education[key].end %>
 
 	<%- education[key].degree %> in <%- education[key].major %>. <%- education[key].info %>
-	
 	<% if(role == "all" && education[key].description){
-		for (const desc of education[key].description){
+		for (var d of education[key].description){
 			%>* <%- desc %>
 		<% }
 	}
-} %><% if (role == "ms" || role == "all") { %>
+} 
 
-Featured Publications
----------------------
+if (role == "ms" || role == "all") { %>
 
-<% for (const publication of publications){
-	let json = await citejs.inputAsync(publication.doi);
-	let citation = json[0];
-	// console.log(citation);
-	%>* <%
+	Featured Publications
+	---------------------
+	<% for (const publication of publications){
+		let json = await citejs.inputAsync(publication.doi);
+		let citation = json[0];
+		// console.log(citation);
+		%>* <%
 
-	// Print Authors
-	var etalMaxNumber = 2;
-	var etal = citation.author.length > etalMaxNumber;
-	if (etal){
-		citation.author.length = etalMaxNumber;
-	}
-	for (var i=0; i < citation.author.length; i++){
-		const author = citation.author[i];
-		%><%- author.given %> <%- author.family %><%- i < citation.author.length-1 ? ', ' : etal ? ' et. al. ' : '. ' %><%
-	}
+		// Print Authors
+		var etalMaxNumber = 2;
+		var etal = citation.author.length > etalMaxNumber;
+		if (etal){
+			citation.author.length = etalMaxNumber;
+		}
+		for (var i=0; i < citation.author.length; i++){
+			const author = citation.author[i];
+			%><%- author.given %> <%- author.family %><%- i < citation.author.length-1 ? ', ' : etal ? ' et al. ' : '. ' %><%
+		}
 
-	// Print Title
-	citation.title = citation.title.replaceAll('<sub>3</sub>','₃');
-	citation.title = citation.title.replaceAll('<sup>+</sup>','⁺');
-	citation.title = citation.title.replaceAll('Al2O3','Al₂O₃');
-	citation['container-title'] = citation['container-title'].replaceAll('INTERNATIONAL CONFERENCE ON SCIENCE AND APPLIED SCIENCE (ICSAS) 2019','AIP Conference Proceedings 2182');
-	
-	%><%- citation.title %>. <%
+		// Print Title
+		citation.title = citation.title.replaceAll('<sub>3</sub>','₃');
+		citation.title = citation.title.replaceAll('<sup>+</sup>','⁺');
+		citation.title = citation.title.replaceAll('Al2O3','Al₂O₃');
+		citation['container-title'] = citation['container-title'].replaceAll('INTERNATIONAL CONFERENCE ON SCIENCE AND APPLIED SCIENCE (ICSAS) 2019','AIP Conference Proceedings 2182');
+		
+		%><%- citation.title %>. <%
 
-	// Print Journal
-	%>*<%- citation['container-title'] %>*<%
+		// Print Journal
+		%>*<%- citation['container-title'] %>*<%
 
-	// Print year
-	%> **<%- citation.published['date-parts'][0][0] %>**<%
+		// Print year
+		%> **<%- citation.published['date-parts'][0][0] %>**<%
 
-	// Print volume
-	if (citation.volume){
-		%>, <%- citation.volume %><%
-	}
+		// Print volume
+		if (citation.volume){
+			%>, <%- citation.volume %><%
+		}
 
-	// Print issue
-	if (citation.issue){
-		%> (<%- citation.issue %>)<%
-	}
+		// Print issue
+		if (citation.issue){
+			%> (<%- citation.issue %>)<%
+		}
 
-	// Print page
-	if (citation.page){
-		%>, <%- citation.page %><%
-	}
+		// Print page
+		if (citation.page){
+			%>, <%- citation.page %><%
+		}
 
-	// Print DOI
-	%>. [<%- citation.DOI %>](<%- citation.URL %>).
-	<%
-}
-%>
-
-Full list of Petr Stepanov's publication can be found on [Google Scholar page](https://scholar.google.com/citations?hl=en&user=S5etjqoAAAAJ&view_op=list_works&sortby=pubdate).
-
-<% 
-// End if role == ms or all
+		// Print DOI
+		%>. [<%- citation.DOI %>](<%- citation.URL %>).
+	<% }
 } %>
-
-Computer Science Skills
------------------------
-
-* **Essentials**. Git, SVN, SSH, Linux, and Terminal usage. BASH scripting. IDEs: Eclipse, Xcode, Visual Studio Code (VS Code). Project management: JIRA, Trello.
-
-<% if (role == "ms" || role == "all"){ %>
-	* **Simulation and data analysis**: Geant4, CERN ROOT, MATLAB, Wolfram Mathematica, Maple.
-
-	* **Academic writing**: LaTeX, MS Office Suite, Zotero.
-
-	* **Data plotting**: Gnuplot, OriginLab, QtiPlot, SciDaVis, Grapher.
-<% } %>
-
-* **Desktop app development**. C/C++, GNU make, CMake. Frameworks: Qt, CERN ROOT, Geant4. Java and Swing. Python.
-
-* **Frontend**: HTML, CSS (LESS and SASS), Bootstrap, responsive web design, JavaScript and jQuery, npm, gulp, AngularJS, React.js. Google Web Toolkit. PHP and WordPress themes development.
-
-<% if (role == "cs" || role == "ui" || role == "all"){ %>
-	* **Backend**. Node.js, EJS, Java.
-
-	* **UI/UX design**. Figma, Sketch, InVision Studio, Adobe XD, Adobe Photoshop, Adobe Illustrator, Inkscape, Blasamiq, Blender.
-
-	* **Apple iOS**. Fundamental Swift skills. User interface development with UIkit and storyboards.
-<% } %>
-
-<% if(role == "ms" || role == "all"){ %>
-	Material Research Skills
-	------------------------
-
-	* **Characterization facilities**. Positron Lifetime and Doppler Broadening Annihilation Spectroscopy (PALS, DBAR). Atom Probe Tomography (ATP). Scanning Electron Microscopy (SEM). Transmission electron microscopy (TEM). Atomic Force Microscopy (AFM). UV-VIS Spectroscopy. Fourier Transform Infrared Spectroscopy (FTIR).
-
-	* **Material processing**. High-temperature annealing. Wet chemical etching. Electrical Contact Fabrication. Sample polishing.
-<% } %>
-
 <% if (role == "all") { %>
+	Conferences
+	-----------
+	<% for (const conference of conferences){ %>
+		### <%- conference.name %>
 
-Conferences
------------
+		📅 <%- conference.date %>
 
-<% for (const conference of conferences){ %>
-	### <%- conference.name %>
+		<%- conference.location %>
 
-	📅 <%- conference.date %>
-
-	<%- conference.location %>
-
-	<%- conference.info %>
-<% } %>
-<% 
-// End if role == ms or all
+		<%- conference.info %>
+	<% }
 } %>
 
 Professional Networks
@@ -273,7 +234,15 @@ Professional Networks
 
 <% for (const key in networks){
 	const roles = networks[key].role;
-	if (roles.includes(role)){
+	if (roles.includes(role) || role=="all"){
 		%>* <%- networks[key].text %>
 	<% }
 } %>
+
+Interests
+---------
+
+Linux and open-source software. Hosting an [open-source project](https://github.com/petrstepanov/gnome-macos-remap) aimed at keyboard remapping under Linux (over 250 stars on GitHub).
+<%
+	// > Authorized to work in US on [Optional Practical Training](https://en.wikipedia.org/wiki/Optional_Practical_Training) (OPT expires February 2023). Will consider visa sponsorship offers.
+%>

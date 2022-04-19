@@ -1,19 +1,29 @@
 Petr Stepanov
 =============
 
-
-
-
     UI/UX designer. Frontend and desktop developer.
+
  ✉️ [stepanovps@gmail.com](mailto:stepanovps@gmail.com)
  📞 [(419) 496-86-02](tel:+14194968602)
  🏠 [petrstepanov.com](https://petrstepanov.com/)
 
+> Ph.D. graduate in physics with 5+ year expertise in user interface (UI) and user experience (UX) design. Strong web application and desktop software development skills.
 
-Summary of Qualifications
--------------------------
 
- Ph.D. graduate in physics with 5+ year expertise in user interface (UI) and user experience (UX) design. Strong web application and desktop software development skills. Authorized to work in the US on [Optional Practical Training](https://en.wikipedia.org/wiki/Optional_Practical_Training) (OPT expires February 2023). Will consider visa sponsorship offers.
+Computer Science Skills
+-----------------------
+
+* **Essentials**. Git, SVN, SSH, Linux, and Terminal usage. BASH scripting. IDEs: Eclipse, Xcode, Visual Studio Code (VS Code). Project management: JIRA, Trello.
+
+* **Desktop app development**. C/C++, GNU make, CMake. Frameworks: Qt, CERN ROOT, Geant4. Java and Swing. Python.
+
+* **Frontend**: HTML, CSS (LESS and SASS), Bootstrap, responsive web design, JavaScript and jQuery, npm, gulp, AngularJS, React.js. Google Web Toolkit. PHP and WordPress themes development.
+
+* **Backend**. Node.js, EJS, Java.
+
+* **UI/UX design**. Figma, Sketch, InVision Studio, Adobe XD, Adobe Photoshop, Adobe Illustrator, Inkscape, Blasamiq, Blender.
+
+* **Apple iOS**. Fundamental Swift skills. User interface development with UIkit and storyboards.
 
 
 Work Experience
@@ -41,7 +51,6 @@ Work Experience
 
 * Wrote three desktop GUI programs for spectra fitting and interpretation (C++, CMake, ROOT, Qt, Java)
     * GitHub repositories contain over 10k lines of code in total: [TLIST Processor](https://github.com/petrstepanov/tlist-processor), [SW Calculator](https://github.com/petrstepanov/sw-calculator), [RooPositron](https://github.com/petrstepanov/roopositron).
-    * Technologies used: CMake, C++, ROOT, Fox GUI and RooFit libraries.
     * Extended default ROOT GUI library (Qt-based) to support the MVP design pattern.
 
 ### UI/UX Designer, Frontend Developer • Freelance
@@ -93,42 +102,17 @@ Work Experience
 Education
 ---------
 
-
 ### Bowling Green State University (BGSU) • Ohio, USA
 
 📅 Aug 2014 - May 2020
 
 Ph.D. in Photochemical Sciences • GPA 3.423. Novel developments in positron annihilation spectroscopy techniques—from experimental setups to advanced processing software. [View manuscript](https://petrstepanov.com/static/petr-stepanov-dissertation-latest.pdf).
 
-
 ### British Higher School of Art and Design (BHSAD) • Moscow, Russia
 
 📅 Dec 2011 - Feb 2012
 
-Three-month intensive in Graphical Design and Visual Communications. Lectures and hands-on experience in graphic design. Intensive covered following subjects: brand identity, illustration principles, typography and lettering, effective advertising campaigns.
-
-
-
-Computer Science Skills
------------------------
-
-* **Essentials**. Git, SVN, SSH, Linux, and Terminal usage. BASH scripting. IDEs: Eclipse, Xcode, Visual Studio Code (VS Code). Project management: JIRA, Trello.
-
-
-
-* **Desktop app development**. C/C++, GNU make, CMake. Frameworks: Qt, CERN ROOT, Geant4. Java and Swing. Python.
-
-* **Frontend**: HTML, CSS (LESS and SASS), Bootstrap, responsive web design, JavaScript and jQuery, npm, gulp, AngularJS, React.js. Google Web Toolkit. PHP and WordPress themes development.
-
-
-* **Backend**. Node.js, EJS, Java.
-
-* **UI/UX design**. Figma, Sketch, InVision Studio, Adobe XD, Adobe Photoshop, Adobe Illustrator, Inkscape, Blasamiq, Blender.
-
-* **Apple iOS**. Fundamental Swift skills. User interface development with UIkit and storyboards.
-
-
-
+Three-month intensive in Graphical Design and Visual Communications. Lectures and hands-on experience in graphic design and user interfaces.
 
 
 
@@ -138,3 +122,9 @@ Professional Networks
 * Discover my professional contacts [on LinkedIn](https://www.linkedin.com/in/petrstepanov/en/) (200+ connections).
 * Find examples of my code [on GitHub](https://github.com/petrstepanov/) (50+ repositories).
 * Check out my UI design portfolio [on Dribbble](https://dribbble.com/petrstepanov) (50+ shots).
+
+
+Interests
+---------
+
+Linux and open-source software. Hosting an [open-source project](https://github.com/petrstepanov/gnome-macos-remap) aimed at keyboard remapping under Linux (over 250 stars on GitHub).

@@ -1,19 +1,29 @@
 Petr Stepanov
 =============
 
+    Software developer. User interface designer.
 
-
-
-    Software developer. UI designer.
  ✉️ [stepanovps@gmail.com](mailto:stepanovps@gmail.com)
  📞 [(419) 496-86-02](tel:+14194968602)
  🏠 [petrstepanov.com](https://petrstepanov.com/)
 
+> Ph.D. graduate in physics with focus in GUI **desktop software development** for scientific applications. More than 5 years in website and **web applications development**. Strong **user interface** (UI) and **user experience** (UX) design skills.
 
-Summary of Qualifications
--------------------------
 
- Ph.D. graduate in physics with expertise in computer science. Strong desktop and web application software development skills. More than five years in user interface (UI) and user experience (UX) design. Seeking to apply for a software development role in the industry. Authorized to work in the US on [Optional Practical Training](https://en.wikipedia.org/wiki/Optional_Practical_Training) (OPT expires February 2023). Will consider visa sponsorship offers.
+Computer Science Skills
+-----------------------
+
+* **Essentials**. Git, SVN, SSH, Linux, and Terminal usage. BASH scripting. IDEs: Eclipse, Xcode, Visual Studio Code (VS Code). Project management: JIRA, Trello.
+
+* **Desktop app development**. C/C++, GNU make, CMake. Frameworks: Qt, CERN ROOT, Geant4. Java and Swing. Python.
+
+* **Frontend**: HTML, CSS (LESS and SASS), Bootstrap, responsive web design, JavaScript and jQuery, npm, gulp, AngularJS, React.js. Google Web Toolkit. PHP and WordPress themes development.
+
+* **Backend**. Node.js, EJS, Java.
+
+* **UI/UX design**. Figma, Sketch, InVision Studio, Adobe XD, Adobe Photoshop, Adobe Illustrator, Inkscape, Blasamiq, Blender.
+
+* **Apple iOS**. Fundamental Swift skills. User interface development with UIkit and storyboards.
 
 
 Work Experience
@@ -50,9 +60,7 @@ Work Experience
 
 * Wrote three desktop GUI programs for spectra fitting and interpretation (C++, CMake, ROOT, Qt, Java)
     * GitHub repositories contain over 10k lines of code in total: [TLIST Processor](https://github.com/petrstepanov/tlist-processor), [SW Calculator](https://github.com/petrstepanov/sw-calculator), [RooPositron](https://github.com/petrstepanov/roopositron).
-    * Technologies used: CMake, C++, ROOT, Fox GUI and RooFit libraries.
     * Extended default ROOT GUI library (Qt-based) to support the MVP design pattern.
-* Wrote a GUI application [LuminApp](https://github.com/petrstepanov/luminapp) (Java, Swing) to parse and merge time-stamped data from optical spectrometer and thermometer. This increased data processing time by two orders of magnitude.
 * Developed static website (Hexo, Gulp, Bootstrap) and visual identity for the [SelimLab](http://physics.bgsu.edu/selimlab/) research group. Website has a 99% Google performance rank and features 700 ms time to interactive metrics.
 * Maintained local Apache HTTP server [physics.bgsu.edu](https://physics.bgsu.edu/) hosting over 10 websites at the BGSU.
 * Created website for the [ICPA-18](https://physics.bgsu.edu/icpa18/) international conference with registration (over 150 users) and payment system workflow (WordPress, PHP, Recurly.js), and [landing pages](https://physics.bgsu.edu/IWZnO_2020/index.html) for events.
@@ -90,56 +98,17 @@ Work Experience
 Education
 ---------
 
-
 ### Bowling Green State University (BGSU) • Ohio, USA
 
 📅 Aug 2014 - May 2020
 
 Ph.D. in Photochemical Sciences • GPA 3.423. Novel developments in positron annihilation spectroscopy techniques—from experimental setups to advanced processing software. [View manuscript](https://petrstepanov.com/static/petr-stepanov-dissertation-latest.pdf).
 
-
-### Ohio Supercomputer Workshop • Ohio, USA
-
-📅 Jan 2017 - Feb 2017
-
-Hands-on sessions in Supercomputer Essentials. Introduction to the key developments in the supercomputer field.
-
-
 ### British Higher School of Art and Design (BHSAD) • Moscow, Russia
 
 📅 Dec 2011 - Feb 2012
 
-Three-month intensive in Graphical Design and Visual Communications. Lectures and hands-on experience in graphic design. Intensive covered following subjects: brand identity, illustration principles, typography and lettering, effective advertising campaigns.
-
-
-### National Research Nuclear University (MEPhI) • Moscow, Russia
-
-📅 Aug 2014 - May 2020
-
-B.S. and M.S. in Solid State Physics. Defect studies of neutron-irradiated nuclear power plant vessel steels by means of positron annihilation spectroscopy.
-
-
-
-Computer Science Skills
------------------------
-
-* **Essentials**. Git, SVN, SSH, Linux, and Terminal usage. BASH scripting. IDEs: Eclipse, Xcode, Visual Studio Code (VS Code). Project management: JIRA, Trello.
-
-
-
-* **Desktop app development**. C/C++, GNU make, CMake. Frameworks: Qt, CERN ROOT, Geant4. Java and Swing. Python.
-
-* **Frontend**: HTML, CSS (LESS and SASS), Bootstrap, responsive web design, JavaScript and jQuery, npm, gulp, AngularJS, React.js. Google Web Toolkit. PHP and WordPress themes development.
-
-
-* **Backend**. Node.js, EJS, Java.
-
-* **UI/UX design**. Figma, Sketch, InVision Studio, Adobe XD, Adobe Photoshop, Adobe Illustrator, Inkscape, Blasamiq, Blender.
-
-* **Apple iOS**. Fundamental Swift skills. User interface development with UIkit and storyboards.
-
-
-
+Three-month intensive in Graphical Design and Visual Communications. Lectures and hands-on experience in graphic design and user interfaces.
 
 
 
@@ -149,3 +118,9 @@ Professional Networks
 * Discover my professional contacts [on LinkedIn](https://www.linkedin.com/in/petrstepanov/en/) (200+ connections).
 * Find examples of my code [on GitHub](https://github.com/petrstepanov/) (50+ repositories).
 * Check out my UI design portfolio [on Dribbble](https://dribbble.com/petrstepanov) (50+ shots).
+
+
+Interests
+---------
+
+Linux and open-source software. Hosting an [open-source project](https://github.com/petrstepanov/gnome-macos-remap) aimed at keyboard remapping under Linux (over 250 stars on GitHub).

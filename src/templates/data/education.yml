@@ -12,6 +12,7 @@ bgsu:
     - Developed open-source software (C++, CERN ROOT) for novel interpretation of the experimental spectra.
     - Defined and resolved kinetic equations of reactions of positron and positronium atoms (Ps) in solids and liquids and nano-powders (Wolfram Mathemetica). Equation parameters are implemented in the fitting model of experimental spectra (RooFit).
     - Above research allowed for estimation of defect concentrations and sizes in solids, classification of defect types (vacancies, dislocations) and more...
+  roles: ms cs ui
 osc:
   school: Ohio Supercomputer Workshop
   link: https://www.osc.edu/
@@ -25,6 +26,7 @@ osc:
     - "RedHat and CentOS operating systems: environment, networking and SSH."
     - Supercomputer job control with BASH and SLURM scripts.
     - CMake compiling platform, use of parallel nodes, A.I. fundamentals and more..."
+  roles: ms
 bhsad:
   school: British Higher School of Art and Design (BHSAD)
   link: https://britishdesign.ru/en/courses/f/communication-design/
@@ -33,7 +35,10 @@ bhsad:
   end: Feb 2012
   degree: "Three-month intensive"
   major: Graphical Design and Visual Communications
-  info: "Lectures and hands-on experience in graphic design. Intensive covered following subjects: brand identity, illustration principles, typography and lettering, effective advertising campaigns."
+  info: "Lectures and hands-on experience in graphic design and user interfaces."
+  description: 
+    - "Intensive covered following subjects: brand identity, illustration principles, typography and lettering, effective advertising campaigns."
+  roles: cs ui
 mephi:
   school: National Research Nuclear University (MEPhI)
   link: https://eng.mephi.ru/
@@ -43,3 +48,4 @@ mephi:
   degree: B.S. and M.S.
   major: Solid State Physics
   info: "Defect studies of neutron-irradiated nuclear power plant vessel steels by means of positron annihilation spectroscopy."
+  roles: ""
