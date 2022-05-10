@@ -7,34 +7,8 @@ Petr Stepanov
  📞 [(419) 496-86-02](tel:+14194968602)
  🏠 [petrstepanov.com](https://petrstepanov.com/)
 
-
-Computer Science Skills
------------------------
-
-* **Essentials**. Git, SVN, SSH, Linux, and Terminal usage. BASH scripting. IDEs: Eclipse, Xcode, Visual Studio Code (VS Code). Project management: JIRA, Trello.
-
-* **Simulation and data analysis**: Geant4, CERN ROOT, MATLAB, Wolfram Mathematica, Maple.
-
-* **Academic writing**: LaTeX, MS Office Suite, Zotero.
-
-* **Data plotting**: Gnuplot, OriginLab, QtiPlot, SciDaVis, Grapher.
-
-* **Desktop app development**. C/C++, GNU make, CMake. Frameworks: Qt, CERN ROOT, Geant4. Java and Swing. Python.
-
-* **Frontend**: HTML, CSS (LESS and SASS), Bootstrap, responsive web design, JavaScript and jQuery, npm, gulp, AngularJS, React.js. Google Web Toolkit. PHP and WordPress themes development.
-
-* **Backend**. Node.js, EJS, Java.
-
-* **UI/UX design**. Figma, Sketch, InVision Studio, Adobe XD, Adobe Photoshop, Adobe Illustrator, Inkscape, Blasamiq, Blender.
-
-* **Apple iOS**. Fundamental Swift skills. User interface development with UIkit and storyboards.
-
-Material Research Skills
-------------------------
-
-* **Characterization facilities**. Positron Lifetime and Doppler Broadening Annihilation Spectroscopy (PALS, DBAR). Atom Probe Tomography (ATP). Scanning Electron Microscopy (SEM). Transmission electron microscopy (TEM). Atomic Force Microscopy (AFM). UV-VIS Spectroscopy. Fourier Transform Infrared Spectroscopy (FTIR).
-
-* **Material processing**. High-temperature annealing. Wet chemical etching. Electrical Contact Fabrication. Sample polishing.
+Summary of Qualifications
+-------------------------
 
 
 Work Experience
@@ -88,6 +62,35 @@ Work Experience
 📅 Sep 2008 - Apr 2011
 
 * Application of positron lifetime spectroscopy for studying the radioactive-induced defects in steels. Monte-Carlo particle simulations with Fortran 95. Maintaining software for CAMECA tomographic atom probe (MSVC). Application of CERN ROOT libraries for fitting and analysis of experimental spectra.
+
+
+Computer Science Skills
+-----------------------
+
+* **Essentials**. Git, SVN, SSH, Linux, and Terminal usage. BASH scripting. IDEs: Eclipse, Xcode, Visual Studio Code (VS Code). Project management: JIRA, Trello.
+
+* **Simulation and data analysis**: Geant4, CERN ROOT, MATLAB, Wolfram Mathematica, Maple.
+
+* **Academic writing**: LaTeX, MS Office Suite, Zotero.
+
+* **Data plotting**: Gnuplot, OriginLab, QtiPlot, SciDaVis, Grapher.
+
+* **Desktop app development**. C/C++, GNU make, CMake. Frameworks: Qt, CERN ROOT, Geant4. Java and Swing. Python.
+
+* **Frontend**: HTML, CSS (LESS and SASS), Bootstrap, responsive web design, JavaScript and jQuery, npm, gulp, AngularJS, React.js. Google Web Toolkit. PHP and WordPress themes development.
+
+* **Backend**. Node.js, EJS, Java.
+
+* **UI/UX design**. Figma, Sketch, InVision Studio, Adobe XD, Adobe Photoshop, Adobe Illustrator, Inkscape, Blasamiq, Blender.
+
+* **Apple iOS**. Fundamental Swift skills. User interface development with UIkit and storyboards.
+
+Material Research Skills
+------------------------
+
+* **Characterization facilities**. Positron Lifetime and Doppler Broadening Annihilation Spectroscopy (PALS, DBAR). Atom Probe Tomography (ATP). Scanning Electron Microscopy (SEM). Transmission electron microscopy (TEM). Atomic Force Microscopy (AFM). UV-VIS Spectroscopy. Fourier Transform Infrared Spectroscopy (FTIR).
+
+* **Material processing**. High-temperature annealing. Wet chemical etching. Electrical Contact Fabrication. Sample polishing.
 
 
 Education

@@ -9,30 +9,14 @@ Petr Stepanov
 
 > Ph.D. graduate in physics with expertise **materials science**, **gamma-ray spectroscopy**, **defect studies**, and nuclear physics. 7+ years of experience in **data analysis**, **simulations** in elementary **particle physics** and software development.
 
-
 Summary of Qualifications
 -------------------------
+
 
 * More than 7 years of experience in GUI desktop software development for experimental spectra fitting and interpretation (C++, ROOT, Qt, Java, Python).
 * Strong materials science skills: defect characterization and porosity studies in bulk materials (with crystal structure and nano-powders).
 * Over 5 years of hands-on experience with data acquisition setups and numerous fast electronic modules (ORTEC, Canberra, Tektronix).
 * Expertise with particle simulation software. Developed a number of simulation programs for applications in high-energy physics and photonics research.
-
-Computer Science Skills
------------------------
-
-* **Essentials**. Git, SVN, SSH, Linux, and Terminal usage. BASH scripting. IDEs: Eclipse, Xcode, Visual Studio Code (VS Code). Project management: JIRA, Trello.
-
-* **Simulation and data analysis**: Geant4, CERN ROOT, MATLAB, Wolfram Mathematica, Maple.
-
-* **Academic writing**: LaTeX, MS Office Suite, Zotero.
-
-* **Data plotting**: Gnuplot, OriginLab, QtiPlot, SciDaVis, Grapher.
-
-* **Desktop app development**. C/C++, GNU make, CMake. Frameworks: Qt, CERN ROOT, Geant4. Java and Swing. Python.
-
-* **Frontend**: HTML, CSS (LESS and SASS), Bootstrap, responsive web design, JavaScript and jQuery, npm, gulp, AngularJS, React.js. Google Web Toolkit. PHP and WordPress themes development.
-
 
 Work Experience
 ---------------
@@ -76,6 +60,22 @@ Work Experience
 * Above research allowed for estimation of defect concentrations and sizes in solids, classification of defect types (vacancies, dislocations) and characterization of the chemical decoration of defects.
 * Wrote a GUI application [LuminApp](https://github.com/petrstepanov/luminapp) (Java, Swing) to parse and merge time-stamped data from optical spectrometer and thermometer. This increased data processing time by two orders of magnitude.
 * Developed static website (Hexo, Gulp, Bootstrap) and visual identity for the [SelimLab](http://physics.bgsu.edu/selimlab/) research group. Website has a 99% Google performance rank and features 700 ms time to interactive metrics.
+
+
+Computer Science Skills
+-----------------------
+
+* **Essentials**. Git, SVN, SSH, Linux, and Terminal usage. BASH scripting. IDEs: Eclipse, Xcode, Visual Studio Code (VS Code). Project management: JIRA, Trello.
+
+* **Simulation and data analysis**: Geant4, CERN ROOT, MATLAB, Wolfram Mathematica, Maple.
+
+* **Academic writing**: LaTeX, MS Office Suite, Zotero.
+
+* **Data plotting**: Gnuplot, OriginLab, QtiPlot, SciDaVis, Grapher.
+
+* **Desktop app development**. C/C++, GNU make, CMake. Frameworks: Qt, CERN ROOT, Geant4. Java and Swing. Python.
+
+* **Frontend**: HTML, CSS (LESS and SASS), Bootstrap, responsive web design, JavaScript and jQuery, npm, gulp, AngularJS, React.js. Google Web Toolkit. PHP and WordPress themes development.
 
 
 Education

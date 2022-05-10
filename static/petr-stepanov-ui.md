@@ -9,21 +9,8 @@ Petr Stepanov
 
 > Ph.D. graduate in physics with 5+ year expertise in user interface (UI) and user experience (UX) design. Strong web application and desktop software development skills.
 
-
-Computer Science Skills
------------------------
-
-* **Essentials**. Git, SVN, SSH, Linux, and Terminal usage. BASH scripting. IDEs: Eclipse, Xcode, Visual Studio Code (VS Code). Project management: JIRA, Trello.
-
-* **Desktop app development**. C/C++, GNU make, CMake. Frameworks: Qt, CERN ROOT, Geant4. Java and Swing. Python.
-
-* **Frontend**: HTML, CSS (LESS and SASS), Bootstrap, responsive web design, JavaScript and jQuery, npm, gulp, AngularJS, React.js. Google Web Toolkit. PHP and WordPress themes development.
-
-* **Backend**. Node.js, EJS, Java.
-
-* **UI/UX design**. Figma, Sketch, InVision Studio, Adobe XD, Adobe Photoshop, Adobe Illustrator, Inkscape, Blasamiq, Blender.
-
-* **Apple iOS**. Fundamental Swift skills. User interface development with UIkit and storyboards.
+Summary of Qualifications
+-------------------------
 
 
 Work Experience
@@ -97,6 +84,22 @@ Work Experience
 📅 Sep 2008 - Apr 2011
 
 * Application of positron lifetime spectroscopy for studying the radioactive-induced defects in steels. Monte-Carlo particle simulations with Fortran 95. Maintaining software for CAMECA tomographic atom probe (MSVC). Application of CERN ROOT libraries for fitting and analysis of experimental spectra.
+
+
+Computer Science Skills
+-----------------------
+
+* **Essentials**. Git, SVN, SSH, Linux, and Terminal usage. BASH scripting. IDEs: Eclipse, Xcode, Visual Studio Code (VS Code). Project management: JIRA, Trello.
+
+* **Desktop app development**. C/C++, GNU make, CMake. Frameworks: Qt, CERN ROOT, Geant4. Java and Swing. Python.
+
+* **Frontend**: HTML, CSS (LESS and SASS), Bootstrap, responsive web design, JavaScript and jQuery, npm, gulp, AngularJS, React.js. Google Web Toolkit. PHP and WordPress themes development.
+
+* **Backend**. Node.js, EJS, Java.
+
+* **UI/UX design**. Figma, Sketch, InVision Studio, Adobe XD, Adobe Photoshop, Adobe Illustrator, Inkscape, Blasamiq, Blender.
+
+* **Apple iOS**. Fundamental Swift skills. User interface development with UIkit and storyboards.
 
 
 Education

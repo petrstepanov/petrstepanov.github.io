@@ -7,24 +7,16 @@ Petr Stepanov
  📞 [(419) 496-86-02](tel:+14194968602)
  🏠 [petrstepanov.com](https://petrstepanov.com/)
 
-> Ph.D. graduate in physics with focus in GUI **desktop software development** for scientific applications. More than 5 years in website and **web applications development**. Strong **user interface** (UI) and **user experience** (UX) design skills.
+> Ph.D. graduate in physics with focus in GUI **desktop software development** for data analysys. More than 5 years in website and **web applications development**. Strong **user interface** (UI) and **user experience** (UX) design skills.
+
+Summary of Qualifications
+-------------------------
 
 
-Computer Science Skills
------------------------
-
-* **Essentials**. Git, SVN, SSH, Linux, and Terminal usage. BASH scripting. IDEs: Eclipse, Xcode, Visual Studio Code (VS Code). Project management: JIRA, Trello.
-
-* **Desktop app development**. C/C++, GNU make, CMake. Frameworks: Qt, CERN ROOT, Geant4. Java and Swing. Python.
-
-* **Frontend**: HTML, CSS (LESS and SASS), Bootstrap, responsive web design, JavaScript and jQuery, npm, gulp, AngularJS, React.js. Google Web Toolkit. PHP and WordPress themes development.
-
-* **Backend**. Node.js, EJS, Java.
-
-* **UI/UX design**. Figma, Sketch, InVision Studio, Adobe XD, Adobe Photoshop, Adobe Illustrator, Inkscape, Blasamiq, Blender.
-
-* **Apple iOS**. Fundamental Swift skills. User interface development with UIkit and storyboards.
-
+* Strong Object Oriented Programming (OOP) and debugging skills (C++, Java, Python). Knowledge of modern IDEs (Eclipse, XCode, VSCode).
+* 3+ years in building responsive web apps with modular JavaScript, HTML and CSS. Hands-on experience with Angular and React frameworks.
+* 5+ years of user interfaces (UI) with with Model-View patterns (MVC, MVP). Knowledge of Qt framework.
+* 6+ years of UI and UX wireframing and interactive prototyping skills (Figma, Sketch, Adobe) for web and mobile allipcations.
 
 Work Experience
 ---------------
@@ -83,16 +75,21 @@ Work Experience
     * Converted numerous design assets and mockups into responsive HTML and CSS.
     * Mocked up and integrated dozens of cross-browser responsive email templates.
 
-### Full Stack Web Developer, Web Designer
 
-[Gridnine Systems](https://gridnine.com/), Moscow, Russia.
+Computer Science Skills
+-----------------------
 
-📅 Apr 2011 - Aug 2014
+* **Essentials**. Git, SVN, SSH, Linux, and Terminal usage. BASH scripting. IDEs: Eclipse, Xcode, Visual Studio Code (VS Code). Project management: JIRA, Trello.
 
-* Prototyped and designed interactive mockups for [Otixo](https://we.team/en/) cloud file integrator (Balsamiq, Adobe Creative Suite). Utilized Google Web Toolkit (GWT) Model-View-Presenter (MVP) framework to develop application frontend (JavaScript, responsive CSS).
-* Responsible for the front-end development of the [ATH American Express](https://www.ath.ru/english/) – the largest travel management company in Russia (JavaScript, Backbone.js, and RequireJS). Increased the front-end load time by over 30%.
-* Implemented image processing servlets on the backend to generate banners for five different social networks (PHP, ImageMagic).
-* Wireframed and sliced to web pages numerous UI/UX mockups for web applications (Balsamiq, Photoshop, HTML and CSS).
+* **Desktop app development**. C/C++, GNU make, CMake. Frameworks: Qt, CERN ROOT, Geant4. Java and Swing. Python.
+
+* **Frontend**: HTML, CSS (LESS and SASS), Bootstrap, responsive web design, JavaScript and jQuery, npm, gulp, AngularJS, React.js. Google Web Toolkit. PHP and WordPress themes development.
+
+* **Backend**. Node.js, EJS, Java.
+
+* **UI/UX design**. Figma, Sketch, InVision Studio, Adobe XD, Adobe Photoshop, Adobe Illustrator, Inkscape, Blasamiq, Blender.
+
+* **Apple iOS**. Fundamental Swift skills. User interface development with UIkit and storyboards.
 
 
 Education

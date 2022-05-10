@@ -26,50 +26,24 @@ Petr Stepanov
 	if (role == "ms") { %>
 		> Ph.D. graduate in physics with expertise **materials science**, **gamma-ray spectroscopy**, **defect studies**, and nuclear physics. 7+ years of experience in **data analysis**, **simulations** in elementary **particle physics** and software development.
 <% 	} else if (role == "cs") { %>
-		> Ph.D. graduate in physics with focus in GUI **desktop software development** for scientific applications. More than 5 years in website and **web applications development**. Strong **user interface** (UI) and **user experience** (UX) design skills.
+		> Ph.D. graduate in physics with focus in GUI **desktop software development** for data analysys. More than 5 years in website and **web applications development**. Strong **user interface** (UI) and **user experience** (UX) design skills.
 <%	} else if (role == "ui") { %>
 		> Ph.D. graduate in physics with 5+ year expertise in user interface (UI) and user experience (UX) design. Strong web application and desktop software development skills.
 <%	} %>
-<% if (role == "ms") { %>
 Summary of Qualifications
 -------------------------
 
-* More than 7 years of experience in GUI desktop software development for experimental spectra fitting and interpretation (C++, ROOT, Qt, Java, Python).
-* Strong materials science skills: defect characterization and porosity studies in bulk materials (with crystal structure and nano-powders).
-* Over 5 years of hands-on experience with data acquisition setups and numerous fast electronic modules (ORTEC, Canberra, Tektronix).
-* Expertise with particle simulation software. Developed a number of simulation programs for applications in high-energy physics and photonics research.
-<% } %>
-Computer Science Skills
------------------------
-
-* **Essentials**. Git, SVN, SSH, Linux, and Terminal usage. BASH scripting. IDEs: Eclipse, Xcode, Visual Studio Code (VS Code). Project management: JIRA, Trello.
-<% if (role == "ms" || role == "all"){ %>
-	* **Simulation and data analysis**: Geant4, CERN ROOT, MATLAB, Wolfram Mathematica, Maple.
-
-	* **Academic writing**: LaTeX, MS Office Suite, Zotero.
-
-	* **Data plotting**: Gnuplot, OriginLab, QtiPlot, SciDaVis, Grapher.
-<% } %>
-* **Desktop app development**. C/C++, GNU make, CMake. Frameworks: Qt, CERN ROOT, Geant4. Java and Swing. Python.
-
-* **Frontend**: HTML, CSS (LESS and SASS), Bootstrap, responsive web design, JavaScript and jQuery, npm, gulp, AngularJS, React.js. Google Web Toolkit. PHP and WordPress themes development.
-<% if (role == "cs" || role == "ui" || role == "all"){ %>
-	* **Backend**. Node.js, EJS, Java.
-
-	* **UI/UX design**. Figma, Sketch, InVision Studio, Adobe XD, Adobe Photoshop, Adobe Illustrator, Inkscape, Blasamiq, Blender.
-
-	* **Apple iOS**. Fundamental Swift skills. User interface development with UIkit and storyboards.
-<% } 
-
-if(role == "all"){ %>
-	Material Research Skills
-	------------------------
-
-	* **Characterization facilities**. Positron Lifetime and Doppler Broadening Annihilation Spectroscopy (PALS, DBAR). Atom Probe Tomography (ATP). Scanning Electron Microscopy (SEM). Transmission electron microscopy (TEM). Atomic Force Microscopy (AFM). UV-VIS Spectroscopy. Fourier Transform Infrared Spectroscopy (FTIR).
-
-	* **Material processing**. High-temperature annealing. Wet chemical etching. Electrical Contact Fabrication. Sample polishing.
-<% } %>
-
+<% if (role == "ms") { %>
+	* More than 7 years of experience in GUI desktop software development for experimental spectra fitting and interpretation (C++, ROOT, Qt, Java, Python).
+	* Strong materials science skills: defect characterization and porosity studies in bulk materials (with crystal structure and nano-powders).
+	* Over 5 years of hands-on experience with data acquisition setups and numerous fast electronic modules (ORTEC, Canberra, Tektronix).
+	* Expertise with particle simulation software. Developed a number of simulation programs for applications in high-energy physics and photonics research.
+<% 	} else if (role == "cs") { %>
+	* Strong Object Oriented Programming (OOP) and debugging skills (C++, Java, Python). Knowledge of modern IDEs (Eclipse, XCode, VSCode).
+	* 3+ years in building responsive web apps with modular JavaScript, HTML and CSS. Hands-on experience with Angular and React frameworks.
+	* 5+ years of user interfaces (UI) with with Model-View patterns (MVC, MVP). Knowledge of Qt framework.
+	* 6+ years of UI and UX wireframing and interactive prototyping skills (Figma, Sketch, Adobe) for web and mobile allipcations.
+	<%	} %>
 Work Experience
 ---------------
 <% for (var key in work){
@@ -81,6 +55,7 @@ Work Experience
 		delete work.itep;
 	} else if (role == "cs"){
 		delete work.mipt;
+		delete work.gridnine;
 		delete work.itep;
 	}
 
@@ -140,6 +115,37 @@ Work Experience
 		<% }
 	}
 } %>
+
+Computer Science Skills
+-----------------------
+
+* **Essentials**. Git, SVN, SSH, Linux, and Terminal usage. BASH scripting. IDEs: Eclipse, Xcode, Visual Studio Code (VS Code). Project management: JIRA, Trello.
+<% if (role == "ms" || role == "all"){ %>
+	* **Simulation and data analysis**: Geant4, CERN ROOT, MATLAB, Wolfram Mathematica, Maple.
+
+	* **Academic writing**: LaTeX, MS Office Suite, Zotero.
+
+	* **Data plotting**: Gnuplot, OriginLab, QtiPlot, SciDaVis, Grapher.
+<% } %>
+* **Desktop app development**. C/C++, GNU make, CMake. Frameworks: Qt, CERN ROOT, Geant4. Java and Swing. Python.
+
+* **Frontend**: HTML, CSS (LESS and SASS), Bootstrap, responsive web design, JavaScript and jQuery, npm, gulp, AngularJS, React.js. Google Web Toolkit. PHP and WordPress themes development.
+<% if (role == "cs" || role == "ui" || role == "all"){ %>
+	* **Backend**. Node.js, EJS, Java.
+
+	* **UI/UX design**. Figma, Sketch, InVision Studio, Adobe XD, Adobe Photoshop, Adobe Illustrator, Inkscape, Blasamiq, Blender.
+
+	* **Apple iOS**. Fundamental Swift skills. User interface development with UIkit and storyboards.
+<% } 
+
+if(role == "all"){ %>
+	Material Research Skills
+	------------------------
+
+	* **Characterization facilities**. Positron Lifetime and Doppler Broadening Annihilation Spectroscopy (PALS, DBAR). Atom Probe Tomography (ATP). Scanning Electron Microscopy (SEM). Transmission electron microscopy (TEM). Atomic Force Microscopy (AFM). UV-VIS Spectroscopy. Fourier Transform Infrared Spectroscopy (FTIR).
+
+	* **Material processing**. High-temperature annealing. Wet chemical etching. Electrical Contact Fabrication. Sample polishing.
+<% } %>
 
 Education
 ---------
