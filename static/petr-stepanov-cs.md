@@ -61,7 +61,7 @@ Work Experience
 
 📅 Sep 2012 - Current
 
-* Designed and built online e-commerce store [Sticker Store LLC](https://bimmersticker.store/) with static website generator (Figma, Hexo, Snipcart, Bootstrap, SASS, EJS, Node.js).
+* Designed and built online e-commerce store [Sticker Store LLC](https://bimmersticker.store/) with static website generator (Figma, Hexo, Snipcart, Bootstrap, SASS, Express.JS, EJS, Node.js).
     * Improved the Google PageSpeed Insights metrics (CLS, LCP) up to 97%.
     * Created a recursive script to export over 300 products from YAML file to Google Merchant.
     * Optimized SEO. Project reached over 1400 organic monthly users.
@@ -79,13 +79,14 @@ Work Experience
 Computer Science Skills
 -----------------------
 
-* **Essentials**. Git, SVN, SSH, Linux, and Terminal usage. BASH scripting. IDEs: Eclipse, Xcode, Visual Studio Code (VS Code). Project management: JIRA, Trello.
+* **Essentials**. Git, SVN, SSH, Linux, and Terminal usage. BASH scripting. IDEs: Eclipse, Xcode, Visual Studio Code (VS Code). 
+* **Project management**. JIRA, Trello, GitHub, GitLab.
 
 * **Desktop app development**. C/C++, GNU make, CMake. Frameworks: Qt, CERN ROOT, Geant4. Java and Swing. Python.
 
 * **Frontend**: HTML, CSS (LESS and SASS), Bootstrap, responsive web design, JavaScript and jQuery, npm, gulp, AngularJS, React.js. Google Web Toolkit. PHP and WordPress themes development.
 
-* **Backend**. Node.js, EJS, Java.
+* **Backend**. Node.js, Express.JS (EJS), Java.
 
 * **UI/UX design**. Figma, Sketch, InVision Studio, Adobe XD, Adobe Photoshop, Adobe Illustrator, Inkscape, Blasamiq, Blender.
 

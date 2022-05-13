@@ -67,7 +67,8 @@ Work Experience
 Computer Science Skills
 -----------------------
 
-* **Essentials**. Git, SVN, SSH, Linux, and Terminal usage. BASH scripting. IDEs: Eclipse, Xcode, Visual Studio Code (VS Code). Project management: JIRA, Trello.
+* **Essentials**. Git, SVN, SSH, Linux, and Terminal usage. BASH scripting. IDEs: Eclipse, Xcode, Visual Studio Code (VS Code). 
+* **Project management**. JIRA, Trello, GitHub, GitLab.
 
 * **Simulation and data analysis**: Geant4, CERN ROOT, MATLAB, Wolfram Mathematica, Maple.
 
@@ -79,7 +80,7 @@ Computer Science Skills
 
 * **Frontend**: HTML, CSS (LESS and SASS), Bootstrap, responsive web design, JavaScript and jQuery, npm, gulp, AngularJS, React.js. Google Web Toolkit. PHP and WordPress themes development.
 
-* **Backend**. Node.js, EJS, Java.
+* **Backend**. Node.js, Express.JS (EJS), Java.
 
 * **UI/UX design**. Figma, Sketch, InVision Studio, Adobe XD, Adobe Photoshop, Adobe Illustrator, Inkscape, Blasamiq, Blender.
 
