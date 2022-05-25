@@ -102,26 +102,26 @@ Education
 📅 Aug 2014 - May 2020
 
 Ph.D. in Photochemical Sciences • GPA 3.423. Novel developments in positron annihilation spectroscopy techniques—from experimental setups to advanced processing software. [View manuscript](https://petrstepanov.com/static/petr-stepanov-dissertation-latest.pdf).
-* Application of positron lifetime spectroscopy for studying the radioactive-induced defects in steels. Monte-Carlo particle simulations with Fortran 95. Maintaining software for CAMECA tomographic atom probe (MSVC). Application of CERN ROOT libraries for fitting and analysis of experimental spectra.
-* Application of positron lifetime spectroscopy for studying the radioactive-induced defects in steels. Monte-Carlo particle simulations with Fortran 95. Maintaining software for CAMECA tomographic atom probe (MSVC). Application of CERN ROOT libraries for fitting and analysis of experimental spectra.
-* Application of positron lifetime spectroscopy for studying the radioactive-induced defects in steels. Monte-Carlo particle simulations with Fortran 95. Maintaining software for CAMECA tomographic atom probe (MSVC). Application of CERN ROOT libraries for fitting and analysis of experimental spectra.
-* Application of positron lifetime spectroscopy for studying the radioactive-induced defects in steels. Monte-Carlo particle simulations with Fortran 95. Maintaining software for CAMECA tomographic atom probe (MSVC). Application of CERN ROOT libraries for fitting and analysis of experimental spectra.
+* Assembled and utilized two spectrometers: positron lifetime and Doppler. Spectrometers are built from ORTEC and Canberra (Mirion) fast electronic units and utilize High-Purity Germanium Detectors (HPGe) and scintillation-based detector systems.
+* Developed open-source software (C++, CERN ROOT) for novel interpretation of the experimental spectra.
+* Defined and resolved kinetic equations of reactions of positron and positronium atoms (Ps) in solids and liquids and nano-powders (Wolfram Mathemetica). Equation parameters are implemented in the fitting model of experimental spectra (RooFit).
+* Above research allowed for estimation of defect concentrations and sizes in solids, classification of defect types (vacancies, dislocations) and more...
 
 ### Ohio Supercomputer Workshop • Ohio, USA
 
 📅 Jan 2017 - Feb 2017
 
 Hands-on sessions in Supercomputer Essentials. Introduction to the key developments in the supercomputer field.
-* Application of positron lifetime spectroscopy for studying the radioactive-induced defects in steels. Monte-Carlo particle simulations with Fortran 95. Maintaining software for CAMECA tomographic atom probe (MSVC). Application of CERN ROOT libraries for fitting and analysis of experimental spectra.
-* Application of positron lifetime spectroscopy for studying the radioactive-induced defects in steels. Monte-Carlo particle simulations with Fortran 95. Maintaining software for CAMECA tomographic atom probe (MSVC). Application of CERN ROOT libraries for fitting and analysis of experimental spectra.
-* Application of positron lifetime spectroscopy for studying the radioactive-induced defects in steels. Monte-Carlo particle simulations with Fortran 95. Maintaining software for CAMECA tomographic atom probe (MSVC). Application of CERN ROOT libraries for fitting and analysis of experimental spectra.
+* RedHat and CentOS operating systems: environment, networking and SSH.
+* Supercomputer job control with BASH and SLURM scripts.
+* CMake compiling platform, use of parallel nodes, A.I. fundamentals and more..."
 
 ### British Higher School of Art and Design (BHSAD) • Moscow, Russia
 
 📅 Dec 2011 - Feb 2012
 
 Three-month intensive in Graphical Design and Visual Communications. Lectures and hands-on experience in graphic design and user interfaces.
-* Application of positron lifetime spectroscopy for studying the radioactive-induced defects in steels. Monte-Carlo particle simulations with Fortran 95. Maintaining software for CAMECA tomographic atom probe (MSVC). Application of CERN ROOT libraries for fitting and analysis of experimental spectra.
+* Intensive covered following subjects: brand identity, illustration principles, typography and lettering, effective advertising campaigns.
 
 ### National Research Nuclear University (MEPhI) • Moscow, Russia
 
@@ -220,4 +220,4 @@ Professional Networks
 Interests
 ---------
 
-Linux and open-source software. Hosting an [open-source project](https://github.com/petrstepanov/gnome-macos-remap) aimed at keyboard remapping under Linux (over 250 stars on GitHub).
+Linux and open-source software. Hosting an [open-source project](https://github.com/petrstepanov/gnome-macos-remap) for keyboard remapping on Linux (300 stars on GitHub).
