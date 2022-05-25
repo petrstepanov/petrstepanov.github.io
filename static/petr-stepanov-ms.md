@@ -27,6 +27,7 @@ Work Experience
 
 📅 Jul 2020 - Current
 
+* Used Machine Learning (ML) TMVA framework to perform binary classification of thousands of signals from a data acquisition (DAQ) setup. [Link to GitHub](https://github.com/petrstepanov/dual-readout-tmva).
 * Applied CERN ROOT framework (C++) to perform statistical analysis of a significant amount (over 100 GB) of the raw experimental data of the [Kaon LT](https://redmine.jlab.org/projects/kltexp/wiki) experiment at JLab. [Link to GitHub](https://github.com/petrstepanov/kaonlt-fit).
 * Utilized SLURM environment on [JLab supercomputer environment](https://scicomp.jlab.org/scicomp/index.html) to run resourceful particle simulations on multiple computing nodes at the same time. This decreased the wall computation time by more than 10 times.
 * Proposed and implemented RAMDisk functionality on the development environment. This lead to an over 60% increase in source code indexing time.
@@ -39,7 +40,6 @@ Work Experience
 
 📅 Jul 2020 - Current
 
-* Applied Machine Learning (ML) TMVA framework to perform binary classification of thousands of signals from a data acquisition (DAQ) setup. [Link to GitHub](https://github.com/petrstepanov/dual-readout-tmva).
 * Developed a computer simulation based on the Geant4 framework (C++, CMake, Eclipse IDE, gdb) to study optical properties of a novel scintillation material to be used in the EIC detector system. [Link to GitHub](https://github.com/petrstepanov/geant4-glass).
     * Program accounts on scintillation material properties - composition, transmittance, luminescence.
     * Code reconstructs detector responce (PMT or MPPC) depending on the quantum efficiency curve.
