@@ -80,6 +80,8 @@ Work Experience
 	<% 
 
 	function appliesToRole(role, string){
+		if (role==="all") return true;
+
 		const regex = /<(.*)>/g;
 		const array = regex.exec(string)
 

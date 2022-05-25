@@ -80,6 +80,8 @@ position = work[key].role_ms ? work[key].role_ms : work[key].role;
 <% 
 
 function appliesToRole(role, string){
+if (role==="all") return true;
+
 const regex = /<(.*)>/g;
 const array = regex.exec(string)
 

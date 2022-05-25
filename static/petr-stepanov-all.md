@@ -20,6 +20,12 @@ Work Experience
 
 📅 Jul 2020 - Current
 
+* Used Machine Learning (ML) TMVA framework to perform binary classification of thousands of signals from a data acquisition (DAQ) setup. [Link to GitHub](https://github.com/petrstepanov/dual-readout-tmva).
+* Applied CERN ROOT framework (C++) to perform statistical analysis of a significant amount (over 100 GB) of the raw experimental data of the [Kaon LT](https://redmine.jlab.org/projects/kltexp/wiki) experiment at JLab. [Link to GitHub](https://github.com/petrstepanov/kaonlt-fit).
+* Utilized SLURM environment on [JLab supercomputer environment](https://scicomp.jlab.org/scicomp/index.html) to run resourceful particle simulations on multiple computing nodes at the same time. This decreased the wall computation time by more than 10 times.
+* Proposed and implemented RAMDisk functionality on the development environment. This lead to an over 60% increase in source code indexing time.
+* Set up data acquisition system that performs triggered waveform acquisition from Tektronix oscilloscope to a local Network Attached Storage (NAS) device. RedHat, Ethernet, SAMBA, Python, National Instruments VISA library.
+* Committed 50+ shifts at the particle accelerator performing Target Operator and Shift Leader duties ([Pion LT project](https://redmine.jlab.org/projects/hall-c/wiki/), experimental Hall C).
 
 ### Postdoctoral Researcher (Remote)
 
@@ -27,11 +33,30 @@ Work Experience
 
 📅 Jul 2020 - Current
 
+* Developed a computer simulation based on the Geant4 framework (C++, CMake, Eclipse IDE, gdb) to study optical properties of a novel scintillation material to be used in the EIC detector system. [Link to GitHub](https://github.com/petrstepanov/geant4-glass).
+    * Program accounts on scintillation material properties - composition, transmittance, luminescence.
+    * Code reconstructs detector responce (PMT or MPPC) depending on the quantum efficiency curve.
+    * Visualization of optical photon trajectories with respect to their energy or creator process.
+* Teaching experience. Mentoring students within a 3-month Research Experiences for Undergraduates (REU) program at the Physics Department at CUA. Giving talks and presentations about [Linux Terminal](https://petrstepanov.com/static/presentations/presentation-2021-06-03-linux-terminal.pdf), and [supercomputer environment](https://petrstepanov.com/static/presentations/presentation-2021-06-17-jlab-geant-root.pdf).
+* Enhanced debugging of the core library source code lead to opening more than [10 bug reports](https://root-forum.cern.ch/u/petrstepanov/activity/topics) on the ROOT (C++) forum.
 
 ### Frontend Developer, UI/UX Designer • Freelance
 
 📅 Sep 2012 - Current
 
+* Designed and built online e-commerce store [Sticker Store LLC](https://bimmersticker.store/) with static website generator (Figma, Hexo, Snipcart, Bootstrap, SASS, Express.JS, EJS, Node.js).
+    * Improved the Google PageSpeed Insights metrics (CLS, LCP) up to 97%.
+    * Created a recursive script to export over 300 products from YAML file to Google Merchant.
+    * Optimized SEO. Project reached over 1400 organic monthly users.
+* Made iOS application (Swift, UIkit, storyboards) for the [We.Team](https://we.team/en/) messenger (more than 3k monthly downloads in AppStore). Participated in cloud-based messenger development with enhanced file sharing capabilities (HTML, React JS, SASS).
+* Migrated the landing page for [Sweetbridge](https://sweetbridge.com/) company from WordPress to Jekyll static site generator (Ruby, CSS). This resulted in a 70% improvement in the page load time.
+* Developed the front-end part (Angular.js, HTML, LESS) for [Lili Social](https://myli.li/) network.
+    * Assisted with iOS mobile application (Ionic).
+    * Enabled SEO crawling of over 1000 Angular.js pages with Google bot.
+* Web design.
+    * Designed logos, UI/UX prototypes (Figma, Sketch, Illustrator) and branding identity for over [10 different companies](https://dribbble.com/petrstepanov).
+    * Converted numerous design assets and mockups into responsive HTML and CSS.
+    * Mocked up and integrated dozens of cross-browser responsive email templates.
 
 ### Research Assistant
 
@@ -39,6 +64,18 @@ Work Experience
 
 📅 Aug 2014 - May 2020
 
+* Assembled positron lifetime and Doppler spectrometers from ORTEC and Canberra (Mirion) fast electronic units. Utilized High-Purity Germanium Detectors (HPGe) and scintillation-based detector systems for single-photon counting.
+* Developed three open-source programs (C++, CERN ROOT) for novel interpretation of the positron lifetime and Doppler experimental spectra.
+    * Derived and solved kinetic equations describing formation and chemical of reactions of e+ and Ps atoms in solids, liquids and nano-powders (Wolfram Mathemetica).
+    * Incorporated physical parameters (grain size, defect concentrations, rate constants) into custom models (PDFs with convolution) for fitting of the experimental spectra (RooFit).
+* Above research allowed for estimation of defect concentrations and sizes in solids, classification of defect types (vacancies, dislocations) and characterization of the chemical decoration of defects.
+* Wrote three desktop GUI programs for spectra fitting and interpretation (C++, CMake, ROOT, Qt, Java)
+    * GitHub repositories contain over 10k lines of code in total: [TLIST Processor](https://github.com/petrstepanov/tlist-processor), [SW Calculator](https://github.com/petrstepanov/sw-calculator), [RooPositron](https://github.com/petrstepanov/roopositron).
+    * Extended default ROOT GUI library (Qt-based) to support the MVP design pattern.
+* Wrote a GUI application [LuminApp](https://github.com/petrstepanov/luminapp) (Java, Swing) to parse and merge time-stamped data from optical spectrometer and thermometer. This increased data processing time by two orders of magnitude.
+* Developed static website (Hexo, Gulp, Bootstrap) and visual identity for the [SelimLab](http://physics.bgsu.edu/selimlab/) research group. Website has a 99% Google performance rank and features 700 ms time to interactive metrics.
+* Maintained local Apache HTTP server [physics.bgsu.edu](https://physics.bgsu.edu/) hosting over 10 websites at the BGSU.
+* Created website for the [ICPA-18](https://physics.bgsu.edu/icpa18/) international conference with registration (over 150 users) and payment system workflow (WordPress, PHP, Recurly.js), and [landing pages](https://physics.bgsu.edu/IWZnO_2020/index.html) for events.
 
 ### Full Stack Web Developer, Web Designer
 
@@ -46,6 +83,10 @@ Work Experience
 
 📅 Apr 2011 - Aug 2014
 
+* Prototyped and designed interactive mockups for [Otixo](https://we.team/en/) cloud file integrator (Balsamiq, Adobe Creative Suite). Utilized Google Web Toolkit (GWT) Model-View-Presenter (MVP) framework to develop application frontend (JavaScript, responsive CSS).
+* Responsible for the front-end development of the [ATH American Express](https://www.ath.ru/english/) – the largest travel management company in Russia (JavaScript, Backbone.js, and RequireJS). Increased the front-end load time by over 30%.
+* Implemented image processing servlets on the backend to generate banners for five different social networks (PHP, ImageMagic).
+* Wireframed and sliced to web pages numerous UI/UX mockups for web applications (Balsamiq, Photoshop, HTML and CSS).
 
 ### Computer Science Teacher
 
