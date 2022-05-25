@@ -30,28 +30,6 @@ cua:
       - <ms cs> Visualization of optical photon trajectories with respect to their energy or creator process.
     - <ms> Teaching experience. Mentoring students within a 3-month Research Experiences for Undergraduates (REU) program at the Physics Department at CUA. Giving talks and presentations about [Linux Terminal](https://petrstepanov.com/static/presentations/presentation-2021-06-03-linux-terminal.pdf), and [supercomputer environment](https://petrstepanov.com/static/presentations/presentation-2021-06-17-jlab-geant-root.pdf).
     - <ms cs> Enhanced debugging of the core library source code lead to opening more than [10 bug reports](https://root-forum.cern.ch/u/petrstepanov/activity/topics) on the ROOT (C++) forum.
-bgsu:
-  company: Bowling Green State University (BGSU)
-  link: https://www.bgsu.edu/
-  location: Bowling Green, OH, USA
-  start: Aug 2014
-  end: May 2020
-  role_ms: Research Assistant
-  role_cs: Software Developer • Research Assistant
-  role_ui: Software Developer • Research Assistant
-  description:
-    - "<ms> Assembled positron lifetime and Doppler spectrometers from ORTEC and Canberra (Mirion) fast electronic units. Utilized High-Purity Germanium Detectors (HPGe) and scintillation-based detector systems for single-photon counting."
-    - "<ms> Developed three open-source programs (C++, CERN ROOT) for novel interpretation of the positron lifetime and Doppler experimental spectra."
-    - - "<ms> Derived and solved kinetic equations describing formation and chemical of reactions of e+ and Ps atoms in solids, liquids and nano-powders (Wolfram Mathemetica)."
-      - "<ms> Incorporated physical parameters (grain size, defect concentrations, rate constants) into custom models (PDFs with convolution) for fitting of the experimental spectra (RooFit)."
-    - "<ms> Above research allowed for estimation of defect concentrations and sizes in solids, classification of defect types (vacancies, dislocations) and characterization of the chemical decoration of defects."
-    - "<cs ui> Wrote three desktop GUI programs for spectra fitting and interpretation (C++, CMake, ROOT, Qt, Java)"
-    - - "<cs ui> GitHub repositories contain over 10k lines of code in total: [TLIST Processor](https://github.com/petrstepanov/tlist-processor), [SW Calculator](https://github.com/petrstepanov/sw-calculator), [RooPositron](https://github.com/petrstepanov/roopositron)."
-      - "<cs ui> Extended default ROOT GUI library (Qt-based) to support the MVP design pattern."
-    - "<ms> Wrote a GUI application [LuminApp](https://github.com/petrstepanov/luminapp) (Java, Swing) to parse and merge time-stamped data from optical spectrometer and thermometer. This increased data processing time by two orders of magnitude."
-    - "<ms cs> Developed static website (Hexo, Gulp, Bootstrap) and visual identity for the [SelimLab](http://physics.bgsu.edu/selimlab/) research group. Website has a 99% Google performance rank and features 700 ms time to interactive metrics."
-    - "<cs> Maintained local Apache HTTP server [physics.bgsu.edu](https://physics.bgsu.edu/) hosting over 10 websites at the BGSU."
-    - "<cs> Created website for the [ICPA-18](https://physics.bgsu.edu/icpa18/) international conference with registration (over 150 users) and payment system workflow (WordPress, PHP, Recurly.js), and [landing pages](https://physics.bgsu.edu/IWZnO_2020/index.html) for events."
 freelance:
   company: ""
   link: ""
@@ -75,6 +53,28 @@ freelance:
     - - "<cs ui> Designed logos, UI/UX prototypes (Figma, Sketch, Illustrator) and branding identity for over [10 different companies](https://dribbble.com/petrstepanov)."
       - "<cs ui> Converted numerous design assets and mockups into responsive HTML and CSS."
       - "<cs ui> Mocked up and integrated dozens of cross-browser responsive email templates."
+bgsu:
+  company: Bowling Green State University (BGSU)
+  link: https://www.bgsu.edu/
+  location: Bowling Green, OH, USA
+  start: Aug 2014
+  end: May 2020
+  role_ms: Research Assistant
+  role_cs: Software Developer • Research Assistant
+  role_ui: Software Developer • Research Assistant
+  description:
+    - "<ms> Assembled positron lifetime and Doppler spectrometers from ORTEC and Canberra (Mirion) fast electronic units. Utilized High-Purity Germanium Detectors (HPGe) and scintillation-based detector systems for single-photon counting."
+    - "<ms> Developed three open-source programs (C++, CERN ROOT) for novel interpretation of the positron lifetime and Doppler experimental spectra."
+    - - "<ms> Derived and solved kinetic equations describing formation and chemical of reactions of e+ and Ps atoms in solids, liquids and nano-powders (Wolfram Mathemetica)."
+      - "<ms> Incorporated physical parameters (grain size, defect concentrations, rate constants) into custom models (PDFs with convolution) for fitting of the experimental spectra (RooFit)."
+    - "<ms> Above research allowed for estimation of defect concentrations and sizes in solids, classification of defect types (vacancies, dislocations) and characterization of the chemical decoration of defects."
+    - "<cs ui> Wrote three desktop GUI programs for spectra fitting and interpretation (C++, CMake, ROOT, Qt, Java)"
+    - - "<cs ui> GitHub repositories contain over 10k lines of code in total: [TLIST Processor](https://github.com/petrstepanov/tlist-processor), [SW Calculator](https://github.com/petrstepanov/sw-calculator), [RooPositron](https://github.com/petrstepanov/roopositron)."
+      - "<cs ui> Extended default ROOT GUI library (Qt-based) to support the MVP design pattern."
+    - "<ms> Wrote a GUI application [LuminApp](https://github.com/petrstepanov/luminapp) (Java, Swing) to parse and merge time-stamped data from optical spectrometer and thermometer. This increased data processing time by two orders of magnitude."
+    - "<ms cs> Developed static website (Hexo, Gulp, Bootstrap) and visual identity for the [SelimLab](http://physics.bgsu.edu/selimlab/) research group. Website has a 99% Google performance rank and features 700 ms time to interactive metrics."
+    - "<cs> Maintained local Apache HTTP server [physics.bgsu.edu](https://physics.bgsu.edu/) hosting over 10 websites at the BGSU."
+    - "<cs> Created website for the [ICPA-18](https://physics.bgsu.edu/icpa18/) international conference with registration (over 150 users) and payment system workflow (WordPress, PHP, Recurly.js), and [landing pages](https://physics.bgsu.edu/IWZnO_2020/index.html) for events."
 gridnine:
   company: Gridnine Systems
   link: https://gridnine.com/

@@ -44,19 +44,6 @@ Work Experience
     * Visualization of optical photon trajectories with respect to their energy or creator process.
 * Enhanced debugging of the core library source code lead to opening more than [10 bug reports](https://root-forum.cern.ch/u/petrstepanov/activity/topics) on the ROOT (C++) forum.
 
-### Software Developer • Research Assistant
-
-[Bowling Green State University (BGSU)](https://www.bgsu.edu/), Bowling Green, OH, USA.
-
-📅 Aug 2014 - May 2020
-
-* Wrote three desktop GUI programs for spectra fitting and interpretation (C++, CMake, ROOT, Qt, Java)
-    * GitHub repositories contain over 10k lines of code in total: [TLIST Processor](https://github.com/petrstepanov/tlist-processor), [SW Calculator](https://github.com/petrstepanov/sw-calculator), [RooPositron](https://github.com/petrstepanov/roopositron).
-    * Extended default ROOT GUI library (Qt-based) to support the MVP design pattern.
-* Developed static website (Hexo, Gulp, Bootstrap) and visual identity for the [SelimLab](http://physics.bgsu.edu/selimlab/) research group. Website has a 99% Google performance rank and features 700 ms time to interactive metrics.
-* Maintained local Apache HTTP server [physics.bgsu.edu](https://physics.bgsu.edu/) hosting over 10 websites at the BGSU.
-* Created website for the [ICPA-18](https://physics.bgsu.edu/icpa18/) international conference with registration (over 150 users) and payment system workflow (WordPress, PHP, Recurly.js), and [landing pages](https://physics.bgsu.edu/IWZnO_2020/index.html) for events.
-
 ### Frontend Developer, UI/UX Designer • Freelance
 
 📅 Sep 2012 - Current
@@ -74,6 +61,19 @@ Work Experience
     * Designed logos, UI/UX prototypes (Figma, Sketch, Illustrator) and branding identity for over [10 different companies](https://dribbble.com/petrstepanov).
     * Converted numerous design assets and mockups into responsive HTML and CSS.
     * Mocked up and integrated dozens of cross-browser responsive email templates.
+
+### Software Developer • Research Assistant
+
+[Bowling Green State University (BGSU)](https://www.bgsu.edu/), Bowling Green, OH, USA.
+
+📅 Aug 2014 - May 2020
+
+* Wrote three desktop GUI programs for spectra fitting and interpretation (C++, CMake, ROOT, Qt, Java)
+    * GitHub repositories contain over 10k lines of code in total: [TLIST Processor](https://github.com/petrstepanov/tlist-processor), [SW Calculator](https://github.com/petrstepanov/sw-calculator), [RooPositron](https://github.com/petrstepanov/roopositron).
+    * Extended default ROOT GUI library (Qt-based) to support the MVP design pattern.
+* Developed static website (Hexo, Gulp, Bootstrap) and visual identity for the [SelimLab](http://physics.bgsu.edu/selimlab/) research group. Website has a 99% Google performance rank and features 700 ms time to interactive metrics.
+* Maintained local Apache HTTP server [physics.bgsu.edu](https://physics.bgsu.edu/) hosting over 10 websites at the BGSU.
+* Created website for the [ICPA-18](https://physics.bgsu.edu/icpa18/) international conference with registration (over 150 users) and payment system workflow (WordPress, PHP, Recurly.js), and [landing pages](https://physics.bgsu.edu/IWZnO_2020/index.html) for events.
 
 
 Computer Science Skills

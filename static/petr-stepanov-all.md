@@ -28,16 +28,16 @@ Work Experience
 📅 Jul 2020 - Current
 
 
+### Frontend Developer, UI/UX Designer • Freelance
+
+📅 Sep 2012 - Current
+
+
 ### Research Assistant
 
 [Bowling Green State University (BGSU)](https://www.bgsu.edu/), Bowling Green, OH, USA.
 
 📅 Aug 2014 - May 2020
-
-
-### Frontend Developer, UI/UX Designer • Freelance
-
-📅 Sep 2012 - Current
 
 
 ### Full Stack Web Developer, Web Designer

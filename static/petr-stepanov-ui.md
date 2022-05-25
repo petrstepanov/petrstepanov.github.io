@@ -30,16 +30,6 @@ Work Experience
 📅 Jul 2020 - Current
 
 
-### Software Developer • Research Assistant
-
-[Bowling Green State University (BGSU)](https://www.bgsu.edu/), Bowling Green, OH, USA.
-
-📅 Aug 2014 - May 2020
-
-* Wrote three desktop GUI programs for spectra fitting and interpretation (C++, CMake, ROOT, Qt, Java)
-    * GitHub repositories contain over 10k lines of code in total: [TLIST Processor](https://github.com/petrstepanov/tlist-processor), [SW Calculator](https://github.com/petrstepanov/sw-calculator), [RooPositron](https://github.com/petrstepanov/roopositron).
-    * Extended default ROOT GUI library (Qt-based) to support the MVP design pattern.
-
 ### UI/UX Designer, Frontend Developer • Freelance
 
 📅 Sep 2012 - Current
@@ -57,6 +47,16 @@ Work Experience
     * Designed logos, UI/UX prototypes (Figma, Sketch, Illustrator) and branding identity for over [10 different companies](https://dribbble.com/petrstepanov).
     * Converted numerous design assets and mockups into responsive HTML and CSS.
     * Mocked up and integrated dozens of cross-browser responsive email templates.
+
+### Software Developer • Research Assistant
+
+[Bowling Green State University (BGSU)](https://www.bgsu.edu/), Bowling Green, OH, USA.
+
+📅 Aug 2014 - May 2020
+
+* Wrote three desktop GUI programs for spectra fitting and interpretation (C++, CMake, ROOT, Qt, Java)
+    * GitHub repositories contain over 10k lines of code in total: [TLIST Processor](https://github.com/petrstepanov/tlist-processor), [SW Calculator](https://github.com/petrstepanov/sw-calculator), [RooPositron](https://github.com/petrstepanov/roopositron).
+    * Extended default ROOT GUI library (Qt-based) to support the MVP design pattern.
 
 ### Web Designer, Full Stack Web Developer
 
