@@ -166,7 +166,7 @@ Three-month intensive in Graphical Design and Visual Communications. Lectures an
 
 ### National Research Nuclear University (MEPhI) • Moscow, Russia
 
-📅 Aug 2014 - May 2020
+📅 Sept 2004 - Feb 2011
 
 B.S. and M.S. in Solid State Physics. Defect studies of neutron-irradiated nuclear power plant vessel steels by means of positron annihilation spectroscopy.
 
