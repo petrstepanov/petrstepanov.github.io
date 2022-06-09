@@ -397,16 +397,18 @@
                     </div>
 
                     <h2 class="my-5 pt-4" id="scientific-software">Scientific software</h2>
-                    <p class="mb-4">As a post-doctorate researcher I was responsible to carry out simulations of high energy particle simulations. The computer toolkit I am using is <a href="https://geant4.web.cern.ch/">Geant4</a>. Mostly I was working with modelling of the scintillation-based detector systems. Below please find examples of the shower profile in the scintillation crystal as well as some graphs corresponding to the particles leaving the simulation.</p>
+                    <p class="mb-4">During my post-doctorate researcher role at the <a href="https://www.catholic.edu/index.html">CUA</a> I was responsible for carrying out Monte Carlo particle simulations in High Energy Physics (HEP). The gold standard simulation toolkit in physics is <a href="https://geant4.web.cern.ch/">Geant4</a>. I utilized Geant4 framework to collaborate on the <a href="https://www.bnl.gov/eic/">Electron-Ion Detector (EIC) project</a>. Additionally, I developed a Geant4-based simulation for studying performance from vari of scintillation materials properties working with modelling of the scintillation-based detector systems. Energy deposition, light yield and detector responce.</p>
 
                     <div class="row mb-5 justify-content-center">
-                        <div class="col-12 col-md-10">
+                        <figure class="col-12 col-md-10 mb-5">
                             <img src="static/screenshot-geant4-escape-locations-2.png" class="w-100 h-auto" alt="Geant4 simulation of the particle escape locations" />
-                        </div>
+                            <figcaption>Studies of the energy conservation of a Geant4 simulation. Ensuring the incident particle energy equals to the deposited energy and cumulative kinetic energy of the particles that escaped the simulation.</figcaption>
+                        </figure>
 
-                        <div class="col-11 col-md-7 order-md-2">
+                        <figure class="col-11 col-md-7 order-md-2">
                             <img src="static/screenshot-geant4-energy-deposition.png" class="w-100 h-auto" style="border-radius: 0.5em" alt="Geant4 visualization of the energy deposition" />
-                        </div>
+                            <figcaption class="mt-4">Visualizing the energy deposition in a 3x3 assembly of scintillation crystals with the help of Geant4 scoring meshes.</figcaption>
+                        </figure>
                         <div class="col-12 col-md-5 order-md-1">
                             <h5 class="mt-4 mb-3">Glass Prototype Simulation</h5>
                             <p>A Geant4-based simulation that studies performance of a novel scintillation material "SciGlass". Simulation reconstrucs detector response from interaction of the scintillation crysals with high energy ionizing particles.</p>
@@ -416,12 +418,13 @@
                         </div>
                     </div>
 
-                    <p class="mb-4">During my PhD carreer I've developed a number of desktop software for data analysis and spectra interpretation. Scientific library of my choice is <a href="https://root.cern.ch/" title="CERN ROOT framework">CERN ROOT framework</a>. It offers numerous packages for histogram manipulation, fitting and plotting as well as data storage and graphical user interface classes.</p>
+                    <p class="mb-4">My PhD research in physics at <a href="https://www.bgsu.edu/">BGSU</a> was interdisciplinary with computer scinece. I developed several desktop software products for data analysis and experimental spectra interpretation. I utilized and contributed to the development of the <a href="https://root.cern.ch/" title="CERN ROOT framework">CERN ROOT framework</a>. ROOT ecosystem offers variety of tools for histogram manipulation, plotting and fitting, data storage. Framwork allows for building standalone graphical user interface (GUI) software.</p>
                     
                     <div class="row mb-5">
-                        <div class="col-12 col-md-7">
+                        <figure class="col-12 col-md-7">
                             <img src="static/screenshot-tlist-processor.png" class="w-100 h-auto" alt="TLIST Processor" />
-                        </div>
+                            <figcaption>Fitting and subtracting two-dimensional background from a coincidence Doppler broadening spectrum of aluminum.</figcaption>
+                        </figure>
                         <div class="col-12 col-md-5">
                             <h5 class="mt-4 mb-3">TLIST Processor</h5>
                             <p>Software is designed to process two-dimensional energy spectra and output one-dimensional coincidence broadened Doppler spectrum.</p>
@@ -432,9 +435,10 @@
                     </div>
 
                     <div class="row mb-5">
-                        <div class="col-md-7 order-md-2">
+                        <figure class="col-md-7 order-md-2">
                             <img src="static/screenshot-sw-calculator.png" class="w-100 h-auto" alt="SW Calculator" />
-                        </div>
+                            <figcaption>Decomposition of a 1D Doppler spectrum into contributions from Fermi electrons, core and valence electrons.</figcaption>
+                        </figure>
                         <div class="col-md-5 order-md-1">
                             <h5 class="mt-4 mb-3">SW Calculator</h5>
                             <p>Program calculates S and W parameters of the 511 keV peak of the annihilation radiation. Software estimates values of the binding electron energies by fitting the CDB spectrum with contributions from e+ annihilation on electrons with different wave functions.</p>
@@ -445,9 +449,10 @@
                     </div>
                     
                     <div class="row mb-5">
-                        <div class="col-md-7">
+                        <figure class="col-md-7">
                             <img src="static/screenshot-roopositron.png" class="w-100 h-auto" alt="SW Calculator" />
-                        </div>
+                            <figcaption>Simultaneous fitting of three <a href="https://en.wikipedia.org/wiki/Positron_annihilation_spectroscopy">positron lifetime specrtra</a> (PALS) with a fitting model that supports shared fitting paramtetrs.</figcaption>
+                        </figure>
                         <div class="col-md-5">
                             <h5 class="mt-4 mb-3">RooPositron</h5>
                             <p>A flexible terminal-based positron lifetime fitting software. Graphical user interface is in progress.</p>
