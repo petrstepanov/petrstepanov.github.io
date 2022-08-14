@@ -1,13 +1,13 @@
 Petr Stepanov
 =============
 
-    UI/UX designer. Frontend and desktop developer.
-            
+UI/UX designer. Frontend and desktop developer.
+
  ✉️ [stepanovps@gmail.com](mailto:stepanovps@gmail.com)
  📞 [(419) 496-86-02](tel:+14194968602)
  🏠 [petrstepanov.com](https://petrstepanov.com/)
 
-        > Ph.D. graduate in physics with 5+ years of expertise in the user interface (UI) and user experience (UX) design. Strong web application and desktop software development skills.
+> Ph.D. graduate in physics with 5+ years of expertise in the user interface (UI) and user experience (UX) design. Strong web application and desktop software development skills.
 
 Summary of Qualifications
 -------------------------
@@ -16,75 +16,75 @@ Summary of Qualifications
 Work Experience
 ---------------
 
-    ### C++ Software Developer
-    
-        [Thomas Jefferson National Laboratory (JLab)](https://www.jlab.org/), Newport News, VA, USA.
-    
-    📅 Jul 2020 - Current
+### C++ Software Developer
 
-    
-    ### Software Developer • Postdoctoral Researcher
-    
-        [Catholic University of America (CUA)](https://www.catholic.edu/index.html), Washington, DC, USA.
-    
-    📅 Jul 2020 - Current
+[Thomas Jefferson National Laboratory (JLab)](https://www.jlab.org/), Newport News, VA, USA.
 
-    
-    ### Software Developer • Research Assistant
-    
-        [Bowling Green State University (BGSU)](https://www.bgsu.edu/), Bowling Green, OH, USA.
-    
-    📅 Aug 2014 - May 2020
+📅 Jul 2020 - Current
 
-    * Wrote three desktop GUI programs for spectra fitting and interpretation (C++, CMake, ROOT, Qt, Java)
-                    * GitHub repositories contain over 10k lines of code in total: [TLIST Processor](https://github.com/petrstepanov/tlist-processor), [SW Calculator](https://github.com/petrstepanov/sw-calculator), [RooPositron](https://github.com/petrstepanov/roopositron).
-                        * Extended default ROOT GUI library (Qt-based) to support the MVP design pattern.
-                    
-    ### UI/UX Designer, Frontend Developer • Freelance
-    
-    📅 Sep 2012 - Current
 
-    * Designed and built an online e-commerce store [Sticker Store LLC](https://bimmersticker.store/) with a static website generator (Figma, Hexo, Snipcart, Bootstrap, SASS, Express.JS, EJS, Node.js).
-                    * Improved the Google PageSpeed Insights metrics (CLS, LCP) up to 97%.
-                        * Created a recursive script to export over 300 products from YAML file to Google Merchant.
-                        * Optimized SEO. The project reached over 1400 organic monthly users.
-                    * Made iOS application (Swift, UIkit, storyboards) for the [We.Team](https://we.team/en/) messenger (more than 3k monthly downloads in AppStore). Participated in cloud-based messenger development with enhanced file sharing capabilities (HTML, React JS, SASS).
-                * Migrated the landing page for [Sweetbridge](https://sweetbridge.com/) company from WordPress to Jekyll static site generator (Ruby, CSS). This resulted in a 70% improvement in the page load time.
-                * Developed the front-end part (Angular.js, HTML, LESS) for [Lili Social](https://myli.li/) network.
-                    * Assisted with iOS mobile application (Ionic).
-                        * Enabled SEO crawling of over 1000 Angular.js pages with Google bot.
-                    * Web design.
-                    * Designed logos, UI/UX prototypes (Figma, Sketch, Illustrator) and branding identity for over [10 different companies](https://dribbble.com/petrstepanov).
-                        * Converted numerous design assets and mockups into responsive HTML and CSS.
-                        * Mocked up and integrated dozens of cross-browser responsive email templates.
-                    
-    ### Web Designer, Full Stack Web Developer
-    
-        [Gridnine Systems](https://gridnine.com/), Moscow, Russia.
-    
-    📅 Apr 2011 - Aug 2014
+### Software Developer • Postdoctoral Researcher
 
-    * Prototyped and designed interactive mockups for [Otixo](https://we.team/en/) cloud file integrator (Balsamiq, Adobe Creative Suite). Utilized Google Web Toolkit (GWT) Model-View-Presenter (MVP) framework to develop application frontend (JavaScript, responsive CSS).
-                * Responsible for the front-end development of the [ATH American Express](https://www.ath.ru/english/) – the largest travel management company in Russia (JavaScript, Backbone.js, and RequireJS). Increased the front-end load time by over 30%.
-                * Implemented image processing servlets on the backend to generate banners for five different social networks (PHP, ImageMagic).
-                * Wireframed and sliced to web pages numerous UI/UX mockups for web applications (Balsamiq, Photoshop, HTML and CSS).
-                
-    ### Computer Science Teacher
-    
-        [Phys-Tech College at MIPT](https://mipt.ru/english/), Moscow, Russia.
-    
-    📅 Oct 2009 - May 2011
+[Catholic University of America (CUA)](https://www.catholic.edu/index.html), Washington, DC, USA.
 
-    * Provided instructions and guidance to high school students on following computer courses: C/C++ programming, HTML, Adobe Photoshop and 3D Studio Max.
-        
-    ### Research Scientist
-    
-        [Institute for Theoretical and Experimental Physics (ITEP)](https://en.wikipedia.org/wiki/ITEP), Moscow, Russia.
-    
-    📅 Sep 2008 - Apr 2011
+📅 Jul 2020 - Current
 
-    * Application of positron lifetime spectroscopy for studying the radioactive-induced defects in steels. Monte-Carlo particle simulations with Fortran 95. Maintaining software for CAMECA tomographic atom probe (MSVC). Application of CERN ROOT libraries for fitting and analysis of experimental spectra.
-        
+
+### Software Developer • Research Assistant
+
+[Bowling Green State University (BGSU)](https://www.bgsu.edu/), Bowling Green, OH, USA.
+
+📅 Aug 2014 - May 2020
+
+* Wrote three desktop GUI programs for spectra fitting and interpretation (C++, CMake, ROOT, Qt, Java)
+* GitHub repositories contain over 10k lines of code in total: [TLIST Processor](https://github.com/petrstepanov/tlist-processor), [SW Calculator](https://github.com/petrstepanov/sw-calculator), [RooPositron](https://github.com/petrstepanov/roopositron).
+* Extended default ROOT GUI library (Qt-based) to support the MVP design pattern.
+
+### UI/UX Designer, Frontend Developer • Freelance
+
+📅 Sep 2012 - May 2020
+
+* Designed and built an online e-commerce store [Sticker Store LLC](https://bimmersticker.store/) with a static website generator (Figma, Hexo, Snipcart, Bootstrap, SASS, Express.JS, EJS, Node.js).
+* Improved the Google PageSpeed Insights metrics (CLS, LCP) up to 97%.
+* Created a recursive script to export over 300 products from YAML file to Google Merchant.
+* Optimized SEO. The project reached over 1400 organic monthly users.
+* Made iOS application (Swift, UIkit, storyboards) for the [We.Team](https://we.team/en/) messenger (more than 3k monthly downloads in AppStore). Participated in cloud-based messenger development with enhanced file sharing capabilities (HTML, React JS, SASS).
+* Migrated the landing page for [Sweetbridge](https://sweetbridge.com/) company from WordPress to Jekyll static site generator (Ruby, CSS). This resulted in a 70% improvement in the page load time.
+* Developed the front-end part (Angular.js, HTML, LESS) for [Lili Social](https://myli.li/) network.
+* Assisted with iOS mobile application (Ionic).
+* Enabled SEO crawling of over 1000 Angular.js pages with Google bot.
+* Web design.
+* Designed logos, UI/UX prototypes (Figma, Sketch, Illustrator) and branding identity for over [10 different companies](https://dribbble.com/petrstepanov).
+* Converted numerous design assets and mockups into responsive HTML and CSS.
+* Mocked up and integrated dozens of cross-browser responsive email templates.
+
+### Web Designer, Full Stack Web Developer
+
+[Gridnine Systems](https://gridnine.com/), Moscow, Russia.
+
+📅 Apr 2011 - Aug 2014
+
+* Prototyped and designed interactive mockups for [Otixo](https://we.team/en/) cloud file integrator (Balsamiq, Adobe Creative Suite). Utilized Google Web Toolkit (GWT) Model-View-Presenter (MVP) framework to develop application frontend (JavaScript, responsive CSS).
+* Responsible for the front-end development of the [ATH American Express](https://www.ath.ru/english/) – the largest travel management company in Russia (JavaScript, Backbone.js, and RequireJS). Increased the front-end load time by over 30%.
+* Implemented image processing servlets on the backend to generate banners for five different social networks (PHP, ImageMagic).
+* Wireframed and sliced to web pages numerous UI/UX mockups for web applications (Balsamiq, Photoshop, HTML and CSS).
+
+### Computer Science Teacher
+
+[Phys-Tech College at MIPT](https://mipt.ru/english/), Moscow, Russia.
+
+📅 Oct 2009 - May 2011
+
+* Provided instructions and guidance to high school students on following computer courses: C/C++ programming, HTML, Adobe Photoshop and 3D Studio Max.
+
+### Research Scientist
+
+[Institute for Theoretical and Experimental Physics (ITEP)](https://en.wikipedia.org/wiki/ITEP), Moscow, Russia.
+
+📅 Sep 2008 - Apr 2011
+
+* Application of positron lifetime spectroscopy for studying the radioactive-induced defects in steels. Monte-Carlo particle simulations with Fortran 95. Maintaining software for CAMECA tomographic atom probe (MSVC). Application of CERN ROOT libraries for fitting and analysis of experimental spectra.
+
 
 Computer Science Skills
 -----------------------
@@ -96,37 +96,37 @@ Computer Science Skills
 
 * **Frontend**: HTML, CSS (LESS and SASS), Bootstrap, responsive web design, JavaScript and jQuery, npm, gulp, AngularJS, React.js. Google Web Toolkit. PHP and WordPress themes development.
 
-    * **Backend**. Node.js, Express.JS (EJS), Java.
+* **Backend**. Node.js, Express.JS (EJS), Java.
 
-    * **UI/UX design**. Figma, Sketch, InVision Studio, Adobe XD, Adobe Photoshop, Adobe Illustrator, Inkscape, Balsamiq, Blender.
+* **UI/UX design**. Figma, Sketch, InVision Studio, Adobe XD, Adobe Photoshop, Adobe Illustrator, Inkscape, Balsamiq, Blender.
 
-    * **Apple iOS**. Fundamental Swift skills. User interface development with UIkit and storyboards.
+* **Apple iOS**. Fundamental Swift skills. User interface development with UIkit and storyboards.
 
 
 Education
 ---------
 
-    ### Bowling Green State University (BGSU) • Ohio, USA
+### Bowling Green State University (BGSU) • Ohio, USA
 
-    📅 Aug 2014 - May 2020
+📅 Aug 2014 - May 2020
 
-    Ph.D. in Photochemical Sciences • GPA 3.423. Novel developments in positron annihilation spectroscopy techniques—from experimental setups to advanced processing software. [View manuscript](https://petrstepanov.com/static/petr-stepanov-dissertation-latest.pdf).
-    
-    ### British Higher School of Art and Design (BHSAD) • Moscow, Russia
+Ph.D. in Photochemical Sciences • GPA 3.423. Novel developments in positron annihilation spectroscopy techniques—from experimental setups to advanced processing software. [View manuscript](https://petrstepanov.com/static/petr-stepanov-dissertation-latest.pdf).
 
-    📅 Dec 2011 - Feb 2012
+### British Higher School of Art and Design (BHSAD) • Moscow, Russia
 
-    Three-month intensive in Graphical Design and Visual Communications. Lectures and hands-on experience in graphic design and user interfaces.
-    
+📅 Dec 2011 - Feb 2012
+
+Three-month intensive in Graphical Design and Visual Communications. Lectures and hands-on experience in graphic design and user interfaces.
+
 
 
 Professional Networks
 ---------------------
 
 * Discover my professional contacts [on LinkedIn](https://www.linkedin.com/in/petrstepanov/en/) (200+ connections).
-    * Find examples of my code [on GitHub](https://github.com/petrstepanov/) (50+ repositories).
-    * Check out my UI design portfolio [on Dribbble](https://dribbble.com/petrstepanov) (50+ shots).
-    
+* Find examples of my code [on GitHub](https://github.com/petrstepanov/) (50+ repositories).
+* Check out my UI design portfolio [on Dribbble](https://dribbble.com/petrstepanov) (50+ shots).
+
 
 Interests
 ---------

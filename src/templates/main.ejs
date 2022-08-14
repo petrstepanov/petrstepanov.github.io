@@ -2,120 +2,120 @@ Petr Stepanov
 =============
 
 <%  // SLOGAN 
-    switch(role) {
-        case "ms":
-            %>    Materials science. Particle simulations and data analysis. Software development.
-            <% break;
-        case "cs":
-            %>    Software developer. User interface designer.
-            <% break;
-        case "ui":
-            %>    UI/UX designer. Frontend and desktop developer.
-            <% break;
-        case "all":
-            %>    Materials science. Data analysis. Desktop and web applications development. UI/UX design.
-            <% break;
-    }
+	switch(role) {
+		case "ms":
+			%>	Materials science. Particle simulations and data analysis. Software development.
+			<% break;
+		case "cs":
+			%>	Software developer. User interface designer.
+			<% break;
+		case "ui":
+			%>	UI/UX designer. Frontend and desktop developer.
+			<% break;
+		case "all":
+			%>	Materials science. Data analysis. Desktop and web applications development. UI/UX design.
+			<% break;
+	}
 %>
 <%  // TOP LINKS
-    for (var key in topLinks){
-        %> <%- topLinks[key].icon %> [<%- topLinks[key].text %>](<%- topLinks[key].link %>)
+	for (var key in topLinks){
+		%> <%- topLinks[key].icon %> [<%- topLinks[key].text %>](<%- topLinks[key].link %>)
 <%  } 
 
-    // OBJECTIVE (BLOCKQUOTE)
-    if (role == "ms") { %>
-        > Ph.D. graduate in physics with expertise **materials science**, **gamma-ray spectroscopy**, **defect studies**, and nuclear physics. 7+ years of experience in **data analysis**, **simulations** in elementary **particle physics** and software development.
+	// OBJECTIVE (BLOCKQUOTE)
+	if (role == "ms") { %>
+		> Ph.D. graduate in physics with expertise **materials science**, **gamma-ray spectroscopy**, **defect studies**, and nuclear physics. 7+ years of experience in **data analysis**, **simulations** in elementary **particle physics** and software development.
 <%  } else if (role == "cs") { %>
-        > Ph.D. graduate in physics with a focus in GUI **desktop software development** for data analyses. More than 5 years in website and **web applications development**. Strong **user interface** (UI) and **user experience** (UX) design skills.
+		> Ph.D. graduate in physics with a focus in GUI **desktop software development** for data analyses. More than 5 years in website and **web applications development**. Strong **user interface** (UI) and **user experience** (UX) design skills.
 <%  } else if (role == "ui") { %>
-        > Ph.D. graduate in physics with 5+ years of expertise in the user interface (UI) and user experience (UX) design. Strong web application and desktop software development skills.
+		> Ph.D. graduate in physics with 5+ years of expertise in the user interface (UI) and user experience (UX) design. Strong web application and desktop software development skills.
 <%  } %>
 Summary of Qualifications
 -------------------------
 
 <% if (role == "ms") { %>
-    * More than 7 years of experience in GUI desktop software development for experimental spectra fitting and interpretation (C++, ROOT, Qt, Java, Python).
-    * Strong materials science skills: defect characterization and porosity studies in bulk materials (with crystal structure and nano-powders).
-    * Over 5 years of hands-on experience with data acquisition setups and numerous fast electronic modules (ORTEC, Canberra, Tektronix).
-    * Expertise with particle simulation software. Developed several simulation programs for applications in high-energy physics and photonics research.
+	* More than 7 years of experience in GUI desktop software development for experimental spectra fitting and interpretation (C++, ROOT, Qt, Java, Python).
+	* Strong materials science skills: defect characterization and porosity studies in bulk materials (with crystal structure and nano-powders).
+	* Over 5 years of hands-on experience with data acquisition setups and numerous fast electronic modules (ORTEC, Canberra, Tektronix).
+	* Expertise with particle simulation software. Developed several simulation programs for applications in high-energy physics and photonics research.
 <%  } else if (role == "cs") { %>
-    * Strong Object Oriented Programming (OOP) and debugging skills (C++, Java, Python). Knowledge of modern IDEs (Eclipse, XCode, VSCode).
-    * 3+ years in building responsive web apps with modular JavaScript, HTML, and CSS. Hands-on experience with Angular and React frameworks.
-    * 5+ years of user interfaces (UI) with Model-View patterns (MVC, MVP). Knowledge of Qt framework.
-    * 6+ years of UI and UX wireframing and interactive prototyping skills (Figma, Sketch, Adobe) for web and mobile applications.
-    <%  } %>
+	* Strong Object Oriented Programming (OOP) and debugging skills (C++, Java, Python). Knowledge of modern IDEs (Eclipse, XCode, VSCode).
+	* 3+ years in building responsive web apps with modular JavaScript, HTML, and CSS. Hands-on experience with Angular and React frameworks.
+	* 5+ years of user interfaces (UI) with Model-View patterns (MVC, MVP). Knowledge of Qt framework.
+	* 6+ years of UI and UX wireframing and interactive prototyping skills (Figma, Sketch, Adobe) for web and mobile applications.
+	<%  } %>
 Work Experience
 ---------------
 <% for (var key in work){
-    // Hide Russian Gridnine for computer science
-    if (role == "ms"){
-        delete work.freelance;
-        delete work.gridnine;
-        delete work.mipt;
-        delete work.itep;
-    } else if (role == "cs"){
-        delete work.mipt;
-        delete work.gridnine;
-        delete work.itep;
-    }
+	// Hide Russian Gridnine for computer science
+	if (role == "ms"){
+		delete work.freelance;
+		delete work.gridnine;
+		delete work.mipt;
+		delete work.itep;
+	} else if (role == "cs"){
+		delete work.mipt;
+		delete work.gridnine;
+		delete work.itep;
+	}
 
-    var position = "";
-    switch(role) {
-        case "cs":
-            position = work[key].role_cs ? work[key].role_cs : work[key].role;
-            break;
-        case "ui":
-            position = work[key].role_ui ? work[key].role_ui : work[key].role;
-            break;
-        default:
-            position = work[key].role_ms ? work[key].role_ms : work[key].role;
-    } 
-    // Print position %>
-    ### <%- position %>
-    <% if (work[key].location.length > 0){ %>
-        [<%- work[key].company %>](<%- work[key].link %>), <%- work[key].location %>.
-    <% } %>
-    📅 <%- work[key].start %> - <%- work[key].end %>
+	var position = "";
+	switch(role) {
+		case "cs":
+			position = work[key].role_cs ? work[key].role_cs : work[key].role;
+			break;
+		case "ui":
+			position = work[key].role_ui ? work[key].role_ui : work[key].role;
+			break;
+		default:
+			position = work[key].role_ms ? work[key].role_ms : work[key].role;
+	} 
+	// Print position %>
+	### <%- position %>
+	<% if (work[key].location.length > 0){ %>
+		[<%- work[key].company %>](<%- work[key].link %>), <%- work[key].location %>.
+	<% } %>
+	📅 <%- work[key].start %> - <%- work[key].end %>
 
-    <% 
+	<% 
 
-    function appliesToRole(role, string){
-        if (role==="all") return true;
+	function appliesToRole(role, string){
+		if (role==="all") return true;
 
-        const regex = /<(.*)>/g;
-        const array = regex.exec(string)
+		const regex = /<(.*)>/g;
+		const array = regex.exec(string)
 
-        if (!array) return true;
-        return array[1].includes(role)
-    }
+		if (!array) return true;
+		return array[1].includes(role)
+	}
 
-    function trimDesc(string){
-        return string.replace(/(<.*> )/g, '');
-    }
-    
-    if (Array.isArray(work[key].description)){
-        for (const desc of work[key].description){
-            if (Array.isArray(desc)){
-                for (var d of desc){
-                    // Nested bullet
-                    if(appliesToRole(role, d)){
-                        %>    * <%- trimDesc(d) %>
-                    <% }
-                }
-            } else {
-                // Bullet
-                if(appliesToRole(role, desc)){
-                    %>* <%- trimDesc(desc) %>
-                <% }
-            }
-        }       
-    } else {
-        // Simple text
-        var desc = work[key].description
-        if(appliesToRole(role, desc)){
-            %>* <%- trimDesc(desc) %>
-        <% }
-    }
+	function trimDesc(string){
+		return string.replace(/(<.*> )/g, '');
+	}
+	
+	if (Array.isArray(work[key].description)){
+		for (const desc of work[key].description){
+			if (Array.isArray(desc)){
+				for (var d of desc){
+					// Nested bullet
+					if(appliesToRole(role, d)){
+						%>	* <%- trimDesc(d) %>
+					<% }
+				}
+			} else {
+				// Bullet
+				if(appliesToRole(role, desc)){
+					%>* <%- trimDesc(desc) %>
+				<% }
+			}
+		}	   
+	} else {
+		// Simple text
+		var desc = work[key].description
+		if(appliesToRole(role, desc)){
+			%>* <%- trimDesc(desc) %>
+		<% }
+	}
 } %>
 
 Computer Science Skills
@@ -124,133 +124,133 @@ Computer Science Skills
 * **Essentials**. Git, SVN, SSH, Linux, and Terminal usage. BASH scripting. IDEs: Eclipse, Xcode, Visual Studio Code (VS Code). 
 * **Project management**. JIRA, Trello, GitHub, GitLab.
 <% if (role == "ms" || role == "all"){ %>
-    * **Simulation and data analysis**: Geant4, CERN ROOT, MATLAB, Wolfram Mathematica, Maple.
+	* **Simulation and data analysis**: Geant4, CERN ROOT, MATLAB, Wolfram Mathematica, Maple.
 
-    * **Academic writing**: LaTeX, MS Office Suite, Zotero.
+	* **Academic writing**: LaTeX, MS Office Suite, Zotero.
 
-    * **Data plotting**: Gnuplot, OriginLab, QtiPlot, SciDaVis, Grapher.
+	* **Data plotting**: Gnuplot, OriginLab, QtiPlot, SciDaVis, Grapher.
 <% } %>
 * **Desktop app development**. C/C++, GNU make, CMake. Frameworks: Qt, CERN ROOT, Geant4. Java and Swing. Python.
 
 * **Frontend**: HTML, CSS (LESS and SASS), Bootstrap, responsive web design, JavaScript and jQuery, npm, gulp, AngularJS, React.js. Google Web Toolkit. PHP and WordPress themes development.
 <% if (role == "cs" || role == "ui" || role == "all"){ %>
-    * **Backend**. Node.js, Express.JS (EJS), Java.
+	* **Backend**. Node.js, Express.JS (EJS), Java.
 
-    * **UI/UX design**. Figma, Sketch, InVision Studio, Adobe XD, Adobe Photoshop, Adobe Illustrator, Inkscape, Balsamiq, Blender.
+	* **UI/UX design**. Figma, Sketch, InVision Studio, Adobe XD, Adobe Photoshop, Adobe Illustrator, Inkscape, Balsamiq, Blender.
 
-    * **Apple iOS**. Fundamental Swift skills. User interface development with UIkit and storyboards.
+	* **Apple iOS**. Fundamental Swift skills. User interface development with UIkit and storyboards.
 <% } 
 
 if(role == "all"){ %>
-    Material Research Skills
-    ------------------------
+	Material Research Skills
+	------------------------
 
-    * **Characterization facilities**. Positron Lifetime and Doppler Broadening Annihilation Spectroscopy (PALS, DBAR). Atom Probe Tomography (ATP). Scanning Electron Microscopy (SEM). Transmission electron microscopy (TEM). Atomic Force Microscopy (AFM). UV-VIS Spectroscopy. Fourier Transform Infrared Spectroscopy (FTIR).
+	* **Characterization facilities**. Positron Lifetime and Doppler Broadening Annihilation Spectroscopy (PALS, DBAR). Atom Probe Tomography (ATP). Scanning Electron Microscopy (SEM). Transmission electron microscopy (TEM). Atomic Force Microscopy (AFM). UV-VIS Spectroscopy. Fourier Transform Infrared Spectroscopy (FTIR).
 
-    * **Material processing**. High-temperature annealing. Wet chemical etching. Electrical Contact Fabrication. Sample polishing.
+	* **Material processing**. High-temperature annealing. Wet chemical etching. Electrical Contact Fabrication. Sample polishing.
 <% } %>
 
 Education
 ---------
 <% for (var key in education){
-    var roles = education[key].roles;
-    if (role != "all" && !roles.includes(role)) continue;
+	var roles = education[key].roles;
+	if (role != "all" && !roles.includes(role)) continue;
 
-    // Print school
-    %>
-    ### <%- education[key].school %> • <%- education[key].location %>
+	// Print school
+	%>
+	### <%- education[key].school %> • <%- education[key].location %>
 
-    📅 <%- education[key].start %> - <%- education[key].end %>
+	📅 <%- education[key].start %> - <%- education[key].end %>
 
-    <%- education[key].degree %> in <%- education[key].major %>. <%- education[key].info %>
-    <% if(role == "all" && education[key].description){
-        for (var d of education[key].description){
-            %>* <%- d %>
-        <% }
-    }
+	<%- education[key].degree %> in <%- education[key].major %>. <%- education[key].info %>
+	<% if(role == "all" && education[key].description){
+		for (var d of education[key].description){
+			%>* <%- d %>
+		<% }
+	}
 } 
 
 if (role == "ms" || role == "all") { %>
 
-    Featured Publications
-    ---------------------
-    <% for (const publication of publications){
-        let json = await citejs.inputAsync(publication.doi);
-        let citation = json[0];
-        // console.log(citation);
-        %>* <%
+	Featured Publications
+	---------------------
+	<% for (const publication of publications){
+		let json = await citejs.inputAsync(publication.doi);
+		let citation = json[0];
+		// console.log(citation);
+		%>* <%
 
-        // Print Authors
-        var etalMaxNumber = 2;
-        var etal = citation.author.length > etalMaxNumber;
-        if (etal){
-            citation.author.length = etalMaxNumber;
-        }
-        for (var i=0; i < citation.author.length; i++){
-            const author = citation.author[i];
-            %><%- author.given %> <%- author.family %><%- i < citation.author.length-1 ? ', ' : etal ? ' et al. ' : '. ' %><%
-        }
+		// Print Authors
+		var etalMaxNumber = 2;
+		var etal = citation.author.length > etalMaxNumber;
+		if (etal){
+			citation.author.length = etalMaxNumber;
+		}
+		for (var i=0; i < citation.author.length; i++){
+			const author = citation.author[i];
+			%><%- author.given %> <%- author.family %><%- i < citation.author.length-1 ? ', ' : etal ? ' et al. ' : '. ' %><%
+		}
 
-        // Print Title
-        citation.title = citation.title.replaceAll('<sub>3</sub>','₃');
-        citation.title = citation.title.replaceAll('<sup>+</sup>','⁺');
-        citation.title = citation.title.replaceAll('Al2O3','Al₂O₃');
-        citation['container-title'] = citation['container-title'].replaceAll('INTERNATIONAL CONFERENCE ON SCIENCE AND APPLIED SCIENCE (ICSAS) 2019','AIP Conference Proceedings 2182');
-        
-        %><%- citation.title %>. <%
+		// Print Title
+		citation.title = citation.title.replaceAll('<sub>3</sub>','₃');
+		citation.title = citation.title.replaceAll('<sup>+</sup>','⁺');
+		citation.title = citation.title.replaceAll('Al2O3','Al₂O₃');
+		citation['container-title'] = citation['container-title'].replaceAll('INTERNATIONAL CONFERENCE ON SCIENCE AND APPLIED SCIENCE (ICSAS) 2019','AIP Conference Proceedings 2182');
+		
+		%><%- citation.title %>. <%
 
-        // Print Journal
-        %>*<%- citation['container-title'] %>*<%
+		// Print Journal
+		%>*<%- citation['container-title'] %>*<%
 
-        // Print year
-        %> **<%- citation.published['date-parts'][0][0] %>**<%
+		// Print year
+		%> **<%- citation.published['date-parts'][0][0] %>**<%
 
-        // Print volume
-        if (citation.volume){
-            %>, <%- citation.volume %><%
-        }
+		// Print volume
+		if (citation.volume){
+			%>, <%- citation.volume %><%
+		}
 
-        // Print issue
-        if (citation.issue){
-            %> (<%- citation.issue %>)<%
-        }
+		// Print issue
+		if (citation.issue){
+			%> (<%- citation.issue %>)<%
+		}
 
-        // Print page
-        if (citation.page){
-            %>, <%- citation.page %><%
-        }
+		// Print page
+		if (citation.page){
+			%>, <%- citation.page %><%
+		}
 
-        // Print DOI
-        %>. [<%- citation.DOI %>](<%- citation.URL %>).
-    <% }
+		// Print DOI
+		%>. [<%- citation.DOI %>](<%- citation.URL %>).
+	<% }
 } %>
 <% if (role == "all") { %>
-    Conferences
-    -----------
-    <% for (const conference of conferences){ %>
-        ### <%- conference.name %>
+	Conferences
+	-----------
+	<% for (const conference of conferences){ %>
+		### <%- conference.name %>
 
-        📅 <%- conference.date %>
+		📅 <%- conference.date %>
 
-        <%- conference.location %>
+		<%- conference.location %>
 
-        <%- conference.info %>
-    <% }
+		<%- conference.info %>
+	<% }
 } %>
 
 Professional Networks
 ---------------------
 
 <% for (const key in networks){
-    const roles = networks[key].role;
-    if (roles.includes(role) || role=="all"){
-        %>* <%- networks[key].text %>
-    <% }
+	const roles = networks[key].role;
+	if (roles.includes(role) || role=="all"){
+		%>* <%- networks[key].text %>
+	<% }
 } %>
 
 Interests
 ---------
 
 Linux and open-source software. Hosting an [open-source project](https://github.com/petrstepanov/gnome-macos-remap) for keyboard remapping on Linux (300 stars on GitHub).<%
-    // > Authorized to work in US on [Optional Practical Training](https://en.wikipedia.org/wiki/Optional_Practical_Training) (OPT expires February 2023). Will consider visa sponsorship offers.
+	// > Authorized to work in US on [Optional Practical Training](https://en.wikipedia.org/wiki/Optional_Practical_Training) (OPT expires February 2023). Will consider visa sponsorship offers.
 %>

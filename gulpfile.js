@@ -139,7 +139,7 @@ function getFilesWithExtension(folder, extension){
 	// https://stackoverflow.com/questions/44199883/how-do-i-get-a-list-of-files-with-specific-file-extension-using-node-js
 
 	const targetFiles = files.filter(file => {
-    	return path.extname(file).toLowerCase() === extension;
+		return path.extname(file).toLowerCase() === extension;
 	});
 
 	// Add full path
