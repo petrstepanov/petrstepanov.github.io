@@ -9,9 +9,9 @@ bgsu:
   info: "Novel developments in positron annihilation spectroscopy techniques—from experimental setups to advanced processing software. [View manuscript](https://petrstepanov.com/static/petr-stepanov-dissertation-latest.pdf)."
   description:
     - "Assembled and utilized two spectrometers: positron lifetime and Doppler. Spectrometers are built from ORTEC and Canberra (Mirion) fast electronic units and utilize High-Purity Germanium Detectors (HPGe) and scintillation-based detector systems."
-    - Developed open-source software (C++, CERN ROOT) for novel interpretation of the experimental spectra.
-    - Defined and resolved kinetic equations of reactions of positron and positronium atoms (Ps) in solids and liquids and nano-powders (Wolfram Mathemetica). Equation parameters are implemented in the fitting model of experimental spectra (RooFit).
-    - Above research allowed for estimation of defect concentrations and sizes in solids, classification of defect types (vacancies, dislocations) and more...
+    - Developed open-source software (C++, CERN ROOT) for a novel interpretation of the experimental spectra.
+    - Defined and resolved kinetic equations of reactions of positron and positronium atoms (Ps) in solids and liquids and nano-powders (Wolfram Mathematica). Equation parameters are implemented in the fitting model of experimental spectra (RooFit).
+    - Above research allowed for the estimation of defect concentrations and sizes in solids, classification of defect types (vacancies, dislocations), and more...
   roles: ms cs ui
 osc:
   school: Ohio Supercomputer Workshop
@@ -23,7 +23,7 @@ osc:
   major: Supercomputer Essentials
   info: Introduction to the key developments in the supercomputer field.
   description:
-    - "RedHat and CentOS operating systems: environment, networking and SSH."
+    - "RedHat and CentOS operating systems: environment, networking, and SSH."
     - Supercomputer job control with BASH and SLURM scripts.
     - CMake compiling platform, use of parallel nodes, A.I. fundamentals and more..."
   roles: ms
