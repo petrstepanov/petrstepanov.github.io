@@ -20,12 +20,13 @@ Work Experience
 
 📅 Jul 2020 - Current
 
-* Used Machine Learning (ML) TMVA framework to perform binary classification of thousands of signals from a data acquisition (DAQ) setup. [Link to GitHub](https://github.com/petrstepanov/dual-readout-tmva).
+* Coded a Geant4-based sumulation for studying the optimal light guide length (range 0-10 cm) for the [EM calorimeter](https://wiki.jlab.org/cuawiki/index.php/Electron-Ion_Collider_Detectors:_EEEMCal) used in the Electron-Ion-Collider (EIC) project. [Link to GitHub](https://github.com/petrstepanov/light-guides).
+* Used Machine Learning (ML) techniques to perform binary classification of thousands of signals from a data acquisition (DAQ) setup. [Link to GitHub](https://github.com/petrstepanov/dual-readout-tmva).
 * Applied CERN ROOT framework (C++) to perform statistical analysis of a significant amount (over 100 GB) of the raw experimental data of the [Kaon LT](https://redmine.jlab.org/projects/kltexp/wiki) experiment at JLab. [Link to GitHub](https://github.com/petrstepanov/kaonlt-fit).
-* Utilized SLURM environment on [JLab supercomputer environment](https://scicomp.jlab.org/scicomp/index.html) to run resourceful particle simulations on multiple computing nodes at the same time. This decreased the wall computation time by more than 10 times.
-* Proposed and implemented RAMDisk functionality on the development environment. This led to an over 60% increase in source code indexing time.
-* Set up data acquisition system that performs triggered waveform acquisition from Tektronix oscilloscope to a local Network Attached Storage (NAS) device. RedHat, Ethernet, SAMBA, Python, National Instruments VISA library.
-* Committed 50+ shifts at the particle accelerator performing Target Operator and Shift Leader duties ([Pion LT project](https://redmine.jlab.org/projects/hall-c/wiki/), experimental Hall C).
+* Utilized SLURM supercomputer environment to run programs on the JLab supercomputer environment simultaneously. This reduced the wall time by more than 10 times.
+* Proposed and implemented RAMDisk functionality on the development environment. This led to an over 50% increase in source code indexing time.
+* Set up data acquisition system that performs triggered waveform acquisition involving 3 devices - Tektronix oscilloscope, Network Attached Storage, and RedHat computer (SAMBA, Python, National Instruments NI-VISA library).
+* Contributed 100+ shifts at the Hall C in Thomas Jefferson Particle Accelerator facility for the [Pion LT project](https://redmine.jlab.org/projects/hall-c/wiki/).
 
 ### Postdoctoral Researcher (Remote)
 
@@ -33,10 +34,8 @@ Work Experience
 
 📅 Jul 2020 - Current
 
-* Developed a computer simulation based on the Geant4 framework (C++, CMake, Eclipse IDE, gdb) to study the optical properties of a novel scintillation material to be used in the EIC detector system. [Link to GitHub](https://github.com/petrstepanov/geant4-glass).
-* Program accounts on scintillation material properties - composition, transmittance, luminescence.
-* Code reconstructs detector response (PMT or MPPC) depending on the quantum efficiency curve.
-* Visualization of optical photon trajectories concerning their energy or creator process.
+* Programmed a Geant-4 computer simulation (C++, CMake, Eclipse IDE, gdb) to study performance of a novel scintillation material for EIC, Brookhaven National Lab. [Link to GitHub](https://github.com/petrstepanov/geant4-glass).
+* Visualized energy deposition profiles and calculated energy resolutions for variety of detector assemblies.
 * Teaching experience. Mentoring students within a 3-month Research Experiences for Undergraduates (REU) program at the Physics Department at CUA. Giving talks and presentations about [Linux Terminal](https://petrstepanov.com/static/presentations/presentation-2021-06-03-linux-terminal.pdf), and [supercomputer environment](https://petrstepanov.com/static/presentations/presentation-2021-06-17-jlab-geant-root.pdf).
 * Enhanced debugging of the core library source code led to the publishing of more than [10 bug reports](https://root-forum.cern.ch/u/petrstepanov/activity/topics) on the ROOT (C++) forum.
 
@@ -175,9 +174,7 @@ Featured Publications
 ---------------------
 * P. S. Stepanov, F. A. Selim et al. Interaction of positronium with dissolved oxygen in liquids. *Physical Chemistry Chemical Physics* **2020**, 22 (9), 5123-5131. [10.1039/c9cp06105c](http://dx.doi.org/10.1039/C9CP06105C).
 * P. S. Stepanov, F. A. Selim et al. A model for joint processing of LT and CDB spectra of dielectric nano-sized powders. *AIP Conference Proceedings 2182* **2019**. [10.1063/1.5135836](http://dx.doi.org/10.1063/1.5135836).
-* P Saadatkia, P Stepanov et al. Photoconductivity of bulk SrTiO₃single crystals at room temperature. *Materials Research Express* **2018**, 5 (1), 016202. [10.1088/2053-1591/aaa094](http://dx.doi.org/10.1088/2053-1591/aaa094).
 * P.S. Stepanov, S.V. Stepanov et al. Developing New Routine for Processing Two-Dimensional Coincidence Doppler Energy Spectra and Evaluation of Electron Subsystem Properties in Metals. *Acta Physica Polonica A* **2017**, 132 (5), 1628-1633. [10.12693/aphyspola.132.1628](http://dx.doi.org/10.12693/APhysPolA.132.1628).
-* J. Ji, A. M. Colosimo et al. ZnO Luminescence and scintillation studied via photoexcitation, X-ray excitation and gamma-induced positron spectroscopy. *Scientific Reports* **2016**, 6 (1). [10.1038/srep31238](http://dx.doi.org/10.1038/srep31238).
 
 
 Conferences
@@ -251,14 +248,14 @@ Oral talk "Application of positron spectroscopy for detection of nanostructures 
 Professional Networks
 ---------------------
 
-* Discover my professional contacts [on LinkedIn](https://www.linkedin.com/in/petrstepanov/en/) (200+ connections).
-* Get familiar with my scientific career [on ResearchGate](https://www.researchgate.net/profile/Petr_Stepanov2).
-* Skim through the list of my publications [on Google Scholar](https://scholar.google.com/citations?hl=en&user=S5etjqoAAAAJ&view_op=list_works&sortby=pubdate) (24 articles, 200+ citations).
 * Find examples of my code [on GitHub](https://github.com/petrstepanov/) (50+ repositories).
+* Discover my professional contacts [on LinkedIn](https://www.linkedin.com/in/petrstepanov/en/) (200+ connections).
+* Skim through the list of my publications [on Google Scholar](https://scholar.google.com/citations?hl=en&user=S5etjqoAAAAJ&view_op=list_works&sortby=pubdate) (24 articles, 200+ citations).
 * Check out my UI design portfolio [on Dribbble](https://dribbble.com/petrstepanov) (50+ shots).
 
 
 Interests
 ---------
 
-Linux and open-source software. Hosting an [open-source project](https://github.com/petrstepanov/gnome-macos-remap) for keyboard remapping on Linux (300 stars on GitHub).
+* Hosting an open-source project for keyboard remapping on Linux [300+ stars on GitHub](https://github.com/petrstepanov/gnome-macos-remap).
+* Contributing to the C++ open source framework ROOT. Created two shared libraries to facilitate data analysis. Links to GitHub: [CanvasHelper](https://petrstepanov.com/root-canvas-helper/) and [RootUtils](https://petrstepanov.com/root-utils/).

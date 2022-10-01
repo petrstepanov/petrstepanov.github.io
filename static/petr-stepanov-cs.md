@@ -7,7 +7,7 @@ Software developer. User interface designer.
  📞 [(419) 496-86-02](tel:+14194968602)
  🏠 [petrstepanov.com](https://petrstepanov.com/)
 
-> Ph.D. graduate in physics with a focus in GUI **desktop software development** for data analyses. More than 5 years in website and **web applications development**. Strong **user interface** (UI) and **user experience** (UX) design skills.
+> **Ph.D. graduate** in physics with a focus in GUI **desktop software development** for data analyses. More than 5 years in website and **web applications development**. Strong **user interface** (UI) and **user experience** (UX) design skills.
 
 Summary of Qualifications
 -------------------------
@@ -15,8 +15,8 @@ Summary of Qualifications
 
 * Strong Object Oriented Programming (OOP) and debugging skills (C++, Java, Python). Knowledge of modern IDEs (Eclipse, XCode, VSCode).
 * 3+ years in building responsive web apps with modular JavaScript, HTML, and CSS. Hands-on experience with Angular and React frameworks.
-* 5+ years of user interfaces (UI) with Model-View patterns (MVC, MVP). Knowledge of Qt framework.
-* 6+ years of UI and UX wireframing and interactive prototyping skills (Figma, Sketch, Adobe) for web and mobile applications.
+* 5+ years of user interfaces (UI) with Model-View patterns (MVC, MVP). Application of Qt framework for UI development.
+* 6+ years of UI and UX wireframing and interactive prototyping skills (Figma, Sketch, Adobe, PenPot) for web and mobile applications.
 
 Work Experience
 ---------------
@@ -27,10 +27,11 @@ Work Experience
 
 📅 Jul 2020 - Current
 
-* Used Machine Learning (ML) TMVA framework to perform binary classification of thousands of signals from a data acquisition (DAQ) setup. [Link to GitHub](https://github.com/petrstepanov/dual-readout-tmva).
+* Coded a Geant4-based sumulation for studying the optimal light guide length (range 0-10 cm) for the [EM calorimeter](https://wiki.jlab.org/cuawiki/index.php/Electron-Ion_Collider_Detectors:_EEEMCal) used in the Electron-Ion-Collider (EIC) project. [Link to GitHub](https://github.com/petrstepanov/light-guides).
+* Used Machine Learning (ML) techniques to perform binary classification of thousands of signals from a data acquisition (DAQ) setup. [Link to GitHub](https://github.com/petrstepanov/dual-readout-tmva).
 * Applied CERN ROOT framework (C++) to perform statistical analysis of a significant amount (over 100 GB) of the raw experimental data of the [Kaon LT](https://redmine.jlab.org/projects/kltexp/wiki) experiment at JLab. [Link to GitHub](https://github.com/petrstepanov/kaonlt-fit).
-* Utilized SLURM environment on [JLab supercomputer environment](https://scicomp.jlab.org/scicomp/index.html) to run resourceful particle simulations on multiple computing nodes at the same time. This decreased the wall computation time by more than 10 times.
-* Proposed and implemented RAMDisk functionality on the development environment. This led to an over 60% increase in source code indexing time.
+* Utilized SLURM supercomputer environment to run programs on the JLab supercomputer environment simultaneously. This reduced the wall time by more than 10 times.
+* Proposed and implemented RAMDisk functionality on the development environment. This led to an over 50% increase in source code indexing time.
 
 ### Software Developer • Postdoctoral Researcher
 
@@ -38,10 +39,8 @@ Work Experience
 
 📅 Jul 2020 - Current
 
-* Developed a computer simulation based on the Geant4 framework (C++, CMake, Eclipse IDE, gdb) to study the optical properties of a novel scintillation material to be used in the EIC detector system. [Link to GitHub](https://github.com/petrstepanov/geant4-glass).
-* Program accounts on scintillation material properties - composition, transmittance, luminescence.
-* Code reconstructs detector response (PMT or MPPC) depending on the quantum efficiency curve.
-* Visualization of optical photon trajectories concerning their energy or creator process.
+* Programmed a Geant-4 computer simulation (C++, CMake, Eclipse IDE, gdb) to study performance of a novel scintillation material for EIC, Brookhaven National Lab. [Link to GitHub](https://github.com/petrstepanov/geant4-glass).
+* Visualized energy deposition profiles and calculated energy resolutions for variety of detector assemblies.
 * Enhanced debugging of the core library source code led to the publishing of more than [10 bug reports](https://root-forum.cern.ch/u/petrstepanov/activity/topics) on the ROOT (C++) forum.
 
 ### Software Developer • Research Assistant
@@ -113,12 +112,13 @@ Three-month intensive in Graphical Design and Visual Communications. Lectures an
 Professional Networks
 ---------------------
 
-* Discover my professional contacts [on LinkedIn](https://www.linkedin.com/in/petrstepanov/en/) (200+ connections).
 * Find examples of my code [on GitHub](https://github.com/petrstepanov/) (50+ repositories).
+* Discover my professional contacts [on LinkedIn](https://www.linkedin.com/in/petrstepanov/en/) (200+ connections).
 * Check out my UI design portfolio [on Dribbble](https://dribbble.com/petrstepanov) (50+ shots).
 
 
 Interests
 ---------
 
-Linux and open-source software. Hosting an [open-source project](https://github.com/petrstepanov/gnome-macos-remap) for keyboard remapping on Linux (300 stars on GitHub).
+* Hosting an open-source project for keyboard remapping on Linux [300+ stars on GitHub](https://github.com/petrstepanov/gnome-macos-remap).
+* Contributing to the C++ open source framework ROOT. Created two shared libraries to facilitate data analysis. Links to GitHub: [CanvasHelper](https://petrstepanov.com/root-canvas-helper/) and [RootUtils](https://petrstepanov.com/root-utils/).

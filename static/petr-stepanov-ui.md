@@ -7,7 +7,7 @@ UI/UX designer. Frontend and desktop developer.
  📞 [(419) 496-86-02](tel:+14194968602)
  🏠 [petrstepanov.com](https://petrstepanov.com/)
 
-> Ph.D. graduate in physics with 5+ years of expertise in the user interface (UI) and user experience (UX) design. Strong web application and desktop software development skills.
+> **Ph.D. graduate** in physics with 5+ years of expertise in the user interface (UI) and user experience (UX) design. Strong web application and desktop software development skills.
 
 Summary of Qualifications
 -------------------------
@@ -123,12 +123,13 @@ Three-month intensive in Graphical Design and Visual Communications. Lectures an
 Professional Networks
 ---------------------
 
-* Discover my professional contacts [on LinkedIn](https://www.linkedin.com/in/petrstepanov/en/) (200+ connections).
 * Find examples of my code [on GitHub](https://github.com/petrstepanov/) (50+ repositories).
+* Discover my professional contacts [on LinkedIn](https://www.linkedin.com/in/petrstepanov/en/) (200+ connections).
 * Check out my UI design portfolio [on Dribbble](https://dribbble.com/petrstepanov) (50+ shots).
 
 
 Interests
 ---------
 
-Linux and open-source software. Hosting an [open-source project](https://github.com/petrstepanov/gnome-macos-remap) for keyboard remapping on Linux (300 stars on GitHub).
+* Hosting an open-source project for keyboard remapping on Linux [300+ stars on GitHub](https://github.com/petrstepanov/gnome-macos-remap).
+* Contributing to the C++ open source framework ROOT. Created two shared libraries to facilitate data analysis. Links to GitHub: [CanvasHelper](https://petrstepanov.com/root-canvas-helper/) and [RootUtils](https://petrstepanov.com/root-utils/).
