@@ -12290,7 +12290,7 @@ var morphNavigation = require('./modules/morph-navigation');
 
 var morphNavigationElement = document.querySelector('.js--init-morph-navigation');
 morphNavigation.init(morphNavigationElement);
-}).call(this,require("rH1JPG"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/fake_3e59d2de.js","/")
+}).call(this,require("rH1JPG"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/fake_e78d45bf.js","/")
 },{"./modules/morph-navigation":8,"buffer":3,"rH1JPG":6}],8:[function(require,module,exports){
 (function (process,global,Buffer,__argument0,__argument1,__argument2,__argument3,__filename,__dirname){
 // Material alike navigation menu
@@ -12320,17 +12320,15 @@ function _bindEvents(element) {
 
 function _toggleMenu(){
     if (!DOM.$el.hasClass('is-open')){
-        uiHelper.animateCSS(DOM.$icon.get(0), "fadeOut", function(){
-            DOM.$icon.removeClass('ion-ios-menu');
-            DOM.$icon.addClass('ion-ios-close');
+        uiHelper.animateCSS(DOM.$icon.get(0), "fadeOut").then(function(){
+            DOM.$icon.attr('name', 'close');
             uiHelper.animateCSS(DOM.$icon.get(0), "fadeIn");
         });
         bodyScrollLock.disableBodyScroll(DOM.$el.get(0));
     }
     else {
-        uiHelper.animateCSS(DOM.$icon.get(0), "fadeOut", function(){
-            DOM.$icon.removeClass('ion-ios-close');
-            DOM.$icon.addClass('ion-ios-menu');
+        uiHelper.animateCSS(DOM.$icon.get(0), "fadeOut").then(function(){
+            DOM.$icon.attr('name', 'menu');
             uiHelper.animateCSS(DOM.$icon.get(0), "fadeIn");
         });
         bodyScrollLock.enableBodyScroll(DOM.$el.get(0));

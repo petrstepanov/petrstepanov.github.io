@@ -39,7 +39,6 @@
     "gulp-sourcemaps": "^3.0.0",
     "gulp-uglify": "^3.0.2",
     "gulplog": "^1.0.0",
-    "ionicons": "^4.6.3",
     "jquery": "^3.6.0",
     "js-yaml": "^4.1.0",
     "markdown-it": "^12.3.2",

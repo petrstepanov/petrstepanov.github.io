@@ -1,9 +1,21 @@
-.icon-font {
-    display: inline-block;
-    transform: translateY(0.05em);
+ion-icon {
+    transform: translateY(0.15em) scale(1.5);
+}
+
+.morph-button ion-icon {
+    transform: translateY(0.15em) scale(2);
 }
 
 // Extra icon size utilities
+
+/*
+.icon-large {
+    transform: translateY(0.05em) scale(1.4);
+}
+
+.icon-huge {
+    transform: translateY(0.05em) scale(2);
+}
 
 .icon-large {
     transform: translateY(0.05em) scale(1.4);
@@ -12,3 +24,4 @@
 .icon-huge {
     transform: translateY(0.05em) scale(2);
 }
+*/

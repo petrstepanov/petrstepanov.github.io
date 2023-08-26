@@ -25,17 +25,15 @@ function _bindEvents(element) {
 
 function _toggleMenu(){
     if (!DOM.$el.hasClass('is-open')){
-        uiHelper.animateCSS(DOM.$icon.get(0), "fadeOut", function(){
-            DOM.$icon.removeClass('ion-ios-menu');
-            DOM.$icon.addClass('ion-ios-close');
+        uiHelper.animateCSS(DOM.$icon.get(0), "fadeOut").then(function(){
+            DOM.$icon.attr('name', 'close');
             uiHelper.animateCSS(DOM.$icon.get(0), "fadeIn");
         });
         bodyScrollLock.disableBodyScroll(DOM.$el.get(0));
     }
     else {
-        uiHelper.animateCSS(DOM.$icon.get(0), "fadeOut", function(){
-            DOM.$icon.removeClass('ion-ios-close');
-            DOM.$icon.addClass('ion-ios-menu');
+        uiHelper.animateCSS(DOM.$icon.get(0), "fadeOut").then(function(){
+            DOM.$icon.attr('name', 'menu');
             uiHelper.animateCSS(DOM.$icon.get(0), "fadeIn");
         });
         bodyScrollLock.enableBodyScroll(DOM.$el.get(0));

@@ -42,9 +42,10 @@ var paths = {
 		dest: './js'
 	},
 	fonts: {
-		src: ['./node_modules/typeface-zilla-slab/files/zilla-slab-latin-700.*',
-		      './node_modules/ionicons/dist/fonts/ionicons.w*'],
-		dest: './fonts'
+		src: ['./node_modules/typeface-zilla-slab/files/zilla-slab-latin-700.*'],
+		// src: ['./node_modules/typeface-zilla-slab/files/zilla-slab-latin-700.*',
+		//       './node_modules/ionicons/dist/fonts/ionicons.w*'],
+			  dest: './fonts'
 	}
 };
 
