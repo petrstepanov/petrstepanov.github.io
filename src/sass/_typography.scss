@@ -116,6 +116,11 @@ body {
 ul.my-list {
     padding-left: 1em;
     list-style-type: disc;
+    margin-left: 1em;
+
+    @include media-breakpoint-up(md){
+        margin-left: 0;
+    }
 
     li {
         margin-top: 0.2em;
