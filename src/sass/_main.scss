@@ -11,5 +11,8 @@ body {
 /* Logos */
 
 .logo-circ {
-    height: 3em;
+    height: 1.5em;
+    @include media-breakpoint-up(md){
+        height: 3em;
+    }
 }
