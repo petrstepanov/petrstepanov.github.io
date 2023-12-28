@@ -1,49 +1,37 @@
 Petr Stepanov
 =============
 
-<%  // SLOGAN 
-switch(role) {
-case "ms":
-%>Materials science. Particle simulations and data analysis. Software development.
-<% break;
-case "cs":
-%>Software developer. User interface designer.
-<% break;
-case "ui":
-%>UI/UX designer. Frontend and desktop developer.
-<% break;
-case "all":
-%>Materials science. Data analysis. Desktop and web applications development. UI/UX design.
-<% break;
-}
-%>
 <%  // TOP LINKS
 for (var key in topLinks){
-%> <%- topLinks[key].icon %> [<%- topLinks[key].text %>](<%- topLinks[key].link %>)
-<%  } 
+%><%- topLinks[key].icon %> [<%- topLinks[key].text %>](<%- topLinks[key].link %>)
+<% }
 
 // OBJECTIVE (BLOCKQUOTE)
 if (role == "ms") { %>
-> **Ph.D. graduate** in physics with expertise in **materials science**, **gamma-ray spectroscopy**, **defect studies**, and nuclear physics. 7+ years of experience in **data analysis**, **particle simulations** and **software development**.
-<%  } else if (role == "cs") { %>
-> **Ph.D. graduate** in physics with a focus in GUI **desktop software development** for data analyses. More than 5 years in website and **web applications development**. Strong **user interface** (UI) and **user experience** (UX) design skills.
-<%  } else if (role == "ui") { %>
-> **Ph.D. graduate** in physics with 5+ years of expertise in the user interface (UI) and user experience (UX) design. Strong web application and desktop software development skills.
-<%  } %>
+> Ph.D. graduate in physics with expertise in materials science, gamma-ray spectroscopy, defect studies, and nuclear physics. Over 7 years of experience in data analysis, particle simulations and software development.
+<% } else if (role == "cs") { %>
+> Ph.D. graduate in physics with a focus in GUI desktop software development for data analyses. More than 5 years in website and web application development. Strong user interface (UI) and user experience (UX) design skills.
+<% } else if (role == "ui") { %>
+> Ph.D. graduate in physics with 5+ years of expertise in the user interface (UI) and user experience (UX) design. Strong web application and desktop software development skills.
+<% } %>
+
 Summary of Qualifications
 -------------------------
-
 <% if (role == "ms") { %>
 * More than 7 years of experience in GUI desktop software development for data analysis and statistics (C++, ROOT, Qt, Java, Python).
 * Solid background in Geant4 particle simulations software. Developed Geant4-based programs for applications in high-energy physics and photonics research (EIC, NPS).
 * Strong materials science skills. Defect characterization, porosity studies in bulk materials (with crystal structure and nano-powders).
 * Over 5 years of hands-on experience with data acquisition setups and numerous fast electronic modules (ORTEC, Canberra, Tektronix).
 <%  } else if (role == "cs") { %>
-* Strong Object Oriented Programming (OOP) and debugging skills (C++, Java, Python). Knowledge of modern IDEs (Eclipse, XCode, VSCode).
+* Strong Object Oriented Programming (OOP), debugging and bug fixing skills (C++, Java, Python). Knowledge of modern IDEs (Eclipse, XCode, VSCode).
+* Capable of learning, integrating and applying third-party libraries into existing codebase (Qt, CERN ROOT, Geant4).
+* Experience with delivering production ready software written in compiled languages (CMake, GNU Makefiles).
+* Daily Linux user with enhanced BASH scripting experience on supercomputer environment.
+* 5+ years of user interface programming (UI) with Model-View patterns (MVC, MVP).
 * 3+ years in building responsive web apps with modular JavaScript, HTML, and CSS. Hands-on experience with Angular and React frameworks.
-* 5+ years of user interfaces (UI) with Model-View patterns (MVC, MVP). Application of Qt framework for UI development.
-* 6+ years of UI and UX wireframing and interactive prototyping skills (Figma, Sketch, Adobe, PenPot) for web and mobile applications.
+* 6+ years of UI and UX wireframing and interactive prototyping skills (Figma, Sketch, Adobe Creative Suite) for web and mobile applications.
 <%  } %>
+
 Work Experience
 ---------------
 <% for (var key in work){
@@ -69,17 +57,14 @@ position = work[key].role_ui ? work[key].role_ui : work[key].role;
 break;
 default:
 position = work[key].role_ms ? work[key].role_ms : work[key].role;
-} 
-// Print position %>
+} %>
 ### <%- position %>
-<% if (work[key].location.length > 0){ %>
-[<%- work[key].company %>](<%- work[key].link %>), <%- work[key].location %>.
+<% if (work[key].location.length > 0){
+%>[<%- work[key].company %>](<%- work[key].link %>), <%- work[key].location %>.
 <% } %>
 📅 <%- work[key].start %> - <%- work[key].end %>
 
-<% 
-
-function appliesToRole(role, string){
+<% function appliesToRole(role, string){
 if (role==="all") return true;
 
 const regex = /<(.*)>/g;
@@ -99,7 +84,7 @@ if (Array.isArray(desc)){
 for (var d of desc){
 // Nested bullet
 if(appliesToRole(role, d)){
-%>* <%- trimDesc(d) %>
+%>  * <%- trimDesc(d) %>
 <% }
 }
 } else {
@@ -108,7 +93,7 @@ if(appliesToRole(role, desc)){
 %>* <%- trimDesc(desc) %>
 <% }
 }
-}   
+}
 } else {
 // Simple text
 var desc = work[key].description
@@ -118,30 +103,7 @@ if(appliesToRole(role, desc)){
 }
 } %>
 
-Computer Science Skills
------------------------
-
-* **Essentials**. Git, SVN, SSH, Linux, and Terminal usage. BASH scripting. IDEs: Eclipse, Xcode, Visual Studio Code (VS Code). 
-* **Project management**. JIRA, Trello, GitHub, GitLab.
-<% if (role == "ms" || role == "all"){ %>
-* **Simulation and data analysis**: Geant4, CERN ROOT, MATLAB, Wolfram Mathematica, Maple.
-
-* **Academic writing**: LaTeX, MS Office Suite, Zotero.
-
-* **Data plotting**: Gnuplot, OriginLab, QtiPlot, SciDaVis, Grapher.
-<% } %>
-* **Desktop app development**. C/C++, GNU make, CMake. Frameworks: Qt, CERN ROOT, Geant4. Java and Swing. Python.
-
-* **Frontend**: HTML, CSS (LESS and SASS), Bootstrap, responsive web design, JavaScript and jQuery, npm, gulp, AngularJS, React.js. Google Web Toolkit. PHP and WordPress themes development.
-<% if (role == "cs" || role == "ui" || role == "all"){ %>
-* **Backend**. Node.js, Express.JS (EJS), Java.
-
-* **UI/UX design**. Figma, Sketch, InVision Studio, Adobe XD, Adobe Photoshop, Adobe Illustrator, Inkscape, Balsamiq, Blender.
-
-* **Apple iOS**. Fundamental Swift skills. User interface development with UIkit and storyboards.
-<% } 
-
-if(role == "all"){ %>
+<% if(role == "all"){ %>
 Material Research Skills
 ------------------------
 
@@ -152,6 +114,7 @@ Material Research Skills
 
 Education
 ---------
+
 <% for (var key in education){
 var roles = education[key].roles;
 if (role != "all" && !roles.includes(role)) continue;
@@ -168,7 +131,7 @@ for (var d of education[key].description){
 %>* <%- d %>
 <% }
 }
-} 
+}
 
 if (role == "ms" || role == "all") { %>
 
@@ -252,6 +215,4 @@ Interests
 ---------
 
 * Hosting an open-source project for keyboard remapping on Linux [300+ stars on GitHub](https://github.com/petrstepanov/gnome-macos-remap).
-* Contributing to the C++ open source framework ROOT. Created two shared libraries to facilitate data analysis. Links to GitHub: [CanvasHelper](https://petrstepanov.com/root-canvas-helper/) and [RootUtils](https://petrstepanov.com/root-utils/).<%
-// > Authorized to work in US on [Optional Practical Training](https://en.wikipedia.org/wiki/Optional_Practical_Training) (OPT expires February 2023). Will consider visa sponsorship offers.
-%>
+* Contributing to the C++ open source framework ROOT. Created two shared libraries to facilitate data analysis. Links to GitHub: [CanvasHelper](https://petrstepanov.com/root-canvas-helper/) and [RootUtils](https://petrstepanov.com/root-utils/).

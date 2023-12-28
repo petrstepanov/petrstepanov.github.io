@@ -33,7 +33,7 @@ bhsad:
   location: Moscow, Russia
   start: Dec 2011
   end: Feb 2012
-  degree: "Three-month intensive"
+  degree: "Three-month intensive course"
   major: Graphical Design and Visual Communications
   info: "Lectures and hands-on experience in graphic design and user interfaces."
   description: 
@@ -48,4 +48,4 @@ mephi:
   degree: B.S. and M.S.
   major: Solid State Physics
   info: "Defect studies of neutron-irradiated nuclear power plant vessel steels by means of positron annihilation spectroscopy."
-  roles: ""
+  roles: ms cs

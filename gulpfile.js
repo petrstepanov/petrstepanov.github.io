@@ -17,6 +17,7 @@ var log = require('gulplog');
 var yaml = require('js-yaml');
 var fs = require('fs');
 var ejs = require('gulp-ejs');
+
 // var Markdown = require('markdown-to-html').Markdown;
 var MarkdownIt = require('markdown-it');
 // var NodeHtmlMarkdown = require('node-html-markdown').NodeHtmlMarkdown;
@@ -86,8 +87,13 @@ function renderMD(cb) {
 				if (err) {
 				  return console.log(err);
 				}
+				// Remove tabs
+
 				var result = data.replace(/\t/g, '');
-			  
+				// Remove line breaks
+				// result = result.replace(/\n<%/g, '<%');
+				// result = result.replace(/\n\t<%/g, '<%');
+
 				fs.writeFile('./src/templates/main-no-tabs.ejs', result, 'utf8', function (err) {
 					if (err){
 						reject();
@@ -118,7 +124,7 @@ function renderMD(cb) {
 		});
 		promises.push(promise);
 	}
-	
+
 	Promise.all(promises).then((values) => {
 		console.log("All MD's generated");
 		cb();
@@ -160,7 +166,7 @@ function renderHTML(cb){
 	for (file of files){
 		// var that = this;
 		const promise = new Promise((resolve, reject) => {
-			// var opts = {title: 'File $BASENAME in $DIRNAME', 
+			// var opts = {title: 'File $BASENAME in $DIRNAME',
 			//             // stylesheet: './../src/templates/css/md-to-html.css',
 			// 			// stylesheet: './../node_modules/bootstrap/dist/css/bootstrap-reboot.css',
 			// 			// stylesheet: './../node_modules/normalize.css/normalize.css',
@@ -249,7 +255,7 @@ function renderPDF(cb){
 	for (file of files){
 		const promise = new Promise((resolve, reject) => {
 			var html = fs.readFileSync(file, 'utf8');
-			// var options = { format: 'Letter', 
+			// var options = { format: 'Letter',
 			//                 phantomPath: './node_modules/phantomjs/bin/phantomjs' };
 			let options = { format: 'Letter' };
 			var outFile = file.replace('.html', '.pdf');
@@ -289,7 +295,7 @@ async function renderPDFpuppeteer(cb){
 	// https://www.npmjs.com/package/html-pdf?activeTab=readme
 	for (file of files){
 		var html = fs.readFileSync(file, 'utf8');
-	
+
 		// https://pptr.dev/#?product=Puppeteer&version=v13.5.2&show=api-pagesetcontenthtml-options
 		await page.setContent(html, {
 			waitUntil: 'networkidle0'
