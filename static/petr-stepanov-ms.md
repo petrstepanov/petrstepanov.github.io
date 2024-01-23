@@ -13,6 +13,7 @@ Summary of Qualifications
 
 * More than 7 years of experience in GUI desktop software development for data analysis and statistics (C++, ROOT, Qt, Java, Python).
 * Solid background in Geant4 particle simulations software. Developed Geant4-based programs for applications in high-energy physics and photonics research (EIC, NPS).
+* Experience with delivering production ready software for the High-Performance Computing (HPC) environments.
 * Strong materials science skills. Defect characterization, porosity studies in bulk materials (with crystal structure and nano-powders).
 * Over 5 years of hands-on experience with data acquisition setups and numerous fast electronic modules (ORTEC, Canberra, Tektronix).
 
@@ -28,7 +29,7 @@ Work Experience
 * Coded a Geant4-based sumulation for studying the optimal light guide length (range 0-10 cm) for the [EM calorimeter](https://wiki.jlab.org/cuawiki/index.php/Electron-Ion_Collider_Detectors:_EEEMCal) used in the Electron-Ion-Collider (EIC) project. [Link to GitHub](https://github.com/petrstepanov/light-guides).
 * Used Machine Learning (ML) techniques to perform binary classification of thousands of signals from a data acquisition (DAQ) setup. [Link to GitHub](https://github.com/petrstepanov/dual-readout-tmva).
 * Applied CERN ROOT framework (C++) to perform statistical analysis of a significant amount (over 100 GB) of the raw experimental data of the [Kaon LT](https://redmine.jlab.org/projects/kltexp/wiki) experiment at JLab. [Link to GitHub](https://github.com/petrstepanov/kaonlt-fit).
-* Utilized SLURM supercomputer environment to run programs on the JLab supercomputer environment simultaneously. This reduced the wall time by more than 10 times.
+* Utilized SLURM functionality on the High-Performance Computing (HPC) environment to execute series of the simulations in parallel. This reduced the wall time by more than 10 times.
 * Proposed and implemented RAMDisk functionality on the development environment. This led to an over 50% increase in source code indexing time.
 * Set up data acquisition system that performs triggered waveform acquisition involving 3 devices - Tektronix oscilloscope, Network Attached Storage, and RedHat computer (SAMBA, Python, National Instruments NI-VISA library).
 * Contributed 100+ shifts at the Hall C in Thomas Jefferson Particle Accelerator facility for the [Pion LT project](https://redmine.jlab.org/projects/hall-c/wiki/).
