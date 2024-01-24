@@ -12,9 +12,9 @@ Summary of Qualifications
 -------------------------
 
 * Strong Object Oriented Programming (OOP), debugging and bug fixing skills (C++, Java, Python). Knowledge of modern IDEs (Eclipse, XCode, VSCode).
-* Capable of learning, integrating and applying third-party libraries into existing codebase (Qt, CERN ROOT, Geant4).
+* Capable of integrating and utilizing third-party libraries into existing codebase (Qt, CERN ROOT, Geant4).
 * Experience with delivering production ready software written in compiled languages (CMake, GNU Makefiles).
-* Daily Linux user with enhanced BASH scripting experience on supercomputer environment.
+* Daily Linux user with enhanced BASH scripting skills and High-Performance Computing (HPC) environment experience.
 * 5+ years of user interface programming (UI) with Model-View patterns (MVC, MVP).
 * 3+ years in building responsive web apps with modular JavaScript, HTML, and CSS. Hands-on experience with Angular and React frameworks.
 * 6+ years of UI and UX wireframing and interactive prototyping skills (Figma, Sketch, Adobe Creative Suite) for web and mobile applications.

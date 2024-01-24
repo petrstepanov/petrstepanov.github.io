@@ -11,8 +11,8 @@ Petr Stepanov
 Summary of Qualifications
 -------------------------
 
-* More than 7 years of experience in GUI desktop software development for data analysis and statistics (C++, ROOT, Qt, Java, Python).
-* Solid background in Geant4 particle simulations software. Developed Geant4-based programs for applications in high-energy physics and photonics research (EIC, NPS).
+* More than 7 years of experience in GUI desktop software development for data analysis and statistics (C++, ROOT, Qt, Java, Python, Wolfram Mathematica).
+* Solid background in Geant4 Monte-Carlo simulation software. Developed Geant4-based programs for applications in high-energy physics and photonics research (EIC, NPS).
 * Experience with delivering production ready software for the High-Performance Computing (HPC) environments.
 * Strong materials science skills. Defect characterization, porosity studies in bulk materials (with crystal structure and nano-powders).
 * Over 5 years of hands-on experience with data acquisition setups and numerous fast electronic modules (ORTEC, Canberra, Tektronix).
