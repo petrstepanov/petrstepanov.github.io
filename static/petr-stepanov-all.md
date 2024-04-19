@@ -14,9 +14,9 @@ Work Experience
 ---------------
 
 ### Research Collaborator (On-Site)
-[Thomas Jefferson National Laboratory (JLab)](https://www.jlab.org/), Newport News, VA, USA.
+[Thomas Jefferson National Laboratory (JLab)](https://www.jlab.org/), Newport News, VA.
 
-📅 Jul 2020 - Dec 2022
+📅 Jul 2020 - Jan 2023
 
 * Coded a Geant4-based sumulation for studying the optimal light guide length (range 0-10 cm) for the [EM calorimeter](https://wiki.jlab.org/cuawiki/index.php/Electron-Ion_Collider_Detectors:_EEEMCal) used in the Electron-Ion-Collider (EIC) project. [Link to GitHub](https://github.com/petrstepanov/light-guides).
 * Used Machine Learning (ML) techniques to perform binary classification of thousands of signals from a data acquisition (DAQ) setup. [Link to GitHub](https://github.com/petrstepanov/dual-readout-tmva).
@@ -27,9 +27,9 @@ Work Experience
 * Contributed 100+ shifts at the Hall C in Thomas Jefferson Particle Accelerator facility for the [Pion LT project](https://redmine.jlab.org/projects/hall-c/wiki/).
 
 ### Postdoctoral Researcher (Remote)
-[Catholic University of America (CUA)](https://www.catholic.edu/index.html), Washington, DC, USA.
+[Catholic University of America (CUA)](https://www.catholic.edu/index.html), Washington, DC.
 
-📅 Jul 2020 - Dec 2022
+📅 Jul 2020 - Jan 2023
 
 * Programmed a Geant-4 computer simulation (C++, CMake, Eclipse IDE, gdb) to study performance of a novel scintillation material for EIC, Brookhaven National Lab. [Link to GitHub](https://github.com/petrstepanov/geant4-glass).
 * Visualized energy deposition profiles and calculated energy resolutions for variety of detector assemblies.
@@ -37,7 +37,7 @@ Work Experience
 * Enhanced debugging of the core library source code led to the publishing of more than [10 bug reports](https://root-forum.cern.ch/u/petrstepanov/activity/topics) on the ROOT (C++) forum.
 
 ### Research Assistant
-[Bowling Green State University (BGSU)](https://www.bgsu.edu/), Bowling Green, OH, USA.
+[Bowling Green State University (BGSU)](https://www.bgsu.edu/), Bowling Green, OH.
 
 📅 Aug 2014 - May 2020
 
@@ -110,7 +110,7 @@ Education
 ---------
 
 
-### Bowling Green State University (BGSU) • Ohio, USA
+### Bowling Green State University (BGSU) • OH, USA
 
 📅 Aug 2014 - May 2020
 
@@ -120,7 +120,7 @@ Ph.D. in Photochemical Sciences • GPA 3.423. Novel developments in positron an
 * Defined and resolved kinetic equations of reactions of positron and positronium atoms (Ps) in solids and liquids and nano-powders (Wolfram Mathematica). Equation parameters are implemented in the fitting model of experimental spectra (RooFit).
 * Above research allowed for the estimation of defect concentrations and sizes in solids, classification of defect types (vacancies, dislocations), and more...
 
-### Ohio Supercomputer Workshop • Ohio, USA
+### Ohio Supercomputer Workshop • OH, USA
 
 📅 Jan 2017 - Feb 2017
 
@@ -222,8 +222,8 @@ Professional Networks
 ---------------------
 
 * Find examples of my code [on GitHub](https://github.com/petrstepanov/) (50+ repositories).
-* Discover my professional contacts [on LinkedIn](https://www.linkedin.com/in/petrstepanov/en/) (200+ connections).
-* Skim through the list of my publications [on Google Scholar](https://scholar.google.com/citations?hl=en&user=S5etjqoAAAAJ&view_op=list_works&sortby=pubdate) (24 articles, 200+ citations).
+* Discover my professional contacts [on LinkedIn](https://www.linkedin.com/in/petrstepanov/) (200+ connections).
+* Skim through the list of my publications [on Google Scholar](https://scholar.google.com/citations?hl=en&user=S5etjqoAAAAJ&view_op=list_works&sortby=pubdate) (24 articles, 300+ citations).
 * Check out my UI design portfolio [on Dribbble](https://dribbble.com/petrstepanov) (50+ shots).
 
 

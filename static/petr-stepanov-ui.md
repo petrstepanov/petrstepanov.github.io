@@ -16,19 +16,19 @@ Work Experience
 ---------------
 
 ### C++ Software Developer
-[Thomas Jefferson National Laboratory (JLab)](https://www.jlab.org/), Newport News, VA, USA.
+[Thomas Jefferson National Laboratory (JLab)](https://www.jlab.org/), Newport News, VA.
 
-📅 Jul 2020 - Dec 2022
+📅 Jul 2020 - Jan 2023
 
 
 ### Software Developer • Postdoctoral Researcher
-[Catholic University of America (CUA)](https://www.catholic.edu/index.html), Washington, DC, USA.
+[Catholic University of America (CUA)](https://www.catholic.edu/index.html), Washington, DC.
 
-📅 Jul 2020 - Dec 2022
+📅 Jul 2020 - Jan 2023
 
 
 ### Software Developer • Research Assistant
-[Bowling Green State University (BGSU)](https://www.bgsu.edu/), Bowling Green, OH, USA.
+[Bowling Green State University (BGSU)](https://www.bgsu.edu/), Bowling Green, OH.
 
 📅 Aug 2014 - May 2020
 
@@ -85,7 +85,7 @@ Education
 ---------
 
 
-### Bowling Green State University (BGSU) • Ohio, USA
+### Bowling Green State University (BGSU) • OH, USA
 
 📅 Aug 2014 - May 2020
 
@@ -103,7 +103,7 @@ Professional Networks
 ---------------------
 
 * Find examples of my code [on GitHub](https://github.com/petrstepanov/) (50+ repositories).
-* Discover my professional contacts [on LinkedIn](https://www.linkedin.com/in/petrstepanov/en/) (200+ connections).
+* Discover my professional contacts [on LinkedIn](https://www.linkedin.com/in/petrstepanov/) (200+ connections).
 * Check out my UI design portfolio [on Dribbble](https://dribbble.com/petrstepanov) (50+ shots).
 
 

@@ -1,7 +1,7 @@
 bgsu:
   school: Bowling Green State University (BGSU)
   link: https://www.bgsu.edu/
-  location: Ohio, USA
+  location: OH, USA
   start: Aug 2014
   end: May 2020
   degree: Ph.D.
@@ -16,7 +16,7 @@ bgsu:
 osc:
   school: Ohio Supercomputer Workshop
   link: https://www.osc.edu/
-  location: Ohio, USA
+  location: OH, USA
   start: Jan 2017
   end: Feb 2017
   degree: Hands-on sessions
@@ -36,7 +36,7 @@ bhsad:
   degree: "Three-month intensive course"
   major: Graphical Design and Visual Communications
   info: "Lectures and hands-on experience in graphic design and user interfaces."
-  description: 
+  description:
     - "Intensive covered following subjects: brand identity, illustration principles, typography and lettering, effective advertising campaigns."
   roles: cs ui
 mephi:

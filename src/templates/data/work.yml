@@ -1,9 +1,9 @@
 jlab:
   company: Thomas Jefferson National Laboratory (JLab)
   link: https://www.jlab.org/
-  location: Newport News, VA, USA
+  location: Newport News, VA
   start: Jul 2020
-  end: Dec 2022
+  end: Jan 2023
   role_ms: Research Collaborator (On-Site)
   role_cs: C++ Software Developer
   role_ui: C++ Software Developer
@@ -18,9 +18,9 @@ jlab:
 cua:
   company: Catholic University of America (CUA)
   link: https://www.catholic.edu/index.html
-  location: Washington, DC, USA
+  location: Washington, DC
   start: Jul 2020
-  end: Dec 2022
+  end: Jan 2023
   role_ms: Postdoctoral Researcher (Remote)
   role_cs: Software Developer • Postdoctoral Researcher
   role_ui: Software Developer • Postdoctoral Researcher
@@ -32,7 +32,7 @@ cua:
 bgsu:
   company: Bowling Green State University (BGSU)
   link: https://www.bgsu.edu/
-  location: Bowling Green, OH, USA
+  location: Bowling Green, OH
   start: Aug 2014
   end: May 2020
   role_ms: Research Assistant
