@@ -8,17 +8,17 @@ Petr Stepanov
 > Ph.D. graduate in physics with 5+ years of expertise in the user interface (UI) and user experience (UX) design. Strong web application and desktop software development skills.
 
 
-Summary of Qualifications
--------------------------
 
 
 Work Experience
 ---------------
 
+
 ### C++ Software Developer
 [Thomas Jefferson National Laboratory (JLab)](https://www.jlab.org/), Newport News, VA.
 
 📅 Jul 2020 - Jan 2023
+
 
 
 ### Software Developer • Postdoctoral Researcher
@@ -27,56 +27,39 @@ Work Experience
 📅 Jul 2020 - Jan 2023
 
 
+
 ### Software Developer • Research Assistant
 [Bowling Green State University (BGSU)](https://www.bgsu.edu/), Bowling Green, OH.
 
 📅 Aug 2014 - May 2020
 
-* Wrote three desktop GUI programs for spectra fitting and interpretation (C++, CMake, ROOT, Qt, Java)
-  * GitHub repositories contain over 10k lines of code in total: [TLIST Processor](https://github.com/petrstepanov/tlist-processor), [SW Calculator](https://github.com/petrstepanov/sw-calculator), [RooPositron](https://github.com/petrstepanov/roopositron).
-  * Extended default ROOT GUI library (Qt-based) to support the MVP design pattern.
+
 
 ### UI/UX Designer, Frontend Developer • Freelance
 
 📅 Sep 2012 - May 2020
 
-* Designed and built an online e-commerce store [Sticker Store LLC](https://bimmersticker.store/) with a static website generator (Figma, Hexo, Snipcart, Bootstrap, SASS, Express.JS, EJS, Node.js).
-  * Improved the Google PageSpeed Insights metrics (CLS, LCP) up to 97%.
-  * Created a recursive script to export over 300 products from YAML file to Google Merchant.
-  * Optimized SEO. The project reached over 1400 organic monthly users.
-* Made iOS application (Swift, UIkit, storyboards) for the [We.Team](https://we.team/en/) messenger (more than 3k monthly downloads in AppStore). Participated in cloud-based messenger development with enhanced file sharing capabilities (HTML, React JS, SASS).
-* Migrated the landing page for [Sweetbridge](https://sweetbridge.com/) company from WordPress to Jekyll static site generator (Ruby, CSS). This resulted in a 70% improvement in the page load time.
-* Developed the front-end part (Angular.js, HTML, LESS) for [Lili Social](https://myli.li/) network.
-  * Assisted with iOS mobile application (Ionic).
-  * Enabled SEO crawling of over 1000 Angular.js pages with Google bot.
-* Web design.
-  * Designed logos, UI/UX prototypes (Figma, Sketch, Illustrator) and branding identity for over [10 different companies](https://dribbble.com/petrstepanov).
-  * Converted numerous design assets and mockups into responsive HTML and CSS.
-  * Mocked up and integrated dozens of cross-browser responsive email templates.
+
 
 ### Web Designer, Full Stack Web Developer
 [Gridnine Systems](https://gridnine.com/), Moscow, Russia.
 
 📅 Apr 2011 - Aug 2014
 
-* Prototyped and designed interactive mockups for [Otixo](https://we.team/en/) cloud file integrator (Balsamiq, Adobe Creative Suite). Utilized Google Web Toolkit (GWT) Model-View-Presenter (MVP) framework to develop application frontend (JavaScript, responsive CSS).
-* Responsible for the front-end development of the [ATH American Express](https://www.ath.ru/english/) – the largest travel management company in Russia (JavaScript, Backbone.js, and RequireJS). Increased the front-end load time by over 30%.
-* Implemented image processing servlets on the backend to generate banners for five different social networks (PHP, ImageMagic).
-* Wireframed and sliced to web pages numerous UI/UX mockups for web applications (Balsamiq, Photoshop, HTML and CSS).
+
 
 ### Computer Science Teacher
 [Phys-Tech College at MIPT](https://mipt.ru/english/), Moscow, Russia.
 
 📅 Oct 2009 - May 2011
 
-* Provided instructions and guidance to high school students on following computer courses: C/C++ programming, HTML, Adobe Photoshop and 3D Studio Max.
+
 
 ### Research Scientist
 [Institute for Theoretical and Experimental Physics (ITEP)](https://en.wikipedia.org/wiki/ITEP), Moscow, Russia.
 
 📅 Sep 2008 - Apr 2011
 
-* Application of positron lifetime spectroscopy for studying the radioactive-induced defects in steels. Monte-Carlo particle simulations with Fortran 95. Maintaining software for CAMECA tomographic atom probe (MSVC). Application of CERN ROOT libraries for fitting and analysis of experimental spectra.
 
 
 
@@ -85,17 +68,17 @@ Education
 ---------
 
 
-### Bowling Green State University (BGSU) • OH, USA
+### Bowling Green State University (BGSU) • OH, United States
 
 📅 Aug 2014 - May 2020
 
-Ph.D. in Photochemical Sciences • GPA 3.423. Novel developments in positron annihilation spectroscopy techniques—from experimental setups to advanced processing software. [View manuscript](https://petrstepanov.com/static/petr-stepanov-dissertation-latest.pdf).
+Ph.D. in Photochemical Sciences • GPA 3.423. [Dissertation](https://petrstepanov.com/static/petr-stepanov-dissertation-latest.pdf): Novel developments in positron spectroscopy (PAS).
 
 ### British Higher School of Art and Design (BHSAD) • Moscow, Russia
 
 📅 Dec 2011 - Feb 2012
 
-Three-month intensive course in Graphical Design and Visual Communications. Lectures and hands-on experience in graphic design and user interfaces.
+Three-month intensive in Graphical Design and Visual Communications (illustration, lettering, brand identity). 
 
 
 
@@ -104,11 +87,14 @@ Professional Networks
 
 * Find examples of my code [on GitHub](https://github.com/petrstepanov/) (50+ repositories).
 * Discover my professional contacts [on LinkedIn](https://www.linkedin.com/in/petrstepanov/) (200+ connections).
-* Check out my UI design portfolio [on Dribbble](https://dribbble.com/petrstepanov) (50+ shots).
+* Check out my UI and UX design portfolio [on Dribbble](https://dribbble.com/petrstepanov) (50+ shots).
 
 
-Interests
----------
+Relevent Interests
+------------------
 
 * Hosting an open-source project for keyboard remapping on Linux [300+ stars on GitHub](https://github.com/petrstepanov/gnome-macos-remap).
-* Contributing to the C++ open source framework ROOT. Created two shared libraries to facilitate data analysis. Links to GitHub: [CanvasHelper](https://petrstepanov.com/root-canvas-helper/) and [RootUtils](https://petrstepanov.com/root-utils/).
+* Developed a [RAMDisk plugin](https://github.com/petrstepanov/tiny-ramdisk) for Linux that provides 50% increase in source code indexing time.
+* Created two shared libraries for the ROOT data analysis framework [[1](https://petrstepanov.com/root-canvas-helper/), [2](https://petrstepanov.com/root-utils/)].
+* [Right to repair](https://en.wikipedia.org/wiki/Right_to_repair) follower. Collecting and repairing old phones and laptops.
+* Volunteer mechanic and fabricator at a non-profit automotive shop in Oregon City, OR.

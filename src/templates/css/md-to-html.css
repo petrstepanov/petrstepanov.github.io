@@ -76,8 +76,10 @@ svg:first-child {
 .right {
 	float: right;
 	margin-top: -1.5rem;
-	/* font-style: italic; */
-	font-weight: 700;
+	font-style: italic;
+	font-weight: 500;
+	/* font-family: "Roboto Mono", monospace;
+	font-size: 75%; */
 }
 
 blockquote {

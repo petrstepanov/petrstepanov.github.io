@@ -6,14 +6,13 @@ Petr Stepanov
 🏠 [petrstepanov.com](https://petrstepanov.com/)
 
 
-Summary of Qualifications
--------------------------
 
 
 Work Experience
 ---------------
 
-### Research Collaborator (On-Site)
+
+### C++ Software Developer • Research Collaborator (On-Site)
 [Thomas Jefferson National Laboratory (JLab)](https://www.jlab.org/), Newport News, VA.
 
 📅 Jul 2020 - Jan 2023
@@ -22,11 +21,11 @@ Work Experience
 * Used Machine Learning (ML) techniques to perform binary classification of thousands of signals from a data acquisition (DAQ) setup. [Link to GitHub](https://github.com/petrstepanov/dual-readout-tmva).
 * Applied CERN ROOT framework (C++) to perform statistical analysis of a significant amount (over 100 GB) of the raw experimental data of the [Kaon LT](https://redmine.jlab.org/projects/kltexp/wiki) experiment at JLab. [Link to GitHub](https://github.com/petrstepanov/kaonlt-fit).
 * Utilized SLURM functionality on the High-Performance Computing (HPC) environment to execute series of the simulations in parallel. This reduced the wall time by more than 10 times.
-* Proposed and implemented RAMDisk functionality on the development environment. This led to an over 50% increase in source code indexing time.
 * Set up data acquisition system that performs triggered waveform acquisition involving 3 devices - Tektronix oscilloscope, Network Attached Storage, and RedHat computer (SAMBA, Python, National Instruments NI-VISA library).
 * Contributed 100+ shifts at the Hall C in Thomas Jefferson Particle Accelerator facility for the [Pion LT project](https://redmine.jlab.org/projects/hall-c/wiki/).
 
-### Postdoctoral Researcher (Remote)
+
+### Postdoctoral Researcher • Software Developer (Remote)
 [Catholic University of America (CUA)](https://www.catholic.edu/index.html), Washington, DC.
 
 📅 Jul 2020 - Jan 2023
@@ -36,7 +35,8 @@ Work Experience
 * Teaching experience. Mentoring students within a 3-month Research Experiences for Undergraduates (REU) program at the Physics Department at CUA. Giving talks and presentations about [Linux Terminal](https://petrstepanov.com/static/presentations/presentation-2021-06-03-linux-terminal.pdf), and [supercomputer environment](https://petrstepanov.com/static/presentations/presentation-2021-06-17-jlab-geant-root.pdf).
 * Enhanced debugging of the core library source code led to the publishing of more than [10 bug reports](https://root-forum.cern.ch/u/petrstepanov/activity/topics) on the ROOT (C++) forum.
 
-### Research Assistant
+
+### Software Developer • Research Assistant
 [Bowling Green State University (BGSU)](https://www.bgsu.edu/), Bowling Green, OH.
 
 📅 Aug 2014 - May 2020
@@ -53,6 +53,7 @@ Work Experience
 * Developed static website (Hexo, Gulp, Bootstrap) and visual identity for the [SelimLab](http://physics.bgsu.edu/selimlab/) research group. The website has a 99% Google performance rank and features 700 ms time to interactive metrics.
 * Maintained local Apache HTTP server [physics.bgsu.edu](https://physics.bgsu.edu/) hosting over 10 websites at the BGSU.
 * Created website for the [ICPA-18](https://physics.bgsu.edu/icpa18/) international conference with registration (over 150 users) and payment system workflow (WordPress, PHP, Recurly.js), and [landing pages](https://physics.bgsu.edu/IWZnO_2020/index.html) for events.
+
 
 ### Frontend Developer, UI/UX Designer • Freelance
 
@@ -72,6 +73,7 @@ Work Experience
   * Converted numerous design assets and mockups into responsive HTML and CSS.
   * Mocked up and integrated dozens of cross-browser responsive email templates.
 
+
 ### Full Stack Web Developer, Web Designer
 [Gridnine Systems](https://gridnine.com/), Moscow, Russia.
 
@@ -82,12 +84,14 @@ Work Experience
 * Implemented image processing servlets on the backend to generate banners for five different social networks (PHP, ImageMagic).
 * Wireframed and sliced to web pages numerous UI/UX mockups for web applications (Balsamiq, Photoshop, HTML and CSS).
 
+
 ### Computer Science Teacher
 [Phys-Tech College at MIPT](https://mipt.ru/english/), Moscow, Russia.
 
 📅 Oct 2009 - May 2011
 
 * Provided instructions and guidance to high school students on following computer courses: C/C++ programming, HTML, Adobe Photoshop and 3D Studio Max.
+
 
 ### Research Scientist
 [Institute for Theoretical and Experimental Physics (ITEP)](https://en.wikipedia.org/wiki/ITEP), Moscow, Russia.
@@ -110,11 +114,11 @@ Education
 ---------
 
 
-### Bowling Green State University (BGSU) • OH, USA
+### Bowling Green State University (BGSU) • OH, United States
 
 📅 Aug 2014 - May 2020
 
-Ph.D. in Photochemical Sciences • GPA 3.423. Novel developments in positron annihilation spectroscopy techniques—from experimental setups to advanced processing software. [View manuscript](https://petrstepanov.com/static/petr-stepanov-dissertation-latest.pdf).
+Ph.D. in Photochemical Sciences • GPA 3.423. [Dissertation](https://petrstepanov.com/static/petr-stepanov-dissertation-latest.pdf): Novel developments in positron spectroscopy (PAS).
 * Assembled and utilized two spectrometers: positron lifetime and Doppler. Spectrometers are built from ORTEC and Canberra (Mirion) fast electronic units and utilize High-Purity Germanium Detectors (HPGe) and scintillation-based detector systems.
 * Developed open-source software (C++, CERN ROOT) for a novel interpretation of the experimental spectra.
 * Defined and resolved kinetic equations of reactions of positron and positronium atoms (Ps) in solids and liquids and nano-powders (Wolfram Mathematica). Equation parameters are implemented in the fitting model of experimental spectra (RooFit).
@@ -124,23 +128,19 @@ Ph.D. in Photochemical Sciences • GPA 3.423. Novel developments in positron an
 
 📅 Jan 2017 - Feb 2017
 
-Hands-on sessions in Supercomputer Essentials. Introduction to the key developments in the supercomputer field.
-* RedHat and CentOS operating systems: environment, networking, and SSH.
-* Supercomputer job control with BASH and SLURM scripts.
-* CMake compiling platform, use of parallel nodes, A.I. fundamentals and more..."
+Hands-on sessions in High Performance Computing Infrastructure (HPC, SSH, BASH, SLURM). 
 
 ### British Higher School of Art and Design (BHSAD) • Moscow, Russia
 
 📅 Dec 2011 - Feb 2012
 
-Three-month intensive course in Graphical Design and Visual Communications. Lectures and hands-on experience in graphic design and user interfaces.
-* Intensive covered following subjects: brand identity, illustration principles, typography and lettering, effective advertising campaigns.
+Three-month intensive in Graphical Design and Visual Communications (illustration, lettering, brand identity). 
 
 ### National Research Nuclear University (MEPhI) • Moscow, Russia
 
-📅 Sept 2004 - Feb 2011
+📅 Sep 2004 - Feb 2011
 
-B.S. and M.S. in Solid State Physics. Defect studies of neutron-irradiated nuclear power plant vessel steels by means of positron annihilation spectroscopy.
+B.S. and M.S. in Solid State Physics. Thesis: application of PAS for defect concentration studies in bulk materials.
 
 
 Featured Publications
@@ -224,11 +224,14 @@ Professional Networks
 * Find examples of my code [on GitHub](https://github.com/petrstepanov/) (50+ repositories).
 * Discover my professional contacts [on LinkedIn](https://www.linkedin.com/in/petrstepanov/) (200+ connections).
 * Skim through the list of my publications [on Google Scholar](https://scholar.google.com/citations?hl=en&user=S5etjqoAAAAJ&view_op=list_works&sortby=pubdate) (24 articles, 300+ citations).
-* Check out my UI design portfolio [on Dribbble](https://dribbble.com/petrstepanov) (50+ shots).
+* Check out my UI and UX design portfolio [on Dribbble](https://dribbble.com/petrstepanov) (50+ shots).
 
 
-Interests
----------
+Relevent Interests
+------------------
 
 * Hosting an open-source project for keyboard remapping on Linux [300+ stars on GitHub](https://github.com/petrstepanov/gnome-macos-remap).
-* Contributing to the C++ open source framework ROOT. Created two shared libraries to facilitate data analysis. Links to GitHub: [CanvasHelper](https://petrstepanov.com/root-canvas-helper/) and [RootUtils](https://petrstepanov.com/root-utils/).
+* Developed a [RAMDisk plugin](https://github.com/petrstepanov/tiny-ramdisk) for Linux that provides 50% increase in source code indexing time.
+* Created two shared libraries for the ROOT data analysis framework [[1](https://petrstepanov.com/root-canvas-helper/), [2](https://petrstepanov.com/root-utils/)].
+* [Right to repair](https://en.wikipedia.org/wiki/Right_to_repair) follower. Collecting and repairing old phones and laptops.
+* Volunteer mechanic and fabricator at a non-profit automotive shop in Oregon City, OR.

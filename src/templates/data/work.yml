@@ -7,12 +7,12 @@ jlab:
   role_ms: Research Collaborator (On-Site)
   role_cs: C++ Software Developer
   role_ui: C++ Software Developer
+  role_vita: C++ Software Developer • Research Collaborator (On-Site)
   description:
     - <ms cs> Coded a Geant4-based sumulation for studying the optimal light guide length (range 0-10 cm) for the [EM calorimeter](https://wiki.jlab.org/cuawiki/index.php/Electron-Ion_Collider_Detectors:_EEEMCal) used in the Electron-Ion-Collider (EIC) project. [Link to GitHub](https://github.com/petrstepanov/light-guides).
     - <ms cs> Used Machine Learning (ML) techniques to perform binary classification of thousands of signals from a data acquisition (DAQ) setup. [Link to GitHub](https://github.com/petrstepanov/dual-readout-tmva).
     - <ms cs> Applied CERN ROOT framework (C++) to perform statistical analysis of a significant amount (over 100 GB) of the raw experimental data of the [Kaon LT](https://redmine.jlab.org/projects/kltexp/wiki) experiment at JLab. [Link to GitHub](https://github.com/petrstepanov/kaonlt-fit).
     - <ms cs> Utilized SLURM functionality on the High-Performance Computing (HPC) environment to execute series of the simulations in parallel. This reduced the wall time by more than 10 times.
-    - <ms cs> Proposed and implemented RAMDisk functionality on the development environment. This led to an over 50% increase in source code indexing time.
     - <ms> Set up data acquisition system that performs triggered waveform acquisition involving 3 devices - Tektronix oscilloscope, Network Attached Storage, and RedHat computer (SAMBA, Python, National Instruments NI-VISA library).
     - <ms> Contributed 100+ shifts at the Hall C in Thomas Jefferson Particle Accelerator facility for the [Pion LT project](https://redmine.jlab.org/projects/hall-c/wiki/).
 cua:
@@ -24,6 +24,7 @@ cua:
   role_ms: Postdoctoral Researcher (Remote)
   role_cs: Software Developer • Postdoctoral Researcher
   role_ui: Software Developer • Postdoctoral Researcher
+  role_vita: Postdoctoral Researcher • Software Developer (Remote)
   description:
     - <ms cs> Programmed a Geant-4 computer simulation (C++, CMake, Eclipse IDE, gdb) to study performance of a novel scintillation material for EIC, Brookhaven National Lab. [Link to GitHub](https://github.com/petrstepanov/geant4-glass).
     - <ms cs> Visualized energy deposition profiles and calculated energy resolutions for variety of detector assemblies.
@@ -38,6 +39,7 @@ bgsu:
   role_ms: Research Assistant
   role_cs: Software Developer • Research Assistant
   role_ui: Software Developer • Research Assistant
+  role_vita: Software Developer • Research Assistant
   description:
     - "<ms> Assembled positron lifetime and Doppler spectrometers from ORTEC and Canberra (Mirion) fast electronic units. Utilized High-Purity Germanium Detectors (HPGe) and scintillation-based detector systems for single-photon counting."
     - "<ms> Developed three open-source programs (C++, CERN ROOT) for a novel interpretation of the positron lifetime and Doppler experimental spectra."
@@ -60,6 +62,7 @@ freelance:
   role_ms: Frontend Developer, UI/UX Designer • Freelance
   role_cs: Frontend Developer, UI/UX Designer • Freelance
   role_ui: UI/UX Designer, Frontend Developer • Freelance
+  role_vita: Frontend Developer, UI/UX Designer • Freelance
   description:
     - "<cs ui> Designed and built an online e-commerce store [Sticker Store LLC](https://bimmersticker.store/) with a static website generator (Figma, Hexo, Snipcart, Bootstrap, SASS, Express.JS, EJS, Node.js)."
     - - "<cs ui> Improved the Google PageSpeed Insights metrics (CLS, LCP) up to 97%."
@@ -83,6 +86,7 @@ gridnine:
   role_ms: Full Stack Web Developer, Web Designer
   role_cs: Full Stack Web Developer, Web Designer
   role_ui: Web Designer, Full Stack Web Developer
+  role_vita: Full Stack Web Developer, Web Designer
   description:
     - "<cs ui> Prototyped and designed interactive mockups for [Otixo](https://we.team/en/) cloud file integrator (Balsamiq, Adobe Creative Suite). Utilized Google Web Toolkit (GWT) Model-View-Presenter (MVP) framework to develop application frontend (JavaScript, responsive CSS)."
     - "<cs ui> Responsible for the front-end development of the [ATH American Express](https://www.ath.ru/english/) – the largest travel management company in Russia (JavaScript, Backbone.js, and RequireJS). Increased the front-end load time by over 30%."

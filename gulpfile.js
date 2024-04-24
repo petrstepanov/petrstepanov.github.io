@@ -75,7 +75,9 @@ function copy() {
 // See original GULP docs for (cb)
 function renderMD(cb) {
 	console.log(process.argv);
-	const roles = ["cs", "ms", "ui", "all"];
+	// "cs", "ms", "ui" are resumes (short, 1 page)
+	// "cv" is everything
+	const roles = ["cs", "ms", "ui", "vita"];
 	// Generate Markdown resumes
 	var promises = [];
 	for (role of roles){
@@ -85,7 +87,7 @@ function renderMD(cb) {
 			// Replace tabs in file (trick to easier read)
 			fs.readFile('./src/templates/main.ejs', 'utf8', function (err,data) {
 				if (err) {
-				  return console.log(err);
+				return console.log(err);
 				}
 				// Remove tabs
 
@@ -102,7 +104,7 @@ function renderMD(cb) {
 					// https://stackoverflow.com/questions/28096836/how-to-pipe-yaml-into-ejs-in-a-gulp-stream
 					gulp.src('./src/templates/main-no-tabs.ejs')
 					.pipe(ejs({
-						role:     thatRole,
+						role:         thatRole,
 						topLinks:     yaml.load(fs.readFileSync('./src/templates/data/top-links.yml', 'utf-8')),
 						work:         yaml.load(fs.readFileSync('./src/templates/data/work.yml', 'utf-8')),
 						education:    yaml.load(fs.readFileSync('./src/templates/data/education.yml', 'utf-8')),

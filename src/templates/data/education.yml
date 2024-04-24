@@ -1,12 +1,12 @@
 bgsu:
   school: Bowling Green State University (BGSU)
   link: https://www.bgsu.edu/
-  location: OH, USA
+  location: OH, United States
   start: Aug 2014
   end: May 2020
   degree: Ph.D.
   major: Photochemical Sciences • GPA 3.423
-  info: "Novel developments in positron annihilation spectroscopy techniques—from experimental setups to advanced processing software. [View manuscript](https://petrstepanov.com/static/petr-stepanov-dissertation-latest.pdf)."
+  info: "[Dissertation](https://petrstepanov.com/static/petr-stepanov-dissertation-latest.pdf): Novel developments in positron spectroscopy (PAS)."
   description:
     - "Assembled and utilized two spectrometers: positron lifetime and Doppler. Spectrometers are built from ORTEC and Canberra (Mirion) fast electronic units and utilize High-Purity Germanium Detectors (HPGe) and scintillation-based detector systems."
     - Developed open-source software (C++, CERN ROOT) for a novel interpretation of the experimental spectra.
@@ -20,12 +20,12 @@ osc:
   start: Jan 2017
   end: Feb 2017
   degree: Hands-on sessions
-  major: Supercomputer Essentials
-  info: Introduction to the key developments in the supercomputer field.
-  description:
-    - "RedHat and CentOS operating systems: environment, networking, and SSH."
-    - Supercomputer job control with BASH and SLURM scripts.
-    - CMake compiling platform, use of parallel nodes, A.I. fundamentals and more..."
+  major: High Performance Computing Infrastructure (HPC, SSH, BASH, SLURM)
+#  info: Introduction to the key developments in the supercomputer field.
+#  description:
+#    - "RedHat and CentOS operating systems: environment, networking, and SSH."
+#    - Supercomputer job control with BASH and SLURM scripts.
+#    - CMake compiling platform, use of parallel nodes, A.I. fundamentals and more..."
   roles: ms
 bhsad:
   school: British Higher School of Art and Design (BHSAD)
@@ -33,19 +33,19 @@ bhsad:
   location: Moscow, Russia
   start: Dec 2011
   end: Feb 2012
-  degree: "Three-month intensive course"
-  major: Graphical Design and Visual Communications
-  info: "Lectures and hands-on experience in graphic design and user interfaces."
-  description:
-    - "Intensive covered following subjects: brand identity, illustration principles, typography and lettering, effective advertising campaigns."
+  degree: "Three-month intensive"
+  major: Graphical Design and Visual Communications (illustration, lettering, brand identity)
+#  info: "Lectures and hands-on experience in graphic design and user interfaces."
+#  description:
+#    - "Intensive covered following subjects: brand identity, illustration principles, typography and lettering, effective advertising campaigns."
   roles: cs ui
 mephi:
   school: National Research Nuclear University (MEPhI)
   link: https://eng.mephi.ru/
   location: Moscow, Russia
-  start: Sept 2004
+  start: Sep 2004
   end: Feb 2011
   degree: B.S. and M.S.
   major: Solid State Physics
-  info: "Defect studies of neutron-irradiated nuclear power plant vessel steels by means of positron annihilation spectroscopy."
+  info: "Thesis: application of PAS for defect concentration studies in bulk materials."
   roles: ms cs
