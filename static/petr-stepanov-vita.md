@@ -17,12 +17,12 @@ Work Experience
 
 📅 Jul 2020 - Jan 2023
 
-* Coded a Geant4-based sumulation for studying the optimal light guide length (range 0-10 cm) for the [EM calorimeter](https://wiki.jlab.org/cuawiki/index.php/Electron-Ion_Collider_Detectors:_EEEMCal) used in the Electron-Ion-Collider (EIC) project. [Link to GitHub](https://github.com/petrstepanov/light-guides).
+* Coded a Geant4-based simulation for studying the optimal light guide length (range 0-10 cm) for the [EM calorimeter](https://wiki.jlab.org/cuawiki/index.php/Electron-Ion_Collider_Detectors:_EEEMCal) used in the Electron-Ion-Collider (EIC) project. [Link to GitHub](https://github.com/petrstepanov/light-guides).
 * Used Machine Learning (ML) techniques to perform binary classification of thousands of signals from a data acquisition (DAQ) setup. [Link to GitHub](https://github.com/petrstepanov/dual-readout-tmva).
 * Applied CERN ROOT framework (C++) to perform statistical analysis of a significant amount (over 100 GB) of the raw experimental data of the [Kaon LT](https://redmine.jlab.org/projects/kltexp/wiki) experiment at JLab. [Link to GitHub](https://github.com/petrstepanov/kaonlt-fit).
-* Utilized SLURM functionality on the High-Performance Computing (HPC) environment to execute series of the simulations in parallel. This reduced the wall time by more than 10 times.
+* Utilized SLURM functionality on the High-Performance Computing (HPC) environment to execute a series of simulations in parallel. This reduced the wall time by more than 10 times.
 * Set up data acquisition system that performs triggered waveform acquisition involving 3 devices - Tektronix oscilloscope, Network Attached Storage, and RedHat computer (SAMBA, Python, National Instruments NI-VISA library).
-* Contributed 100+ shifts at the Hall C in Thomas Jefferson Particle Accelerator facility for the [Pion LT project](https://redmine.jlab.org/projects/hall-c/wiki/).
+* Contributed 100+ shifts at Hall C at the Thomas Jefferson Particle Accelerator facility for the [Pion LT project](https://redmine.jlab.org/projects/hall-c/wiki/).
 
 
 ### Postdoctoral Researcher • Software Developer (Remote)
@@ -30,10 +30,10 @@ Work Experience
 
 📅 Jul 2020 - Jan 2023
 
-* Programmed a Geant-4 computer simulation (C++, CMake, Eclipse IDE, gdb) to study performance of a novel scintillation material for EIC, Brookhaven National Lab. [Link to GitHub](https://github.com/petrstepanov/geant4-glass).
-* Visualized energy deposition profiles and calculated energy resolutions for variety of detector assemblies.
-* Teaching experience. Mentoring students within a 3-month Research Experiences for Undergraduates (REU) program at the Physics Department at CUA. Giving talks and presentations about [Linux Terminal](https://petrstepanov.com/static/presentations/presentation-2021-06-03-linux-terminal.pdf), and [supercomputer environment](https://petrstepanov.com/static/presentations/presentation-2021-06-17-jlab-geant-root.pdf).
-* Enhanced debugging of the core library source code led to the publishing of more than [10 bug reports](https://root-forum.cern.ch/u/petrstepanov/activity/topics) on the ROOT (C++) forum.
+* Programmed a Geant-4 computer simulation (C++, CMake, Eclipse IDE, gdb) to study the performance of a novel scintillation material for EIC, Brookhaven National Lab. [Link to GitHub](https://github.com/petrstepanov/geant4-glass).
+* Visualized energy deposition profiles and calculated energy resolutions for a variety of detector assemblies.
+* Teaching experience. Mentoring students within a 3-month Research Experiences for Undergraduates (REU) program at the Physics Department at CUA.
+* Enhanced debugging of the CERN library source code led to the publishing of more than [10 bug reports](https://root-forum.cern.ch/u/petrstepanov/activity/topics) on the ROOT (C++) forum.
 
 
 ### Software Developer • Research Assistant
@@ -44,8 +44,8 @@ Work Experience
 * Assembled positron lifetime and Doppler spectrometers from ORTEC and Canberra (Mirion) fast electronic units. Utilized High-Purity Germanium Detectors (HPGe) and scintillation-based detector systems for single-photon counting.
 * Developed three open-source programs (C++, CERN ROOT) for a novel interpretation of the positron lifetime and Doppler experimental spectra.
   * Derived and solved kinetic equations describing the formation and chemical reactions of e+ and Ps atoms in solids, liquids, and nano-powders (Wolfram Mathematica).
-  * Incorporated physical parameters (grain size, defect concentrations, rate constants) into custom models (PDFs with convolution) for fitting of the experimental spectra (RooFit).
-* Above research allowed for estimation of defect concentrations and sizes in solids, classification of defect types (vacancies, dislocations) and characterization of the chemical decoration of defects.
+  * Incorporated physical parameters (grain size, defect concentrations, rate constants) into custom models (PDFs with convolution) for fitting the experimental spectra (RooFit).
+* The above research allowed for the estimation of defect concentrations and sizes in solids, classification of defect types (vacancies, dislocations), and characterization of the chemical decoration of defects.
 * Wrote three desktop GUI programs for spectra fitting and interpretation (C++, CMake, ROOT, Qt, Java)
   * GitHub repositories contain over 10k lines of code in total: [TLIST Processor](https://github.com/petrstepanov/tlist-processor), [SW Calculator](https://github.com/petrstepanov/sw-calculator), [RooPositron](https://github.com/petrstepanov/roopositron).
   * Extended default ROOT GUI library (Qt-based) to support the MVP design pattern.
@@ -90,7 +90,7 @@ Work Experience
 
 📅 Oct 2009 - May 2011
 
-* Provided instructions and guidance to high school students on following computer courses: C/C++ programming, HTML, Adobe Photoshop and 3D Studio Max.
+* Provided instructions and guidance to high school students on the following computer courses: C/C++ programming, HTML, Adobe Photoshop and 3D Studio Max.
 
 
 ### Research Scientist
@@ -128,7 +128,7 @@ Ph.D. in Photochemical Sciences • GPA 3.423. [Dissertation](https://petrstepan
 
 📅 Jan 2017 - Feb 2017
 
-Hands-on sessions in High Performance Computing Infrastructure (HPC, SSH, BASH, SLURM). 
+Hands-on sessions in High-Performance Computing Infrastructure (HPC, SSH, BASH, SLURM). 
 
 ### British Higher School of Art and Design (BHSAD) • Moscow, Russia
 

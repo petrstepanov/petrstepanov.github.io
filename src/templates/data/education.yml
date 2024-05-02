@@ -20,7 +20,7 @@ osc:
   start: Jan 2017
   end: Feb 2017
   degree: Hands-on sessions
-  major: High Performance Computing Infrastructure (HPC, SSH, BASH, SLURM)
+  major: High-Performance Computing Infrastructure (HPC, SSH, BASH, SLURM)
 #  info: Introduction to the key developments in the supercomputer field.
 #  description:
 #    - "RedHat and CentOS operating systems: environment, networking, and SSH."

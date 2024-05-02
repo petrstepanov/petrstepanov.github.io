@@ -59,7 +59,7 @@ Ph.D. in Photochemical Sciences • GPA 3.423. [Dissertation](https://petrstepan
 
 📅 Jan 2017 - Feb 2017
 
-Hands-on sessions in High Performance Computing Infrastructure (HPC, SSH, BASH, SLURM). 
+Hands-on sessions in High-Performance Computing Infrastructure (HPC, SSH, BASH, SLURM). 
 
 ### National Research Nuclear University (MEPhI) • Moscow, Russia
 
