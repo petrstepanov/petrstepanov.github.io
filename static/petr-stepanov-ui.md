@@ -97,4 +97,4 @@ Relevent Interests
 * Developed a [RAMDisk plugin](https://github.com/petrstepanov/tiny-ramdisk) for Linux that provides 50% increase in source code indexing time.
 * Created two shared libraries for the ROOT data analysis framework [[1](https://petrstepanov.com/root-canvas-helper/), [2](https://petrstepanov.com/root-utils/)].
 * [Right to repair](https://en.wikipedia.org/wiki/Right_to_repair) follower. Collecting and repairing old phones and laptops.
-* Volunteer mechanic and fabricator at a non-profit automotive shop in Oregon City, OR.
+* Worked as mechanic and fabricator at a non-profit automotive shop (part-time, Oregon City, OR).
