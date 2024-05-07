@@ -22,7 +22,7 @@ Petr Stepanov
 	* Solid background in Monte-Carlo particle simulations (Geant4) in high-energy physics (HEP) and photonics research.
 	* BASH scripting on High-Performance Computing (HPC) Linux environment.
 	* Hands-on experience with data acquisition setups and fast electronics (Hamamatsu, ORTEC, Canberra, Tektronix).
-	* Strong materials science skills. Defect characterization and porosity studies in bulk materials.
+	* Strong materials science skills. Application of the positron spectroscopy (PAS) and SEM techniques for defect characterization and porosity studies in materials.
 <%  } else if (role == "cs") { %>
 	Summary of Qualifications
 	-------------------------
@@ -73,7 +73,10 @@ Work Experience
 		return string.replace(/(<.*> )/g, '');
 	}
 
-	if (role == "vita"){
+
+	// PRINT JOB DETAILS
+	if (1){
+	// if (role == "vita"){
 		if (Array.isArray(work[key].description)){
 			for (const desc of work[key].description){
 				if (Array.isArray(desc)){
