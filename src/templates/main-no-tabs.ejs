@@ -10,7 +10,7 @@ for (var key in topLinks){
 if (role == "ms") { %>
 > Ph.D. graduate in physics with expertise in materials science, gamma spectroscopy, defect studies, and nuclear physics. Over 7 years of experience in data analysis, particle simulations and scientific software development.
 <% } else if (role == "cs") { %>
-> Ph.D. graduate in physics with a focus in GUI desktop software development for data analyses. More than 5 years in website and web application development. Strong user interface (UI) and user experience (UX) design skills.
+> Ph.D. graduate in physics with a focus in GUI software development. More than 5 years in website and web application development. Strong user interface (UI) and user experience (UX) design skills.
 <% } else if (role == "ui") { %>
 > Ph.D. graduate in physics with 5+ years of expertise in the user interface (UI) and user experience (UX) design. Strong web application and desktop software development skills.
 <% } %>
@@ -45,6 +45,7 @@ delete work.gridnine;
 delete work.mipt;
 delete work.itep;
 } else if (role == "cs"){
+delete work.bgsu;
 delete work.mipt;
 delete work.gridnine;
 delete work.itep;
@@ -211,11 +212,9 @@ if (roles.includes(role) || role=="vita"){
 <% }
 } %>
 
-Relevent Interests
+Relevant Interests
 ------------------
 
-* Hosting an open-source project for keyboard remapping on Linux [300+ stars on GitHub](https://github.com/petrstepanov/gnome-macos-remap).
-* Developed a [RAMDisk plugin](https://github.com/petrstepanov/tiny-ramdisk) for Linux that provides 50% increase in source code indexing time.
-* Created two shared libraries for the ROOT data analysis framework [[1](https://petrstepanov.com/root-canvas-helper/), [2](https://petrstepanov.com/root-utils/)].
-* [Right to repair](https://en.wikipedia.org/wiki/Right_to_repair) follower. Collecting and repairing old phones and laptops.
-* Worked as mechanic and fabricator at a non-profit automotive shop (part-time, Oregon City, OR).
+<% for (const interest of interests){ %>
+* <%- interest %>
+<% } %>

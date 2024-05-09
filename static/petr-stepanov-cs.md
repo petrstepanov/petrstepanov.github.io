@@ -5,7 +5,7 @@ Petr Stepanov
 📞 [(419) 496-8602](tel:+14194968602)
 🏠 [petrstepanov.com](https://petrstepanov.com/)
 
-> Ph.D. graduate in physics with a focus in GUI desktop software development for data analyses. More than 5 years in website and web application development. Strong user interface (UI) and user experience (UX) design skills.
+> Ph.D. graduate in physics with a focus in GUI software development. More than 5 years in website and web application development. Strong user interface (UI) and user experience (UX) design skills.
 
 
 
@@ -22,6 +22,17 @@ Summary of Qualifications
 
 Work Experience
 ---------------
+
+
+### Full-Stack Developer
+[Sticker Store LLC](https://stickerstore.llc/), Portland, OR.
+
+📅 Feb 2023 - Current
+
+* Designed and programmed online e-commerce store (Figma, HTML, CSS, Bootstrap, SASS, Express.JS, EJS, Node.js).
+  * Improved the Google PageSpeed Insights metrics (CLS, LCP) up to 97%.
+  * Set up low frequency keyword campaign on Google Analytics.
+  * Exported local product database to Google Merchant.
 
 
 ### C++ Software Developer
@@ -48,38 +59,13 @@ Work Experience
 * Enhanced debugging of the CERN library source code led to the publishing of more than [10 bug reports](https://root-forum.cern.ch/u/petrstepanov/activity/topics) on the ROOT (C++) forum.
 
 
-### Software Developer • Research Assistant
-[Bowling Green State University (BGSU)](https://www.bgsu.edu/), Bowling Green, OH.
-
-📅 Aug 2014 - May 2020
-
-* Assembled positron lifetime and Doppler spectrometers from ORTEC and Canberra (Mirion) fast electronic units. Utilized High-Purity Germanium Detectors (HPGe) and scintillation-based detector systems for single-photon counting.
-* Developed three open-source programs (C++, CERN ROOT) for a novel interpretation of the positron lifetime and Doppler experimental spectra.
-  * Derived and solved kinetic equations describing the formation and chemical reactions of e+ and Ps atoms in solids, liquids, and nano-powders (Wolfram Mathematica).
-  * Incorporated physical parameters (grain size, defect concentrations, rate constants) into custom models (PDFs with convolution) for fitting the experimental spectra (RooFit).
-* The above research allowed for the estimation of defect concentrations and sizes in solids, classification of defect types (vacancies, dislocations), and characterization of the chemical decoration of defects.
-* Wrote three desktop GUI programs for spectra fitting and interpretation (C++, CMake, ROOT, Qt, Java)
-  * GitHub repositories contain over 10k lines of code in total: [TLIST Processor](https://github.com/petrstepanov/tlist-processor), [SW Calculator](https://github.com/petrstepanov/sw-calculator), [RooPositron](https://github.com/petrstepanov/roopositron).
-  * Extended default ROOT GUI library (Qt-based) to support the MVP design pattern.
-* Wrote a GUI application [LuminApp](https://github.com/petrstepanov/luminapp) (Java, Swing) to parse and merge time-stamped data from optical spectrometer and thermometer. This increased data processing time by two orders of magnitude.
-* Developed static website (Hexo, Gulp, Bootstrap) and visual identity for the [SelimLab](http://physics.bgsu.edu/selimlab/) research group. The website has a 99% Google performance rank and features 700 ms time to interactive metrics.
-* Maintained local Apache HTTP server [physics.bgsu.edu](https://physics.bgsu.edu/) hosting over 10 websites at the BGSU.
-* Created website for the [ICPA-18](https://physics.bgsu.edu/icpa18/) international conference with registration (over 150 users) and payment system workflow (WordPress, PHP, Recurly.js), and [landing pages](https://physics.bgsu.edu/IWZnO_2020/index.html) for events.
-
-
 ### Frontend Developer, UI/UX Designer • Freelance
 
 📅 Sep 2012 - May 2020
 
-* Designed and built an online e-commerce store [Sticker Store LLC](https://bimmersticker.store/) with a static website generator (Figma, Hexo, Snipcart, Bootstrap, SASS, Express.JS, EJS, Node.js).
-  * Improved the Google PageSpeed Insights metrics (CLS, LCP) up to 97%.
-  * Created a recursive script to export over 300 products from YAML file to Google Merchant.
-  * Optimized SEO. The project reached over 1400 organic monthly users.
 * Made iOS application (Swift, UIkit, storyboards) for the [We.Team](https://we.team/en/) messenger (more than 3k monthly downloads in AppStore). Participated in cloud-based messenger development with enhanced file sharing capabilities (HTML, React JS, SASS).
 * Migrated the landing page for [Sweetbridge](https://sweetbridge.com/) company from WordPress to Jekyll static site generator (Ruby, CSS). This resulted in a 70% improvement in the page load time.
-* Developed the front-end part (Angular.js, HTML, LESS) for [Lili Social](https://myli.li/) network.
-  * Assisted with iOS mobile application (Ionic).
-  * Enabled SEO crawling of over 1000 Angular.js pages with Google bot.
+* Developed the website front-end (Angular.js, HTML, LESS) and iOS mobile application (Ionic) for the [Lili Social](https://myli.li/) network.
 * Web design.
   * Designed logos, UI/UX prototypes (Figma, Sketch, Illustrator) and branding identity for over [10 different companies](https://dribbble.com/petrstepanov).
   * Converted numerous design assets and mockups into responsive HTML and CSS.
@@ -120,11 +106,12 @@ Professional Networks
 * Check out my UI and UX design portfolio [on Dribbble](https://dribbble.com/petrstepanov) (50+ shots).
 
 
-Relevent Interests
+Relevant Interests
 ------------------
 
+
 * Hosting an open-source project for keyboard remapping on Linux [300+ stars on GitHub](https://github.com/petrstepanov/gnome-macos-remap).
+
 * Developed a [RAMDisk plugin](https://github.com/petrstepanov/tiny-ramdisk) for Linux that provides 50% increase in source code indexing time.
+
 * Created two shared libraries for the ROOT data analysis framework [[1](https://petrstepanov.com/root-canvas-helper/), [2](https://petrstepanov.com/root-utils/)].
-* [Right to repair](https://en.wikipedia.org/wiki/Right_to_repair) follower. Collecting and repairing old phones and laptops.
-* Worked as mechanic and fabricator at a non-profit automotive shop (part-time, Oregon City, OR).

@@ -111,6 +111,7 @@ function renderMD(cb) {
 						publications: yaml.load(fs.readFileSync('./src/templates/data/publications.yml', 'utf-8')),
 						conferences:  yaml.load(fs.readFileSync('./src/templates/data/conferences.yml', 'utf-8')),
 						networks:     yaml.load(fs.readFileSync('./src/templates/data/networks.yml', 'utf-8')),
+						interests:    yaml.load(fs.readFileSync('./src/templates/data/interests.yml', 'utf-8')),
 						citejs: Cite
 					}, { async: true }))
 					.pipe(rename({ basename: 'petr-stepanov-' + thatRole, extname: '.md' }))
