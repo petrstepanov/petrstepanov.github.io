@@ -7,9 +7,9 @@ stickerstore:
   role: Full-Stack Developer
   description:
     - "<cs ui> Designed and programmed online e-commerce store (Figma, HTML, CSS, Bootstrap, SASS, Express.JS, EJS, Node.js)."
-    - - "<cs ui> Improved the Google PageSpeed Insights metrics (CLS, LCP) up to 97%."
-      - "<cs ui> Set up low frequency keyword campaign on Google Analytics."
-      - "<cs ui> Exported local product database to Google Merchant."
+    - "<cs ui> Improved the Google PageSpeed Insights metrics (CLS, LCP) up to 97%."
+    - "<cs ui> Set up low frequency keyword campaign on Google Analytics."
+    - "<cs ui> Exported local product database to Google Merchant."
 jlab:
   company: Thomas Jefferson National Laboratory (JLab)
   link: https://www.jlab.org/

@@ -28,9 +28,9 @@ Work Experience
 📅 Feb 2023 - Current
 
 * Designed and programmed online e-commerce store (Figma, HTML, CSS, Bootstrap, SASS, Express.JS, EJS, Node.js).
-  * Improved the Google PageSpeed Insights metrics (CLS, LCP) up to 97%.
-  * Set up low frequency keyword campaign on Google Analytics.
-  * Exported local product database to Google Merchant.
+* Improved the Google PageSpeed Insights metrics (CLS, LCP) up to 97%.
+* Set up low frequency keyword campaign on Google Analytics.
+* Exported local product database to Google Merchant.
 
 
 ### Research Collaborator (On-Site)
