@@ -31,12 +31,14 @@ Work Experience
 
 `Node.js` `Express.js` `Modular JavaScript` 
 
+
 ### C++ Software Developer
 [Thomas Jefferson National Laboratory (JLab)](https://www.jlab.org/), Newport News, VA.
 
 📅 Jul 2020 - Jan 2023
 
 `CERN ROOT` `Geant4` `High Energy Physics (HEP)` `High Performance Computing (HPC)` `C++` `CMake` 
+
 
 ### Software Developer • Postdoctoral Researcher
 [Catholic University of America (CUA)](https://www.catholic.edu/index.html), Washington, DC.
@@ -45,9 +47,11 @@ Work Experience
 
 `Python` `Fast-Fast BNC Electronics` `Scintillation` `Single Photon Counting` 
 
+
 ### Frontend Developer, UI/UX Designer • Freelance
 
 📅 Sep 2012 - May 2020
+
 
 
 

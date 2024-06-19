@@ -86,10 +86,10 @@ Work Experience
 			%>`<%- tag %>` <%
 		}
 	}
-
+	%>
+	<%
 	// PRINT JOB DETAILS (1 for yes, 0 for no)
-	if (0){
-	// if (role == "vita"){
+	if (1 && role == "vita"){
 		if (Array.isArray(work[key].description)){
 			for (const desc of work[key].description){
 				if (Array.isArray(desc)){

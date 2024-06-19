@@ -29,6 +29,7 @@ Work Experience
 
 `CERN ROOT` `Geant4` `High Energy Physics (HEP)` `High Performance Computing (HPC)` `C++` `CMake` 
 
+
 ### Postdoctoral Researcher (Remote)
 [Catholic University of America (CUA)](https://www.catholic.edu/index.html), Washington, DC.
 
@@ -36,12 +37,14 @@ Work Experience
 
 `Python` `Fast-Fast BNC Electronics` `Scintillation` `Single Photon Counting` 
 
+
 ### Research Assistant
 [Bowling Green State University (BGSU)](https://www.bgsu.edu/), Bowling Green, OH.
 
 📅 Aug 2014 - May 2020
 
 `Data Analysis` `Wolfram Mathematica` `C++` `Makefiles` `e+ Annihilation Spectroscopy` 
+
 
 
 

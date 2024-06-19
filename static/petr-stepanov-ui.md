@@ -21,12 +21,14 @@ Work Experience
 
 `Node.js` `Express.js` `Modular JavaScript` 
 
+
 ### C++ Software Developer
 [Thomas Jefferson National Laboratory (JLab)](https://www.jlab.org/), Newport News, VA.
 
 📅 Jul 2020 - Jan 2023
 
 `CERN ROOT` `Geant4` `High Energy Physics (HEP)` `High Performance Computing (HPC)` `C++` `CMake` 
+
 
 ### Software Developer • Postdoctoral Researcher
 [Catholic University of America (CUA)](https://www.catholic.edu/index.html), Washington, DC.
@@ -35,6 +37,7 @@ Work Experience
 
 `Python` `Fast-Fast BNC Electronics` `Scintillation` `Single Photon Counting` 
 
+
 ### Software Developer • Research Assistant
 [Bowling Green State University (BGSU)](https://www.bgsu.edu/), Bowling Green, OH.
 
@@ -42,9 +45,11 @@ Work Experience
 
 `Data Analysis` `Wolfram Mathematica` `C++` `Makefiles` `e+ Annihilation Spectroscopy` 
 
+
 ### UI/UX Designer, Frontend Developer • Freelance
 
 📅 Sep 2012 - May 2020
+
 
 
 
@@ -55,6 +60,7 @@ Work Experience
 
 
 
+
 ### Computer Science Teacher
 [Phys-Tech College at MIPT](https://mipt.ru/english/), Moscow, Russia.
 
@@ -62,10 +68,12 @@ Work Experience
 
 
 
+
 ### Research Scientist
 [Institute for Theoretical and Experimental Physics (ITEP)](https://en.wikipedia.org/wiki/ITEP), Moscow, Russia.
 
 📅 Sep 2008 - Apr 2011
+
 
 
 
