@@ -40,6 +40,7 @@ Work Experience
 	<% // Filter jobs for specific role
 	for (var key in work){
 		if (role == "ms"){
+			delete work.stickerstore;
 			delete work.freelance;
 			delete work.gridnine;
 			delete work.mipt;
@@ -50,6 +51,9 @@ Work Experience
 			delete work.gridnine;
 			delete work.itep;
 		}
+	}
+
+	for (var key in work){
 		// Use specific job title for given role
 		var jobTitle = eval("work[key].role_" + role) || work[key].role;
 	%>
@@ -75,8 +79,16 @@ Work Experience
 	}
 
 
-	// PRINT JOB DETAILS
-	if (1){
+	// Print tags
+	if (typeof work[key].tags != 'undefined'){
+		const tags = work[key].tags.split(", ");
+		for (const tag of tags){
+			%>`<%- tag %>` <%
+		}
+	}
+
+	// PRINT JOB DETAILS (1 for yes, 0 for no)
+	if (0){
 	// if (role == "vita"){
 		if (Array.isArray(work[key].description)){
 			for (const desc of work[key].description){

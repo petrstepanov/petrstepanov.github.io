@@ -88,3 +88,13 @@ blockquote {
 	margin-right: 0;
 	padding-left: 1em;
 }
+
+code {
+	font-weight: bold;
+	font-size: 0.75rem;
+	padding: 0.25rem;
+	display: inline-block;
+	background-color: whitesmoke !important;
+	border-radius: 0.15rem;
+	margin-right: 0.5rem;
+}

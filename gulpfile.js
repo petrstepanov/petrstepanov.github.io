@@ -308,6 +308,7 @@ async function renderPDFpuppeteer(cb){
 
 		await page.pdf({
 			format: 'Letter',
+			printBackground: true,
 			margin: {
 				top: '0.5in',
 				bottom: '0.5in',
